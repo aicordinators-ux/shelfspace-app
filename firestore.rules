@@ -1,0 +1,56 @@
+rules_version = '2';
+
+// SECURITY MODEL:
+// Since the app doesn't use Firebase Auth (uses simple PIN-based session),
+// these rules can't enforce role-based access at the database level.
+// Instead, they validate that incoming data has the required structure.
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Visits collection
+    match /visits/{visitId} {
+      // Allow read for everyone (the app filters per role on client side)
+      allow read: if true;
+
+      // Allow create/update if the document has the basic required fields.
+      // Two kinds of visits:
+      //   1. Complete visit: has rows[], weightedAvg, etc.
+      //   2. Incomplete visit: has incomplete=true and incompleteReason
+      // Both must have customer_code and savedBy.
+      allow create, update: if
+        request.resource.data.keys().hasAll(['customer_code', 'savedBy']) &&
+        request.resource.data.savedBy.keys().hasAll(['name', 'role']) &&
+        request.resource.data.savedBy.role in ['rep', 'manager'] && (
+          // Complete visit: must have rows list
+          (request.resource.data.get('incomplete', false) == false &&
+           request.resource.data.keys().hasAll(['rows']) &&
+           request.resource.data.rows is list)
+          ||
+          // Incomplete visit: must have a reason
+          (request.resource.data.incomplete == true &&
+           request.resource.data.keys().hasAll(['incompleteReason']) &&
+           request.resource.data.incompleteReason is string)
+        );
+
+      // Allow delete (manager-only is enforced at app level)
+      allow delete: if true;
+    }
+
+    // Reps collection (sales representatives directory)
+    match /reps/{repId} {
+      allow read: if true;
+      allow create, update: if
+        request.resource.data.keys().hasAll(['name']) &&
+        request.resource.data.name is string &&
+        request.resource.data.name.size() > 0 &&
+        request.resource.data.name.size() < 100;
+      allow delete: if true;
+    }
+
+    // Deny everything else by default
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
