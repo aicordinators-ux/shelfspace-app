@@ -133,6 +133,7 @@ export default function CustomerPanel({
                           min="0"
                           value={entry.total}
                           onChange={(e) => updateField(r.key, 'total', e.target.value)}
+                          onFocus={(e) => e.target.select()}
                         />
                       </label>
                       <b>/</b>
@@ -142,8 +143,10 @@ export default function CustomerPanel({
                           type="number"
                           step="0.5"
                           min="0"
-                          value={entry.actual}
+                          placeholder="0"
+                          value={entry.actual === 0 || entry.actual === undefined ? '' : entry.actual}
                           onChange={(e) => updateField(r.key, 'actual', e.target.value)}
+                          onFocus={(e) => e.target.select()}
                         />
                       </label>
                     </div>
