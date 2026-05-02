@@ -10,6 +10,7 @@ export default function VisitsLog({ visits, onExport, onEdit, onDelete, session 
   const [filterChain, setFilterChain] = useState('');
   const [filterRep, setFilterRep] = useState('');
   const [filterStatus, setFilterStatus] = useState(''); // '' | 'achieved' | 'not_achieved' | 'incomplete'
+  const [filterDate, setFilterDate] = useState(''); // YYYY-MM-DD format
 
   // Filter visits based on role
   const visibleVisits =
@@ -58,6 +59,24 @@ export default function VisitsLog({ visits, onExport, onEdit, onDelete, session 
       list = list.filter((v) => v.incomplete);
     }
 
+    // Date filter (compares YYYY-MM-DD parts only, ignoring time)
+    if (filterDate) {
+      list = list.filter((v) => {
+        if (!v.timestamp) return false;
+        try {
+          const d = new Date(v.timestamp);
+          if (isNaN(d.getTime())) return false;
+          // Use local date string in YYYY-MM-DD format
+          const visitDateStr = d.getFullYear() + '-' +
+            String(d.getMonth() + 1).padStart(2, '0') + '-' +
+            String(d.getDate()).padStart(2, '0');
+          return visitDateStr === filterDate;
+        } catch {
+          return false;
+        }
+      });
+    }
+
     // Text search
     const q = searchQuery.trim().toLowerCase();
     if (q) {
@@ -75,7 +94,7 @@ export default function VisitsLog({ visits, onExport, onEdit, onDelete, session 
       });
     }
     return list;
-  }, [searchQuery, filterRegion, filterChain, filterRep, filterStatus, visibleVisits]);
+  }, [searchQuery, filterRegion, filterChain, filterRep, filterStatus, filterDate, visibleVisits]);
 
   // Counts
   const incompleteCount = searchedVisits.filter((v) => v.incomplete).length;
@@ -83,7 +102,7 @@ export default function VisitsLog({ visits, onExport, onEdit, onDelete, session 
   const totalCompleteCount = visibleVisits.filter((v) => !v.incomplete).length;
 
   // Active filters count (for "clear all" button)
-  const activeFilters = [filterRegion, filterChain, filterRep, filterStatus, searchQuery].filter(Boolean).length;
+  const activeFilters = [filterRegion, filterChain, filterRep, filterStatus, filterDate, searchQuery].filter(Boolean).length;
 
   function clearAllFilters() {
     setSearchQuery('');
@@ -91,6 +110,7 @@ export default function VisitsLog({ visits, onExport, onEdit, onDelete, session 
     setFilterChain('');
     setFilterRep('');
     setFilterStatus('');
+    setFilterDate('');
   }
 
   return (
@@ -160,6 +180,25 @@ export default function VisitsLog({ visits, onExport, onEdit, onDelete, session 
               <option value="not_achieved">غير محقق</option>
               <option value="incomplete">غير مكتملة</option>
             </select>
+
+            <div className="date-filter-wrap">
+              <input
+                type="date"
+                value={filterDate}
+                onChange={(e) => setFilterDate(e.target.value)}
+                title="فلتر بالتاريخ"
+              />
+              {filterDate && (
+                <button
+                  type="button"
+                  className="date-clear"
+                  onClick={() => setFilterDate('')}
+                  title="مسح التاريخ"
+                >
+                  <X size={12} />
+                </button>
+              )}
+            </div>
 
             {activeFilters > 0 && (
               <button className="ghost clear-filters-btn" onClick={clearAllFilters}>

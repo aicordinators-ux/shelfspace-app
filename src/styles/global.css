@@ -422,6 +422,29 @@ footer {
   white-space: nowrap;
   padding: 9px 12px;
 }
+.date-filter-wrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.date-filter-wrap input[type="date"] {
+  width: 100%;
+  font-size: 13px;
+  padding-left: 30px;
+  color-scheme: dark;
+}
+.date-filter-wrap .date-clear {
+  position: absolute;
+  left: 8px;
+  background: transparent;
+  border: 0;
+  color: #f87171;
+  cursor: pointer;
+  padding: 2px 4px;
+  display: flex;
+  align-items: center;
+}
+.date-filter-wrap .date-clear:hover { color: #ef4444; }
 
 /* ===== Incomplete Visit Button (CustomerPanel) ===== */
 .warn-btn {
