@@ -105,9 +105,12 @@ export default function App() {
 
   // ===== Reset actuals when customer changes =====
   useEffect(() => {
+    // Skip resetting actuals when we're in edit mode — editVisit() has
+    // already loaded the saved values and we don't want to overwrite them.
+    if (editingVisitId) return;
     setActuals(selectedCustomer ? initialActuals(selectedCustomer) : {});
     setValidationErrors([]);
-  }, [selectedCustomer]);
+  }, [selectedCustomer, editingVisitId]);
 
   // ===== Customer search/filter =====
   const filtered = useMemo(() => {
@@ -535,14 +538,14 @@ export default function App() {
               className={tab === 'reps' ? 'tab active' : 'tab'}
               onClick={() => setTab('reps')}
             >
-              <Users size={15} /> المندوبين
+              <Users size={15} /> المنسقين
             </button>
           )}
         </nav>
 
         <div className={'user-badge ' + session.role}>
           <span className="role-tag">
-            {session.role === 'manager' ? 'مدير' : 'مندوب'}
+            {session.role === 'manager' ? 'مشرف' : 'منسق'}
           </span>
           <span>{session.name}</span>
           <button onClick={handleLogout} title="خروج"><LogOut size={14} /></button>

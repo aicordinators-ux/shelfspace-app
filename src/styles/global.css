@@ -402,6 +402,27 @@ footer {
 .migration-banner .actions { margin-right: auto; }
 .migration-banner button { padding: 8px 14px; font-size: 13px; }
 
+/* ===== VisitsLog Filters Row ===== */
+.visits-filters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 8px;
+  margin-bottom: 14px;
+}
+.visits-filters select {
+  width: 100%;
+  font-size: 13px;
+}
+.visits-filters .clear-filters-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-size: 13px;
+  white-space: nowrap;
+  padding: 9px 12px;
+}
+
 /* ===== Incomplete Visit Button (CustomerPanel) ===== */
 .warn-btn {
   background: #2a1f12; color: #fbbf77;

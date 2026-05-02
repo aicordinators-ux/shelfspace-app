@@ -1,11 +1,15 @@
 import { useState, useMemo } from 'react';
-import { FileText, MapPin, Download, Trash2, AlertTriangle, Search, X } from 'lucide-react';
+import { FileText, MapPin, Download, Trash2, AlertTriangle, Search, X, Filter } from 'lucide-react';
 import { TARGET_THRESHOLD, contractLabel, colorFor } from '../services/contracts';
 import { canEditVisit } from '../services/auth';
 import { getReasonLabel } from '../services/incompleteReasons';
 
 export default function VisitsLog({ visits, onExport, onEdit, onDelete, session }) {
   const [searchQuery, setSearchQuery] = useState('');
+  const [filterRegion, setFilterRegion] = useState('');
+  const [filterChain, setFilterChain] = useState('');
+  const [filterRep, setFilterRep] = useState('');
+  const [filterStatus, setFilterStatus] = useState(''); // '' | 'achieved' | 'not_achieved' | 'incomplete'
 
   // Filter visits based on role
   const visibleVisits =
@@ -13,30 +17,81 @@ export default function VisitsLog({ visits, onExport, onEdit, onDelete, session 
       ? visits.filter((v) => v.savedBy?.name === session.name)
       : visits;
 
-  // Apply search filter (matches code, name, address, region, chain)
-  const searchedVisits = useMemo(() => {
-    const q = searchQuery.trim().toLowerCase();
-    if (!q) return visibleVisits;
-    return visibleVisits.filter((v) => {
-      const haystack = [
-        v.customer_code,
-        v.customer_name,
-        v.customer_address,
-        v.region,
-        v.chain,
-        v.acc_code,
-        v.savedBy?.name,
-      ].map((s) => String(s || '').toLowerCase()).join(' ');
-      return haystack.includes(q);
-    });
-  }, [searchQuery, visibleVisits]);
+  // Build filter options dynamically from existing visits
+  const regionOptions = useMemo(() => {
+    const set = new Set();
+    visibleVisits.forEach((v) => v.region && set.add(v.region));
+    return [...set].sort();
+  }, [visibleVisits]);
 
-  // Count incomplete vs complete (from search results)
+  const chainOptions = useMemo(() => {
+    const set = new Set();
+    visibleVisits.forEach((v) => v.chain && set.add(v.chain));
+    return [...set].sort();
+  }, [visibleVisits]);
+
+  const repOptions = useMemo(() => {
+    const set = new Set();
+    visibleVisits.forEach((v) => v.savedBy?.name && set.add(v.savedBy.name));
+    return [...set].sort();
+  }, [visibleVisits]);
+
+  // Apply all filters + search
+  const searchedVisits = useMemo(() => {
+    let list = visibleVisits;
+
+    // Region filter
+    if (filterRegion) list = list.filter((v) => v.region === filterRegion);
+
+    // Chain filter
+    if (filterChain) list = list.filter((v) => v.chain === filterChain);
+
+    // Rep filter (manager only)
+    if (filterRep) list = list.filter((v) => v.savedBy?.name === filterRep);
+
+    // Status filter
+    if (filterStatus === 'achieved') {
+      list = list.filter((v) => !v.incomplete && Number(v.weightedAvg || 0) >= TARGET_THRESHOLD);
+    } else if (filterStatus === 'not_achieved') {
+      list = list.filter((v) => !v.incomplete && Number(v.weightedAvg || 0) < TARGET_THRESHOLD);
+    } else if (filterStatus === 'incomplete') {
+      list = list.filter((v) => v.incomplete);
+    }
+
+    // Text search
+    const q = searchQuery.trim().toLowerCase();
+    if (q) {
+      list = list.filter((v) => {
+        const haystack = [
+          v.customer_code,
+          v.customer_name,
+          v.customer_address,
+          v.region,
+          v.chain,
+          v.acc_code,
+          v.savedBy?.name,
+        ].map((s) => String(s || '').toLowerCase()).join(' ');
+        return haystack.includes(q);
+      });
+    }
+    return list;
+  }, [searchQuery, filterRegion, filterChain, filterRep, filterStatus, visibleVisits]);
+
+  // Counts
   const incompleteCount = searchedVisits.filter((v) => v.incomplete).length;
   const completeCount = searchedVisits.length - incompleteCount;
-
-  // For export, count complete visits in unfiltered list (export ignores search)
   const totalCompleteCount = visibleVisits.filter((v) => !v.incomplete).length;
+
+  // Active filters count (for "clear all" button)
+  const activeFilters = [filterRegion, filterChain, filterRep, filterStatus, searchQuery].filter(Boolean).length;
+
+  function clearAllFilters() {
+    setSearchQuery('');
+    setFilterRegion('');
+    setFilterChain('');
+    setFilterRep('');
+    setFilterStatus('');
+  }
 
   return (
     <main className="visits">
@@ -53,7 +108,7 @@ export default function VisitsLog({ visits, onExport, onEdit, onDelete, session 
                 <span style={{ color: '#fbbf77' }}>{incompleteCount} غير مكتملة</span>
               </>
             )}
-            {searchQuery && visibleVisits.length !== searchedVisits.length && (
+            {activeFilters > 0 && visibleVisits.length !== searchedVisits.length && (
               <>
                 {' '}<span style={{ color: '#8290aa' }}>(من {visibleVisits.length})</span>
               </>
@@ -65,19 +120,54 @@ export default function VisitsLog({ visits, onExport, onEdit, onDelete, session 
         </button>
       </div>
 
-      {/* Search box */}
+      {/* Search + Filters */}
       {visibleVisits.length > 0 && (
-        <div className="search-wrap" style={{ marginBottom: 14 }}>
-          <Search size={16} />
-          <input
-            placeholder="ابحث بكود العميل، الاسم، العنوان، المنطقة..."
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-          />
-          {searchQuery && (
-            <button onClick={() => setSearchQuery('')}><X size={14} /></button>
-          )}
-        </div>
+        <>
+          <div className="search-wrap" style={{ marginBottom: 10 }}>
+            <Search size={16} />
+            <input
+              placeholder="ابحث بكود العميل، الاسم، العنوان..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+            />
+            {searchQuery && (
+              <button onClick={() => setSearchQuery('')}><X size={14} /></button>
+            )}
+          </div>
+
+          <div className="visits-filters">
+            <select value={filterRegion} onChange={(e) => setFilterRegion(e.target.value)}>
+              <option value="">كل المناطق</option>
+              {regionOptions.map((r) => <option key={r} value={r}>{r}</option>)}
+            </select>
+
+            <select value={filterChain} onChange={(e) => setFilterChain(e.target.value)}>
+              <option value="">كل الوكلاء</option>
+              {chainOptions.map((c) => <option key={c} value={c}>{c}</option>)}
+            </select>
+
+            {/* Rep filter (manager only) */}
+            {session?.role === 'manager' && repOptions.length > 0 && (
+              <select value={filterRep} onChange={(e) => setFilterRep(e.target.value)}>
+                <option value="">كل المنسقين</option>
+                {repOptions.map((r) => <option key={r} value={r}>{r}</option>)}
+              </select>
+            )}
+
+            <select value={filterStatus} onChange={(e) => setFilterStatus(e.target.value)}>
+              <option value="">كل الحالات</option>
+              <option value="achieved">محقق</option>
+              <option value="not_achieved">غير محقق</option>
+              <option value="incomplete">غير مكتملة</option>
+            </select>
+
+            {activeFilters > 0 && (
+              <button className="ghost clear-filters-btn" onClick={clearAllFilters}>
+                <X size={14} /> مسح الفلاتر ({activeFilters})
+              </button>
+            )}
+          </div>
+        </>
       )}
 
       {!visibleVisits.length ? (
@@ -87,7 +177,12 @@ export default function VisitsLog({ visits, onExport, onEdit, onDelete, session 
       ) : !searchedVisits.length ? (
         <div className="welcome">
           <h3>لم يتم العثور على نتائج</h3>
-          <p>جرب كلمة بحث مختلفة</p>
+          <p>جرب تغيير الفلاتر أو كلمات البحث</p>
+          {activeFilters > 0 && (
+            <button className="primary" onClick={clearAllFilters} style={{ marginTop: 10 }}>
+              مسح كل الفلاتر
+            </button>
+          )}
         </div>
       ) : (
         <div className="visit-list">
