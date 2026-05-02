@@ -4,6 +4,21 @@ import { TARGET_THRESHOLD, contractLabel, colorFor } from '../services/contracts
 import { canEditVisit } from '../services/auth';
 import { getReasonLabel } from '../services/incompleteReasons';
 
+// Safe date formatter — handles ISO strings, Date objects, and invalid input
+function formatDate(value) {
+  if (!value) return '';
+  try {
+    const d = new Date(value);
+    if (isNaN(d.getTime())) return '';
+    return d.toLocaleString('ar-EG', {
+      year: 'numeric', month: '2-digit', day: '2-digit',
+      hour: '2-digit', minute: '2-digit',
+    });
+  } catch {
+    return '';
+  }
+}
+
 export default function VisitsLog({ visits, onExport, onEdit, onDelete, session }) {
   const [searchQuery, setSearchQuery] = useState('');
   const [filterRegion, setFilterRegion] = useState('');
@@ -307,7 +322,15 @@ export default function VisitsLog({ visits, onExport, onEdit, onDelete, session 
                   <p className="visit-meta">
                     <span>المنسق: <b>{v.savedBy.name}</b></span>
                     {v.timestamp && (
-                      <span>التاريخ: {new Date(v.timestamp).toLocaleString('ar-EG')}</span>
+                      <span>التاريخ: {formatDate(v.timestamp)}</span>
+                    )}
+                    {v.lastEditedBy?.name && (
+                      <span className="edited-tag">
+                        تم التعديل بواسطة: <b>{v.lastEditedBy.name}</b>
+                        {v.lastEditedAt && (
+                          <> · {formatDate(v.lastEditedAt)}</>
+                        )}
+                      </span>
                     )}
                   </p>
                 )}

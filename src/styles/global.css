@@ -303,8 +303,18 @@ select, input {
 .visit-meta {
   display: flex; gap: 10px; align-items: center;
   font-size: 12px; color: #8490a8; margin-top: 4px;
+  flex-wrap: wrap;
 }
 .visit-meta b { color: #d7ff37; }
+.visit-meta .edited-tag {
+  background: #1b252e;
+  border: 1px solid #fb923c;
+  color: #fbbf77;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 11px;
+}
+.visit-meta .edited-tag b { color: #fbbf77; }
 
 footer {
   display: flex; justify-content: space-between;

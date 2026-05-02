@@ -371,7 +371,7 @@ export default function App() {
       });
     });
 
-    // Headers: base columns + 3 columns per category
+    // Headers: base columns + 3 columns per category + edit tracking columns at the end
     const baseHeaders = [
       'Date', 'Code', 'Region', 'Desc_L5', 'ACC-Code',
       'Customer Name', 'Customer Address', 'Saved By',
@@ -381,7 +381,8 @@ export default function App() {
       `Actual ${cat}`,
       `${cat} Check`,
     ]);
-    const headers = [...baseHeaders, ...categoryHeaders];
+    const editHeaders = ['Edited By', 'Edited At'];
+    const headers = [...baseHeaders, ...categoryHeaders, ...editHeaders];
 
     // Data rows
     const rows = visibleVisits.map((v) => {
@@ -389,8 +390,10 @@ export default function App() {
       (v.rows || []).forEach((r) => {
         rowMap[normalizeCategory(r.name).toLowerCase()] = r;
       });
+      // Use clientTimestamp as fallback if server timestamp isn't available yet
+      const visitDate = safeDate(v.timestamp) || safeDate(v.clientTimestamp);
       const line = [
-        safeDate(v.timestamp),
+        visitDate,
         String(v.customer_code || ''),
         v.region || '',
         v.chain || '',
@@ -411,6 +414,10 @@ export default function App() {
           r.achievement >= TARGET_THRESHOLD ? 'Achieved' : 'Not Achieved'
         );
       });
+      // Edit tracking columns at the end
+      const editedBy = v.lastEditedBy?.name || '';
+      const editedAt = safeDate(v.lastEditedAt) || safeDate(v.lastEditedAtClient) || '';
+      line.push(editedBy, editedAt);
       return line;
     });
 
