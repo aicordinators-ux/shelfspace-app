@@ -164,7 +164,17 @@ export default function App() {
     setValidationErrors([]);
     setSaving(true);
 
-    const visitId = String(editingVisitId || Date.now());
+    // Generate a deterministic visit ID based on customer + rep + day
+    // This prevents duplicate visits if the rep saves the same customer
+    // multiple times on the same day (re-saves will UPDATE instead of CREATE).
+    // Different reps or different days produce different IDs.
+    const todayStr = new Date().toISOString().split('T')[0]; // YYYY-MM-DD
+    const safeName = (session.name || 'unknown').replace(/[^a-zA-Z0-9\u0600-\u06FF]/g, '_');
+    const safeCode = String(selectedCustomer.code || 'nocode').replace(/[^a-zA-Z0-9]/g, '_');
+    const safeAccCode = String(selectedCustomer.acc_code || '').replace(/[^a-zA-Z0-9]/g, '_');
+    const dailyId = `${todayStr}__${safeName}__${safeCode}__${safeAccCode}`;
+    const visitId = String(editingVisitId || dailyId);
+
     const visit = {
       id: visitId,
       customer_code: selectedCustomer.code,
@@ -201,7 +211,15 @@ export default function App() {
     if (!selectedCustomer || saving) return;
     setSaving(true);
 
-    const visitId = String(Date.now());
+    // Deterministic ID: same customer + rep + day = update existing
+    // Add "incomplete" suffix so a complete visit and an incomplete visit
+    // for the same customer/day don't overwrite each other.
+    const todayStr = new Date().toISOString().split('T')[0];
+    const safeName = (session.name || 'unknown').replace(/[^a-zA-Z0-9\u0600-\u06FF]/g, '_');
+    const safeCode = String(selectedCustomer.code || 'nocode').replace(/[^a-zA-Z0-9]/g, '_');
+    const safeAccCode = String(selectedCustomer.acc_code || '').replace(/[^a-zA-Z0-9]/g, '_');
+    const visitId = `${todayStr}__${safeName}__${safeCode}__${safeAccCode}__incomplete`;
+
     const visit = {
       id: visitId,
       customer_code: selectedCustomer.code,
