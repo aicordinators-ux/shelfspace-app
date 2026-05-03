@@ -302,18 +302,46 @@ export default function VisitsLog({ visits, onExport, onEdit, onDelete, session 
                       {Number(v.weightedAvg || 0).toFixed(0)}%
                     </p>
                     <div className="visit-cats">
-                      {(v.rows || []).map((r) => (
-                        <span key={r.key || r.name}>
-                          <b>{r.name}</b>
-                          <small>
-                            {r.section || contractLabel(r.source)} ·{' '}
-                            {r.type === 'check'
-                              ? (r.applied ? 'مطبق' : 'غير مطبق')
-                              : 'فعلي ' + Number(r.actualPct || 0).toFixed(0) + '%'} ·
-                            {' '}تحقيق {Number(r.achievement || 0).toFixed(0)}%
-                          </small>
-                        </span>
-                      ))}
+                      {(v.rows || []).map((r) => {
+                        const achievementPct = Number(r.achievement || 0);
+                        const isAchieved = achievementPct >= TARGET_THRESHOLD;
+                        const achievementColor = isAchieved
+                          ? '#4ade80'
+                          : achievementPct >= 50 ? '#fb923c' : '#f87171';
+
+                        return (
+                          <span key={r.key || r.name} className="cat-card">
+                            <div className="cat-card-head">
+                              <b>{r.name}</b>
+                              <span className="cat-section">
+                                {r.source || 'DRY'}
+                              </span>
+                            </div>
+
+                            {r.type === 'check' ? (
+                              <div className="cat-line">
+                                <em>الحالة:</em>
+                                <b style={{ color: r.applied ? '#4ade80' : '#f87171' }}>
+                                  {r.applied ? 'مطبق ✓' : 'غير مطبق ✗'}
+                                </b>
+                              </div>
+                            ) : (
+                              <>
+                                <div className="cat-line">
+                                  <em>المطلوب:</em>
+                                  <b>{Number(r.targetPct || 0).toFixed(0)}%</b>
+                                </div>
+                                <div className="cat-line">
+                                  <em>المحقق:</em>
+                                  <b style={{ color: achievementColor }}>
+                                    {Number(r.actualPct || 0).toFixed(0)}%
+                                  </b>
+                                </div>
+                              </>
+                            )}
+                          </span>
+                        );
+                      })}
                     </div>
                   </>
                 )}
