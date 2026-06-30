@@ -38,6 +38,20 @@ export default function CustomerPanel({
     }));
   }
 
+  // Actual measured space for a "not applied" item. The contract space is 1 shelf,
+  // so a measured value greater than 1 means the item is in fact applied — flip it.
+  function updateActualSpace(key, value) {
+    const num = value === '' ? 0 : parseFloat(value);
+    setActuals((old) => ({
+      ...old,
+      [key]: {
+        ...(old[key] || {}),
+        actualSpace: num,
+        applied: num > 1 ? true : (old[key]?.applied || false),
+      },
+    }));
+  }
+
   function resetInputs() {
     setActuals(initialActuals(customer));
   }
@@ -48,6 +62,9 @@ export default function CustomerPanel({
   }, {});
 
   const errorKeys = new Set((validationErrors || []).map((r) => r.key));
+  const errorMsgByKey = new Map(
+    (validationErrors || []).map((r) => [r.key, r.errorMsg || 'الفعلي أكبر من الإجمالي'])
+  );
 
   return (
     <div className="customer-panel">
@@ -82,7 +99,7 @@ export default function CustomerPanel({
             <b>راجع الإدخالات قبل الحفظ</b>
             {validationErrors.map((r) => (
               <span key={r.key}>
-                {r.section} / {r.name}: الفعلي {r.actualSpace} أكبر من الإجمالي {r.totalShelf}
+                {r.section} / {r.name}: {r.errorMsg || `الفعلي ${r.actualSpace} أكبر من الإجمالي ${r.totalShelf}`}
               </span>
             ))}
           </div>
@@ -108,7 +125,7 @@ export default function CustomerPanel({
                   <div>
                     <strong>{r.name}</strong>
                     <span>المطلوب {r.targetLabel}</span>
-                    {hasError && <em className="field-error">الفعلي أكبر من الإجمالي</em>}
+                    {hasError && <em className="field-error">{errorMsgByKey.get(r.key)}</em>}
                   </div>
                   {r.type === 'check' ? (
                     <div className="check-wrap">
@@ -133,7 +150,7 @@ export default function CustomerPanel({
                             min="0"
                             placeholder="0"
                             value={entry.actualSpace === 0 || entry.actualSpace === undefined ? '' : entry.actualSpace}
-                            onChange={(e) => updateField(r.key, 'actualSpace', e.target.value)}
+                            onChange={(e) => updateActualSpace(r.key, e.target.value)}
                             onFocus={(e) => e.target.select()}
                           />
                         </label>

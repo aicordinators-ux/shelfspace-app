@@ -37,3 +37,9 @@ Thumbs.db
 firebase-debug.log
 firestore-debug.log
 ui-debug.log
+
+# Local maintenance backups (may contain real visit data)
+scripts/visits-backup-*.json
+
+# Claude
+.claude/

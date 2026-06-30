@@ -4,6 +4,15 @@ import { TARGET_THRESHOLD, contractLabel, colorFor } from '../services/contracts
 import { canEditVisit } from '../services/auth';
 import { getReasonLabel } from '../services/incompleteReasons';
 
+// Local "today" as YYYY-MM-DD. Used to default the log to the current day's
+// visits, so after midnight the log rolls over to the new day automatically.
+function localTodayStr() {
+  const d = new Date();
+  return d.getFullYear() + '-' +
+    String(d.getMonth() + 1).padStart(2, '0') + '-' +
+    String(d.getDate()).padStart(2, '0');
+}
+
 // Safe date formatter — handles ISO strings, Date objects, and invalid input
 function formatDate(value) {
   if (!value) return '';
@@ -25,7 +34,8 @@ export default function VisitsLog({ visits, onExport, onEdit, onDelete, session 
   const [filterChain, setFilterChain] = useState('');
   const [filterRep, setFilterRep] = useState('');
   const [filterStatus, setFilterStatus] = useState(''); // '' | 'achieved' | 'not_achieved' | 'incomplete'
-  const [filterDate, setFilterDate] = useState(''); // YYYY-MM-DD format
+  // Default to today's visits; rep can pick another day or clear to see history.
+  const [filterDate, setFilterDate] = useState(localTodayStr); // YYYY-MM-DD format
 
   // Filter visits based on role
   const visibleVisits =

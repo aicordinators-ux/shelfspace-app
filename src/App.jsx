@@ -151,9 +151,16 @@ export default function App() {
   );
 
   function getInputErrors(rows) {
-    return rows.filter((r) =>
-      r.type === 'percent' && Number(r.actualSpace) > Number(r.totalShelf)
-    );
+    const errors = [];
+    rows.forEach((r) => {
+      if (r.type === 'percent' && Number(r.actualSpace) > Number(r.totalShelf)) {
+        errors.push({ ...r, errorMsg: `الفعلي ${r.actualSpace} أكبر من الإجمالي ${r.totalShelf}` });
+      } else if (r.type === 'check' && !r.applied && !(Number(r.notAppliedSpace) > 0)) {
+        // "Not applied" requires the rep to record the actual measured space.
+        errors.push({ ...r, errorMsg: 'برجاء إدخال المساحة الفعلية' });
+      }
+    });
+    return errors;
   }
 
   // ===== Save visit to Firestore =====
@@ -164,7 +171,7 @@ export default function App() {
     if (errors.length) {
       setValidationErrors(errors);
       const message = errors
-        .map((r) => `- ${r.section} / ${r.name}: الفعلي ${r.actualSpace} أكبر من الإجمالي ${r.totalShelf}`)
+        .map((r) => `- ${r.section} / ${r.name}: ${r.errorMsg}`)
         .join('\n');
       alert(`لا يمكن الحفظ قبل تصحيح الإدخال:\n${message}`);
       return;
