@@ -79,11 +79,15 @@ export function rowsFromContracts(contracts, actuals) {
         });
       } else {
         const applied = !!entry.applied;
+        // When the item is NOT applied, the rep records the actual measured space.
+        const notAppliedSpace = applied ? 0 : (Number(entry.actualSpace) || 0);
+        // Actual space: applied => contract space (1 shelf); not applied => rep's value.
+        const actualSpace = applied ? 1 : notAppliedSpace;
         rows.push({
           key, type: 'check', source: contract.source || 'Impulse',
           section: contractLabel(contract.source), name: cat.name,
           targetPct: 100, targetLabel: targetText(cat),
-          applied, actualSpace: applied ? 1 : 0, totalShelf: 1,
+          applied, actualSpace, notAppliedSpace, totalShelf: 1,
           actualPct: applied ? 100 : 0, achievement: applied ? 100 : 0,
           achieved: applied,
         });

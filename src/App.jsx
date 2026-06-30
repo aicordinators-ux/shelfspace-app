@@ -271,7 +271,7 @@ export default function App() {
     v.rows.forEach((r) => {
       loaded[r.key || actualKey(r.source, r.name)] =
         r.type === 'check'
-          ? { applied: !!r.applied }
+          ? { applied: !!r.applied, actualSpace: r.notAppliedSpace || 0 }
           : { actual: r.actualSpace, total: r.totalShelf };
     });
     setSelectedCustomer(customer);
@@ -381,7 +381,7 @@ export default function App() {
       r.type === 'check' ? (r.targetLabel || 'Required') : formatPct(r.targetPct);
     const formatActual = (r) =>
       r.type === 'check'
-        ? (r.applied ? 'Applied' : 'Not Applied')
+        ? (r.applied ? '1 Shelf' : String(r.notAppliedSpace ?? 0))
         : formatPct(r.actualPct);
 
     // Collect all unique categories (preserving first-seen order)

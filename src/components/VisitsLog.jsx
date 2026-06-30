@@ -319,12 +319,20 @@ export default function VisitsLog({ visits, onExport, onEdit, onDelete, session 
                             </div>
 
                             {r.type === 'check' ? (
-                              <div className="cat-line">
-                                <em>الحالة:</em>
-                                <b style={{ color: r.applied ? '#4ade80' : '#f87171' }}>
-                                  {r.applied ? 'مطبق ✓' : 'غير مطبق ✗'}
-                                </b>
-                              </div>
+                              <>
+                                <div className="cat-line">
+                                  <em>الحالة:</em>
+                                  <b style={{ color: r.applied ? '#4ade80' : '#f87171' }}>
+                                    {r.applied ? 'مطبق ✓' : 'غير مطبق ✗'}
+                                  </b>
+                                </div>
+                                {!r.applied && r.notAppliedSpace ? (
+                                  <div className="cat-line">
+                                    <em>المساحة الفعلية:</em>
+                                    <b>{r.notAppliedSpace}</b>
+                                  </div>
+                                ) : null}
+                              </>
                             ) : (
                               <>
                                 <div className="cat-line">

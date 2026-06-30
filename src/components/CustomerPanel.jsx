@@ -111,17 +111,33 @@ export default function CustomerPanel({
                     {hasError && <em className="field-error">الفعلي أكبر من الإجمالي</em>}
                   </div>
                   {r.type === 'check' ? (
-                    <div className="check-actions">
-                      <button
-                        type="button"
-                        className={entry.applied ? 'check-btn active' : 'check-btn'}
-                        onClick={() => updateApplied(r.key, true)}
-                      >مطبق</button>
-                      <button
-                        type="button"
-                        className={!entry.applied ? 'check-btn active bad-choice' : 'check-btn'}
-                        onClick={() => updateApplied(r.key, false)}
-                      >غير مطبق</button>
+                    <div className="check-wrap">
+                      <div className="check-actions">
+                        <button
+                          type="button"
+                          className={entry.applied ? 'check-btn active' : 'check-btn'}
+                          onClick={() => updateApplied(r.key, true)}
+                        >مطبق</button>
+                        <button
+                          type="button"
+                          className={!entry.applied ? 'check-btn active bad-choice' : 'check-btn'}
+                          onClick={() => updateApplied(r.key, false)}
+                        >غير مطبق</button>
+                      </div>
+                      {!entry.applied && (
+                        <label className="actual-space-field">
+                          المساحة الفعلية
+                          <input
+                            type="number"
+                            step="0.5"
+                            min="0"
+                            placeholder="0"
+                            value={entry.actualSpace === 0 || entry.actualSpace === undefined ? '' : entry.actualSpace}
+                            onChange={(e) => updateField(r.key, 'actualSpace', e.target.value)}
+                            onFocus={(e) => e.target.select()}
+                          />
+                        </label>
+                      )}
                     </div>
                   ) : (
                     <div className="inputs">
