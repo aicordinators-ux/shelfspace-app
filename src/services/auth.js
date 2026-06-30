@@ -8,7 +8,7 @@ const SESSION_KEY = 'shelfspace_session_v1';
 // so it's not 100% secure - it's a simple gate for non-technical users.
 //
 // To change the PIN: change this value, rebuild, and redeploy.
-export const MANAGER_PIN = '2024';
+export const MANAGER_PIN = '2026';
 
 /**
  * Get current session from localStorage
