@@ -103,6 +103,15 @@ export default function App() {
     []
   );
 
+  // Agents (chains) limited to the region selected in the rep sidebar.
+  // When no region is selected, show every agent.
+  const sidebarChains = useMemo(() => {
+    const source = filterRegion
+      ? CUSTOMERS_DATA.filter((c) => c.region === filterRegion)
+      : CUSTOMERS_DATA;
+    return [...new Set(source.map((c) => c.chain).filter(Boolean))].sort();
+  }, [filterRegion]);
+
   // ===== Reset actuals when customer changes =====
   useEffect(() => {
     // Skip resetting actuals when we're in edit mode — editVisit() has
@@ -633,13 +642,19 @@ export default function App() {
                   )}
                 </div>
                 <div className="filters">
-                  <select value={filterRegion} onChange={(e) => setFilterRegion(e.target.value)}>
+                  <select
+                    value={filterRegion}
+                    onChange={(e) => {
+                      setFilterRegion(e.target.value);
+                      setFilterChain(''); // reset agent when region changes
+                    }}
+                  >
                     <option value="">كل المناطق</option>
                     {regions.map((r) => <option key={r}>{r}</option>)}
                   </select>
                   <select value={filterChain} onChange={(e) => setFilterChain(e.target.value)}>
                     <option value="">كل الوكلاء</option>
-                    {chains.map((c) => <option key={c}>{c}</option>)}
+                    {sidebarChains.map((c) => <option key={c}>{c}</option>)}
                   </select>
                 </div>
                 <div className="results">
