@@ -78,7 +78,10 @@ export function rowsFromContracts(contracts, actuals) {
           achieved: achievement >= TARGET_THRESHOLD,
         });
       } else {
-        const applied = !!entry.applied;
+        // Contract space for a check item is 1 shelf. If the measured actual space
+        // meets or exceeds the contract space, the item is in fact applied — even for
+        // data loaded from a saved visit (not just while the rep is typing).
+        const applied = !!entry.applied || (Number(entry.actualSpace) || 0) >= 1;
         // When the item is NOT applied, the rep records the actual measured space.
         const notAppliedSpace = applied ? 0 : (Number(entry.actualSpace) || 0);
         // Actual space: applied => contract space (1 shelf); not applied => rep's value.

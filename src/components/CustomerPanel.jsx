@@ -31,15 +31,8 @@ export default function CustomerPanel({
     }));
   }
 
-  function updateApplied(key, applied) {
-    setActuals((old) => ({
-      ...old,
-      [key]: { ...(old[key] || {}), applied },
-    }));
-  }
-
-  // Actual measured space for a "not applied" item. The contract space is 1 shelf,
-  // so a measured value greater than 1 means the item is in fact applied — flip it.
+  // The rep only records the measured actual space; applied/not-applied is decided
+  // automatically. The contract space is 1 shelf, so a value of at least 1 is applied.
   function updateActualSpace(key, value) {
     const num = value === '' ? 0 : parseFloat(value);
     setActuals((old) => ({
@@ -47,7 +40,7 @@ export default function CustomerPanel({
       [key]: {
         ...(old[key] || {}),
         actualSpace: num,
-        applied: num > 1 ? true : (old[key]?.applied || false),
+        applied: num >= 1,
       },
     }));
   }
@@ -129,32 +122,18 @@ export default function CustomerPanel({
                   </div>
                   {r.type === 'check' ? (
                     <div className="check-wrap">
-                      <div className="check-actions">
-                        <button
-                          type="button"
-                          className={entry.applied ? 'check-btn active' : 'check-btn'}
-                          onClick={() => updateApplied(r.key, true)}
-                        >مطبق</button>
-                        <button
-                          type="button"
-                          className={!entry.applied ? 'check-btn active bad-choice' : 'check-btn'}
-                          onClick={() => updateApplied(r.key, false)}
-                        >غير مطبق</button>
-                      </div>
-                      {!entry.applied && (
-                        <label className="actual-space-field">
-                          المساحة الفعلية
-                          <input
-                            type="number"
-                            step="0.5"
-                            min="0"
-                            placeholder="0"
-                            value={entry.actualSpace === 0 || entry.actualSpace === undefined ? '' : entry.actualSpace}
-                            onChange={(e) => updateActualSpace(r.key, e.target.value)}
-                            onFocus={(e) => e.target.select()}
-                          />
-                        </label>
-                      )}
+                      <label className="actual-space-field">
+                        المساحة الفعلية لـ {r.name}
+                        <input
+                          type="number"
+                          step="0.5"
+                          min="0"
+                          placeholder="0"
+                          value={entry.actualSpace === 0 || entry.actualSpace === undefined ? '' : entry.actualSpace}
+                          onChange={(e) => updateActualSpace(r.key, e.target.value)}
+                          onFocus={(e) => e.target.select()}
+                        />
+                      </label>
                     </div>
                   ) : (
                     <div className="inputs">

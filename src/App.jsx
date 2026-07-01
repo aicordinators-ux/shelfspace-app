@@ -278,7 +278,7 @@ export default function App() {
     v.rows.forEach((r) => {
       loaded[r.key || actualKey(r.source, r.name)] =
         r.type === 'check'
-          ? { applied: !!r.applied, actualSpace: r.notAppliedSpace || 0 }
+          ? { applied: !!r.applied, actualSpace: r.actualSpace ?? (r.applied ? 1 : (r.notAppliedSpace || 0)) }
           : { actual: r.actualSpace, total: r.totalShelf };
     });
     setSelectedCustomer(customer);
@@ -386,10 +386,18 @@ export default function App() {
       Number.isFinite(Number(value)) ? Number(value).toFixed(0) + '%' : '';
     const formatTarget = (r) =>
       r.type === 'check' ? (r.targetLabel || 'Required') : formatPct(r.targetPct);
+    // Applied is decided by measured space: >= 1 shelf = applied. This also corrects
+    // older saved visits that were stored as "not applied" while the space was >= 1.
+    const checkApplied = (r) =>
+      !!r.applied || (Number(r.notAppliedSpace) || 0) >= 1;
     const formatActual = (r) =>
       r.type === 'check'
-        ? (r.applied ? '1 Shelf' : String(r.notAppliedSpace ?? 0))
+        ? (checkApplied(r) ? '1 Shelf' : String(r.notAppliedSpace ?? 0))
         : formatPct(r.actualPct);
+    const formatCheck = (r) =>
+      r.type === 'check'
+        ? (checkApplied(r) ? 'Achieved' : 'Not Achieved')
+        : (r.achievement >= TARGET_THRESHOLD ? 'Achieved' : 'Not Achieved');
 
     // Collect all unique categories (preserving first-seen order)
     const categories = [];
@@ -445,7 +453,7 @@ export default function App() {
         line.push(
           formatTarget(r),
           formatActual(r),
-          r.achievement >= TARGET_THRESHOLD ? 'Achieved' : 'Not Achieved'
+          formatCheck(r)
         );
       });
       // Edit tracking columns at the end
