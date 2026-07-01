@@ -155,10 +155,8 @@ export default function App() {
     rows.forEach((r) => {
       if (r.type === 'percent' && Number(r.actualSpace) > Number(r.totalShelf)) {
         errors.push({ ...r, errorMsg: `الفعلي ${r.actualSpace} أكبر من الإجمالي ${r.totalShelf}` });
-      } else if (r.type === 'check' && !r.applied && !(Number(r.notAppliedSpace) > 0)) {
-        // "Not applied" requires the rep to record the actual measured space.
-        errors.push({ ...r, errorMsg: 'برجاء إدخال المساحة الفعلية' });
       }
+      // Check items accept 0 (no actual space = not applied); no input required.
     });
     return errors;
   }
