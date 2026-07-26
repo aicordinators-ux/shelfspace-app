@@ -1,8 +1,9 @@
 import { useState, useMemo } from 'react';
-import { FileText, MapPin, Download, Trash2, AlertTriangle, Search, X, Filter } from 'lucide-react';
+import { FileText, MapPin, Download, Trash2, AlertTriangle, Search, X, Filter, Share2 } from 'lucide-react';
 import { TARGET_THRESHOLD, contractLabel, colorFor } from '../services/contracts';
 import { canEditVisit } from '../services/auth';
 import { getReasonLabel } from '../services/incompleteReasons';
+import { shareVisitCard } from '../services/shareCard';
 
 // Local "today" as YYYY-MM-DD. Used to default the log to the current day's
 // visits, so after midnight the log rolls over to the new day automatically.
@@ -36,6 +37,23 @@ export default function VisitsLog({ visits, onExport, onEdit, onDelete, session 
   const [filterStatus, setFilterStatus] = useState(''); // '' | 'achieved' | 'not_achieved' | 'incomplete'
   // Default to today's visits; rep can pick another day or clear to see history.
   const [filterDate, setFilterDate] = useState(localTodayStr); // YYYY-MM-DD format
+  // Id of the visit whose card is currently being captured/shared.
+  const [sharingId, setSharingId] = useState(null);
+
+  // Capture the visit card as an image and open the share sheet (WhatsApp).
+  async function handleShare(e, visit) {
+    const card = e.currentTarget.closest('.visit');
+    if (!card) return;
+    setSharingId(visit.id);
+    try {
+      await shareVisitCard(card, visit);
+    } catch (err) {
+      console.error('Share failed:', err);
+      alert('تعذر إنشاء الصورة: ' + (err?.message || err));
+    } finally {
+      setSharingId(null);
+    }
+  }
 
   // Filter visits based on role
   const visibleVisits =
@@ -269,7 +287,16 @@ export default function VisitsLog({ visits, onExport, onEdit, onDelete, session 
                     )}
                     <b>{v.customer_name}</b>
                   </div>
-                  <div style={{ display: 'flex', gap: 8 }}>
+                  <div className="no-capture" style={{ display: 'flex', gap: 8 }}>
+                    <button
+                      className="ghost"
+                      onClick={(e) => handleShare(e, v)}
+                      disabled={sharingId === v.id}
+                      title="مشاركة صورة الحالة على واتساب"
+                    >
+                      <Share2 size={14} />
+                      {sharingId === v.id ? '...' : 'مشاركة'}
+                    </button>
                     {canEdit && !isIncomplete && (
                       <button className="ghost" onClick={() => onEdit(v)}>
                         تعديل
