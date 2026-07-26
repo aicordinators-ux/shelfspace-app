@@ -1,6 +1,6 @@
-// Customers Master Data - 405 customers with DRY and Impulse contracts
+// Customers Master Data - 778 contract records across 480 customers
 // This data is bundled with the app (not stored in Firebase)
-// Updated: SM Home Shelf Visibility DG & Impulse (added Fitness Bars to Impulse)
+// Generated from: SM Home Shelf Visibility DG & Impulse
 
 export const CUSTOMERS_DATA = [
   {
@@ -603,7 +603,81 @@ export const CUSTOMERS_DATA = [
     "region": "Cairo East",
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "SUE",
-    "team_leader": "Mahmoud Radwan",
+    "team_leader": "Ekramy",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09365",
+    "acc_code": "0008061",
+    "name": "الرايه - فرع أسوان الكورنيش",
+    "address": "اسوان 149 كورنيش النيل - ابراج زهرة اسوان بجوار غبور",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "SUE",
+    "team_leader": "Ekramy",
+    "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09366",
+    "acc_code": "0008061",
+    "name": "الرايه - فرع أسوان العقاد",
+    "address": "اسوان العقاد  القطعه 38 حوض المنشيه بندر اسوان",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "SUE",
+    "team_leader": "Ekramy",
     "svp": "Essam Helmy Cairo",
     "source": "DRY",
     "categories": [
@@ -641,7 +715,43 @@ export const CUSTOMERS_DATA = [
     "region": "Cairo East",
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "SUE",
-    "team_leader": "Mahmoud Radwan",
+    "team_leader": "Ekramy",
+    "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09363",
+    "acc_code": "0008061",
+    "name": "الرايه - فرع الأقصر النيل",
+    "address": "الاقصر كمباوند ريزورت عقار رقم 10 بالمشروع السكنى على نهر النيل الاقصر",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "SUE",
+    "team_leader": "Ekramy",
     "svp": "Essam Helmy Cairo",
     "source": "DRY",
     "categories": [
@@ -679,33 +789,31 @@ export const CUSTOMERS_DATA = [
     "region": "Cairo East",
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "SUE",
-    "team_leader": "Mahmoud Radwan",
+    "team_leader": "Ekramy",
     "svp": "Essam Helmy Cairo",
-    "source": "DRY",
+    "source": "Impulse",
     "categories": [
       {
-        "name": "MAGGI",
-        "target": 0.4
+        "name": "Kitkat %",
+        "target": 0.3
       },
       {
-        "name": "CERELAC",
-        "target": 0.5
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
       },
       {
-        "name": "NESCAFE",
-        "target": 0.7
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
       },
       {
-        "name": "Nido",
-        "target": 0.5
+        "name": "Fitness Bars",
+        "target": 0.2
       },
       {
-        "name": "Nesquik",
-        "target": 0.5
-      },
-      {
-        "name": "CornFlex",
-        "target": 0.25
+        "name": "RTD Chillers",
+        "target": 0.1
       }
     ]
   },
@@ -1554,6 +1662,10 @@ export const CUSTOMERS_DATA = [
       {
         "name": "Nesquik",
         "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
       }
     ]
   },
@@ -2116,7 +2228,7 @@ export const CUSTOMERS_DATA = [
   {
     "code": "01694",
     "acc_code": "0091676",
-    "name": "البان ابو صالح",
+    "name": "البان ابو صالح - مدينة نصر",
     "address": "75شارع محمد حسنين هيكل موازى لعباس العقاد - مدينة نصر",
     "region": "Cairo East",
     "chain": "L5 EG El Wagdy Cairo",
@@ -2154,7 +2266,7 @@ export const CUSTOMERS_DATA = [
   {
     "code": "01694",
     "acc_code": "0091676",
-    "name": "البان ابو صالح",
+    "name": "البان ابو صالح - مدينة نصر",
     "address": "75شارع محمد حسنين هيكل موازى لعباس العقاد - مدينة نصر",
     "region": "Cairo East",
     "chain": "L5 EG El Wagdy Cairo",
@@ -2190,7 +2302,7 @@ export const CUSTOMERS_DATA = [
   {
     "code": "01705",
     "acc_code": "0076367",
-    "name": "البان ابو صالح",
+    "name": "البان ابو صالح - مصر والسودان",
     "address": "ش مصر والسودان حدائق القبة",
     "region": "Cairo East",
     "chain": "L5 EG El Wagdy Cairo",
@@ -2342,7 +2454,7 @@ export const CUSTOMERS_DATA = [
   {
     "code": "09548",
     "acc_code": "-",
-    "name": "البان ابو صالح",
+    "name": "البان ابو صالح - طنطا",
     "address": "طنطا بجوار الإستاد",
     "region": "Cairo East",
     "chain": "L5 EG El Wagdy Cairo",
@@ -2379,7 +2491,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "06982",
-    "acc_code": "0100308",
+    "acc_code": "00100308",
     "name": "الباشا ماهر",
     "address": "قطعه 5 ش عمر بن الخطاب امام مدرسة شيراتون هليوبلس للغات - مساكن شيراتون",
     "region": "Cairo East",
@@ -2417,7 +2529,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "06982",
-    "acc_code": "0100308",
+    "acc_code": "00100308",
     "name": "الباشا ماهر",
     "address": "قطعه 5 ش عمر بن الخطاب امام مدرسة شيراتون هليوبلس للغات - مساكن شيراتون",
     "region": "Cairo East",
@@ -2632,13 +2744,17 @@ export const CUSTOMERS_DATA = [
       {
         "name": "Nesquik",
         "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
       }
     ]
   },
   {
     "code": "01843",
-    "acc_code": "0000165",
-    "name": "هايبر موسى",
+    "acc_code": "000000165",
+    "name": "هايبر موسى - مؤسسة الزكاة",
     "address": "مؤسسة الزكاة (محور المرج ) أمام كوبرى عزبة النخل بجوار التوحيد والنور - عزبة النخل الشرقية",
     "region": "Cairo East",
     "chain": "L5 EG El Wagdy Cairo",
@@ -2675,8 +2791,8 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "01843",
-    "acc_code": "0000165",
-    "name": "هايبر موسى",
+    "acc_code": "000000165",
+    "name": "هايبر موسى - مؤسسة الزكاة",
     "address": "مؤسسة الزكاة (محور المرج ) أمام كوبرى عزبة النخل بجوار التوحيد والنور - عزبة النخل الشرقية",
     "region": "Cairo East",
     "chain": "L5 EG El Wagdy Cairo",
@@ -2711,8 +2827,8 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "07091",
-    "acc_code": "0000165",
-    "name": "هايبر موسى",
+    "acc_code": "000000165",
+    "name": "هايبر موسى - مدينة السلام",
     "address": "قسم شرطة السلام اول - مدينة السلام",
     "region": "Cairo East",
     "chain": "L5 EG El Wagdy Cairo",
@@ -2749,8 +2865,8 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "07091",
-    "acc_code": "0000165",
-    "name": "هايبر موسى",
+    "acc_code": "000000165",
+    "name": "هايبر موسى - مدينة السلام",
     "address": "قسم شرطة السلام اول - مدينة السلام",
     "region": "Cairo East",
     "chain": "L5 EG El Wagdy Cairo",
@@ -2785,8 +2901,8 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "07372",
-    "acc_code": "0000165",
-    "name": "هايبر موسى",
+    "acc_code": "000000165",
+    "name": "هايبر موسى - الزيتون",
     "address": "الزيتون",
     "region": "Cairo East",
     "chain": "L5 EG El Wagdy Cairo",
@@ -2861,7 +2977,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "07369",
-    "acc_code": "2008714",
+    "acc_code": "002008714",
     "name": "تسكو مارت",
     "address": "مول جاردينيا طريق السويس ( زهراء مدينة نصر )",
     "region": "Cairo East",
@@ -2899,7 +3015,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "07369",
-    "acc_code": "2008714",
+    "acc_code": "002008714",
     "name": "تسكو مارت",
     "address": "مول جاردينيا طريق السويس ( زهراء مدينة نصر )",
     "region": "Cairo East",
@@ -3232,8 +3348,8 @@ export const CUSTOMERS_DATA = [
   {
     "code": "07080",
     "acc_code": "0008058",
-    "name": "فلامنجو",
-    "address": "",
+    "name": "فلامنجو - مول الديار",
+    "address": "مول الديار من شارع التسعين امام فندق تيوليب التجمع الخامس - القاهرة الجديدة",
     "region": "Cairo East",
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
@@ -3270,8 +3386,8 @@ export const CUSTOMERS_DATA = [
   {
     "code": "07080",
     "acc_code": "0008058",
-    "name": "فلامنجو",
-    "address": "",
+    "name": "فلامنجو - مول الديار",
+    "address": "مول الديار من شارع التسعين امام فندق تيوليب التجمع الخامس - القاهرة الجديدة",
     "region": "Cairo East",
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
@@ -3379,7 +3495,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "07082",
-    "acc_code": "0006616",
+    "acc_code": "000006616",
     "name": "هايبر نجمه هليوبوليس",
     "address": "قطعه رقم 1 مربع 1150  مساكن شيراتون - الشيراتون",
     "region": "Cairo East",
@@ -3416,9 +3532,45 @@ export const CUSTOMERS_DATA = [
     ]
   },
   {
+    "code": "07082",
+    "acc_code": "000006616",
+    "name": "هايبر نجمه هليوبوليس",
+    "address": "قطعه رقم 1 مربع 1150  مساكن شيراتون - الشيراتون",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
     "code": "07349",
     "acc_code": "0008066",
-    "name": "نجمة هليوبوليس",
+    "name": "نجمة هليوبوليس - جسر السويس",
     "address": "جسر السويس",
     "region": "Cairo East",
     "chain": "L5 EG El Wagdy Cairo",
@@ -3454,8 +3606,44 @@ export const CUSTOMERS_DATA = [
     ]
   },
   {
+    "code": "07349",
+    "acc_code": "0008066",
+    "name": "نجمة هليوبوليس - جسر السويس",
+    "address": "جسر السويس",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
     "code": "09549",
-    "acc_code": "-",
+    "acc_code": "",
     "name": "نجمة هليوبوليس - التجمع",
     "address": "التجمع الخامس",
     "region": "Cairo East",
@@ -3493,7 +3681,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09549",
-    "acc_code": "-",
+    "acc_code": "",
     "name": "نجمة هليوبوليس - التجمع",
     "address": "التجمع الخامس",
     "region": "Cairo East",
@@ -4127,7 +4315,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "06956",
-    "acc_code": "0005259",
+    "acc_code": "000005259",
     "name": "Pick n pack",
     "address": "1ضحية النخيل بجوار اكاديمية الشروق - الشروق",
     "region": "Cairo East",
@@ -4165,7 +4353,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "06956",
-    "acc_code": "0005259",
+    "acc_code": "000005259",
     "name": "Pick n pack",
     "address": "1ضحية النخيل بجوار اكاديمية الشروق - الشروق",
     "region": "Cairo East",
@@ -4201,7 +4389,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "06965",
-    "acc_code": "0008605",
+    "acc_code": "000008605",
     "name": "علوش التجارية",
     "address": "6شارع احمد تيسير  من ش الميرغنى امام محطة مترو كلية البنات - مصر الجديده",
     "region": "Cairo East",
@@ -4214,6 +4402,10 @@ export const CUSTOMERS_DATA = [
       {
         "name": "MAGGI",
         "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
       },
       {
         "name": "NESCAFE",
@@ -4235,7 +4427,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "06965",
-    "acc_code": "0008605",
+    "acc_code": "000008605",
     "name": "علوش التجارية",
     "address": "6شارع احمد تيسير  من ش الميرغنى امام محطة مترو كلية البنات - مصر الجديده",
     "region": "Cairo East",
@@ -4271,7 +4463,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09551",
-    "acc_code": "2013741",
+    "acc_code": "002013741",
     "name": "الماسه للتجاره (اولاد علوش)",
     "address": "الماظة",
     "region": "Cairo East",
@@ -4284,6 +4476,10 @@ export const CUSTOMERS_DATA = [
       {
         "name": "MAGGI",
         "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
       },
       {
         "name": "NESCAFE",
@@ -4305,7 +4501,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09553",
-    "acc_code": "2013234",
+    "acc_code": 2013234,
     "name": "شركة اليسر( هايبر جراند) النزهه",
     "address": "النزهه",
     "region": "Cairo East",
@@ -4343,7 +4539,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09554",
-    "acc_code": "2013234",
+    "acc_code": 2013234,
     "name": "شركة اليسر( هايبر جراند) المهندسين",
     "address": "المهندسين",
     "region": "Cairo East",
@@ -4381,7 +4577,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03280",
-    "acc_code": "0008834",
+    "acc_code": "000008834",
     "name": "اكسبشن الهضبه",
     "address": "107 ز حدائق الاهرام إمتداد شارع الثروة المعدنية - الجيزة",
     "region": "Cairo Haram",
@@ -4419,7 +4615,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03280",
-    "acc_code": "0008834",
+    "acc_code": "000008834",
     "name": "اكسبشن الهضبه",
     "address": "107 ز حدائق الاهرام إمتداد شارع الثروة المعدنية - الجيزة",
     "region": "Cairo Haram",
@@ -4455,7 +4651,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "00089",
-    "acc_code": "2000347",
+    "acc_code": "002000347",
     "name": "إكسبشن س",
     "address": "115 س حدائق الأهرام  مدخل بوابة حورس - الجيزة",
     "region": "Cairo Haram",
@@ -4493,7 +4689,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "00089",
-    "acc_code": "2000347",
+    "acc_code": "002000347",
     "name": "إكسبشن س",
     "address": "115 س حدائق الأهرام  مدخل بوابة حورس - الجيزة",
     "region": "Cairo Haram",
@@ -4529,7 +4725,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03726",
-    "acc_code": "2000348",
+    "acc_code": "002000348",
     "name": "اكسبشن ط",
     "address": "12 ط حدائق الأهرام بحوار نادي حدائق الأهرام - الجيزة",
     "region": "Cairo Haram",
@@ -4567,7 +4763,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03726",
-    "acc_code": "2000348",
+    "acc_code": "002000348",
     "name": "اكسبشن ط",
     "address": "12 ط حدائق الأهرام بحوار نادي حدائق الأهرام - الجيزة",
     "region": "Cairo Haram",
@@ -4603,7 +4799,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03727",
-    "acc_code": "2000345",
+    "acc_code": "002000345",
     "name": "اكسبشن النقابات",
     "address": "4 مساكن النقابات أمام حدائق الأهرام - الجيزة",
     "region": "Cairo Haram",
@@ -4641,7 +4837,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03727",
-    "acc_code": "2000345",
+    "acc_code": "002000345",
     "name": "اكسبشن النقابات",
     "address": "4 مساكن النقابات أمام حدائق الأهرام - الجيزة",
     "region": "Cairo Haram",
@@ -4677,7 +4873,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03730",
-    "acc_code": "2000346",
+    "acc_code": "002000346",
     "name": "اكسبشن زهراء المعادي",
     "address": "الشطر ال 13 بجوار مدرسة البشاير الدولية",
     "region": "Cairo Haram",
@@ -4715,7 +4911,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03730",
-    "acc_code": "2000346",
+    "acc_code": "002000346",
     "name": "اكسبشن زهراء المعادي",
     "address": "الشطر ال 13 بجوار مدرسة البشاير الدولية",
     "region": "Cairo Haram",
@@ -4751,7 +4947,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03729",
-    "acc_code": "2000349",
+    "acc_code": "002000349",
     "name": "اكسبشن مدينتي",
     "address": "منطقة الخدمات 38 بجانب مسجد انس بن مالك",
     "region": "Cairo Haram",
@@ -4789,7 +4985,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03729",
-    "acc_code": "2000349",
+    "acc_code": "002000349",
     "name": "اكسبشن مدينتي",
     "address": "منطقة الخدمات 38 بجانب مسجد انس بن مالك",
     "region": "Cairo Haram",
@@ -4825,7 +5021,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "07355",
-    "acc_code": "2014467",
+    "acc_code": "002014467",
     "name": "اكسبشن التجمع",
     "address": "التسعين الشمالى خلف المستشفى الجوى مبنى cmc قطعة رقم 162",
     "region": "Cairo Haram",
@@ -4863,7 +5059,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "07355",
-    "acc_code": "2014467",
+    "acc_code": "002014467",
     "name": "اكسبشن التجمع",
     "address": "التسعين الشمالى خلف المستشفى الجوى مبنى cmc قطعة رقم 162",
     "region": "Cairo Haram",
@@ -4899,7 +5095,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03282",
-    "acc_code": "0008850",
+    "acc_code": "000008850",
     "name": "المختار زايد",
     "address": "الشيخ زايد 6 اكتوبر",
     "region": "Cairo Haram",
@@ -4937,7 +5133,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03285",
-    "acc_code": "0008841",
+    "acc_code": "000008841",
     "name": "الحبايب",
     "address": "ميدان الدقى أسفل كوبرى الدقى",
     "region": "Cairo Haram",
@@ -4975,7 +5171,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03286",
-    "acc_code": "0008864",
+    "acc_code": "000008864",
     "name": "فكرة",
     "address": "شارع الدقى اخر بجوار شارع الخطيب",
     "region": "Cairo Haram",
@@ -5013,7 +5209,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03286",
-    "acc_code": "0008864",
+    "acc_code": "000008864",
     "name": "فكرة",
     "address": "شارع الدقى اخر بجوار شارع الخطيب",
     "region": "Cairo Haram",
@@ -5049,7 +5245,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03293",
-    "acc_code": "0008869",
+    "acc_code": "000008869",
     "name": "محمد القواسمى",
     "address": "شارع مراد أمام مجلس الدولة",
     "region": "Cairo Haram",
@@ -5087,7 +5283,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03293",
-    "acc_code": "0008869",
+    "acc_code": "000008869",
     "name": "محمد القواسمى",
     "address": "شارع مراد أمام مجلس الدولة",
     "region": "Cairo Haram",
@@ -5123,8 +5319,8 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03318",
-    "acc_code": "0008873",
-    "name": "هايبر السلطان",
+    "acc_code": "000008873",
+    "name": "هايبر السلطان - الحي المتميز",
     "address": "الحى المتميز  السنتر التجارى خلف سندوتشات سلامه / 6 اكتوبر",
     "region": "Cairo Haram",
     "chain": "L5 EG Elwagdy Giza",
@@ -5161,8 +5357,8 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03318",
-    "acc_code": "0008873",
-    "name": "هايبر السلطان",
+    "acc_code": "000008873",
+    "name": "هايبر السلطان - الحي المتميز",
     "address": "الحى المتميز  السنتر التجارى خلف سندوتشات سلامه / 6 اكتوبر",
     "region": "Cairo Haram",
     "chain": "L5 EG Elwagdy Giza",
@@ -5197,8 +5393,8 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "07368",
-    "acc_code": "0008873",
-    "name": "هايبر السلطان",
+    "acc_code": "000008873",
+    "name": "هايبر السلطان فرع التوسعات",
     "address": "التوسعات الشماليه",
     "region": "Cairo Haram",
     "chain": "L5 EG Elwagdy Giza",
@@ -5235,8 +5431,8 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "07368",
-    "acc_code": "0008873",
-    "name": "هايبر السلطان",
+    "acc_code": "000008873",
+    "name": "هايبر السلطان فرع التوسعات",
     "address": "التوسعات الشماليه",
     "region": "Cairo Haram",
     "chain": "L5 EG Elwagdy Giza",
@@ -5271,7 +5467,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03574",
-    "acc_code": "0008832",
+    "acc_code": "000008832",
     "name": "شركة الصفا للتج",
     "address": "الحي الثاني سنتر المروان",
     "region": "Cairo Haram",
@@ -5309,7 +5505,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03576",
-    "acc_code": "0008862",
+    "acc_code": "000008862",
     "name": "صن شاين",
     "address": "العراق من سوريا   المهندس",
     "region": "Cairo Haram",
@@ -5347,7 +5543,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "07354",
-    "acc_code": "0008861",
+    "acc_code": "000008861",
     "name": "اولاد حسان",
     "address": "الحوامديه",
     "region": "Cairo Haram",
@@ -5385,7 +5581,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "07354",
-    "acc_code": "0008861",
+    "acc_code": "000008861",
     "name": "اولاد حسان",
     "address": "الحوامديه",
     "region": "Cairo Haram",
@@ -5421,7 +5617,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03279",
-    "acc_code": "0008858",
+    "acc_code": "000008858",
     "name": "س م علام",
     "address": "خاتم المرسلين العمرانية",
     "region": "Cairo Haram",
@@ -5459,7 +5655,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03279",
-    "acc_code": "0008858",
+    "acc_code": "000008858",
     "name": "س م علام",
     "address": "خاتم المرسلين العمرانية",
     "region": "Cairo Haram",
@@ -5495,7 +5691,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03281",
-    "acc_code": "0008855",
+    "acc_code": "000008855",
     "name": "حلو الجامعة",
     "address": "الحى الاول المجاورة الاولى عمارة 192 امام معهد الحصرى الازهرى للغات - 6 اكتوبر",
     "region": "Cairo Haram",
@@ -5533,7 +5729,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03281",
-    "acc_code": "0008855",
+    "acc_code": "000008855",
     "name": "حلو الجامعة",
     "address": "الحى الاول المجاورة الاولى عمارة 192 امام معهد الحصرى الازهرى للغات - 6 اكتوبر",
     "region": "Cairo Haram",
@@ -5569,7 +5765,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03288",
-    "acc_code": "0008876",
+    "acc_code": "000008876",
     "name": "هايبر خوفو",
     "address": "البوابه الاولى هضبه الاهرام",
     "region": "Cairo Haram",
@@ -5607,7 +5803,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03288",
-    "acc_code": "0008876",
+    "acc_code": "000008876",
     "name": "هايبر خوفو",
     "address": "البوابه الاولى هضبه الاهرام",
     "region": "Cairo Haram",
@@ -5643,7 +5839,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03739",
-    "acc_code": "0008870",
+    "acc_code": "000008870",
     "name": "مكاوى ماركت",
     "address": "شارع ترسا الرئيسى  بجوار كبابجى العربى",
     "region": "Cairo Haram",
@@ -5681,7 +5877,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03739",
-    "acc_code": "0008870",
+    "acc_code": "000008870",
     "name": "مكاوى ماركت",
     "address": "شارع ترسا الرئيسى  بجوار كبابجى العربى",
     "region": "Cairo Haram",
@@ -5717,7 +5913,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "07367",
-    "acc_code": "0008870",
+    "acc_code": "000008870",
     "name": "مكاوي 2",
     "address": "شارع ترسا الرئيسى  بجوار شاع عز الدين عمر",
     "region": "Cairo Haram",
@@ -5755,7 +5951,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "07367",
-    "acc_code": "0008870",
+    "acc_code": "000008870",
     "name": "مكاوي 2",
     "address": "شارع ترسا الرئيسى  بجوار شاع عز الدين عمر",
     "region": "Cairo Haram",
@@ -5791,7 +5987,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03321",
-    "acc_code": "0008874",
+    "acc_code": "000008874",
     "name": "هايبر العشرين",
     "address": "هضبه الهرم",
     "region": "Cairo Haram",
@@ -5829,7 +6025,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03321",
-    "acc_code": "0008874",
+    "acc_code": "000008874",
     "name": "هايبر العشرين",
     "address": "هضبه الهرم",
     "region": "Cairo Haram",
@@ -5865,7 +6061,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03733",
-    "acc_code": "2000353",
+    "acc_code": "002000353",
     "name": "هايبر العشرين (( الطارق ))",
     "address": "36 (( و )) البوابه الثانيه القديمه خفرع حدائق الاهرام",
     "region": "Cairo Haram",
@@ -5903,7 +6099,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03733",
-    "acc_code": "2000353",
+    "acc_code": "002000353",
     "name": "هايبر العشرين (( الطارق ))",
     "address": "36 (( و )) البوابه الثانيه القديمه خفرع حدائق الاهرام",
     "region": "Cairo Haram",
@@ -5939,7 +6135,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03734",
-    "acc_code": "2000352",
+    "acc_code": "002000352",
     "name": "هايبر العشرين (( حورس ))",
     "address": "38 (( ص )) البوابه الثالثه الجديده حورس",
     "region": "Cairo Haram",
@@ -5977,7 +6173,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03734",
-    "acc_code": "2000352",
+    "acc_code": "002000352",
     "name": "هايبر العشرين (( حورس ))",
     "address": "38 (( ص )) البوابه الثالثه الجديده حورس",
     "region": "Cairo Haram",
@@ -6013,7 +6209,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03741",
-    "acc_code": "0008872",
+    "acc_code": "000008872",
     "name": "جي ام ماركت فرع الطالبية",
     "address": "شارع جسر الكنسية من شارع داير الناحية من عثمان محرم من شارع القدس",
     "region": "Cairo Haram",
@@ -6051,7 +6247,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03741",
-    "acc_code": "0008872",
+    "acc_code": "000008872",
     "name": "جي ام ماركت فرع الطالبية",
     "address": "شارع جسر الكنسية من شارع داير الناحية من عثمان محرم من شارع القدس",
     "region": "Cairo Haram",
@@ -6087,7 +6283,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03743",
-    "acc_code": "2000339",
+    "acc_code": "002000339",
     "name": "جي ام ماركت فرع العمرانيه",
     "address": "شارع المدبح مطلع كوبرى العمرانية - العمرانية",
     "region": "Cairo Haram",
@@ -6125,7 +6321,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03743",
-    "acc_code": "2000339",
+    "acc_code": "002000339",
     "name": "جي ام ماركت فرع العمرانيه",
     "address": "شارع المدبح مطلع كوبرى العمرانية - العمرانية",
     "region": "Cairo Haram",
@@ -6161,7 +6357,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03742",
-    "acc_code": "2000340",
+    "acc_code": "002000340",
     "name": "جي ام ماركت فرع الكنسية",
     "address": "شارع جسر الكنسية أمام مسجد السلام",
     "region": "Cairo Haram",
@@ -6199,7 +6395,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03742",
-    "acc_code": "2000340",
+    "acc_code": "002000340",
     "name": "جي ام ماركت فرع الكنسية",
     "address": "شارع جسر الكنسية أمام مسجد السلام",
     "region": "Cairo Haram",
@@ -6235,7 +6431,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03328",
-    "acc_code": "2000341",
+    "acc_code": "002000341",
     "name": "جي ام ماركت فرع زغلول",
     "address": "محطة مشعل شارع زغلول بجوار التأمين الصحى",
     "region": "Cairo Haram",
@@ -6273,7 +6469,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03328",
-    "acc_code": "2000341",
+    "acc_code": "002000341",
     "name": "جي ام ماركت فرع زغلول",
     "address": "محطة مشعل شارع زغلول بجوار التأمين الصحى",
     "region": "Cairo Haram",
@@ -6309,7 +6505,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03740",
-    "acc_code": "2000343",
+    "acc_code": "002000343",
     "name": "جي ام ماركت فرع سقاره",
     "address": "طريق سقارة السياحي بعد كوبرى عثمان أمام فندق كتاركت",
     "region": "Cairo Haram",
@@ -6347,7 +6543,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03740",
-    "acc_code": "2000343",
+    "acc_code": "002000343",
     "name": "جي ام ماركت فرع سقاره",
     "address": "طريق سقارة السياحي بعد كوبرى عثمان أمام فندق كتاركت",
     "region": "Cairo Haram",
@@ -6383,7 +6579,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03578",
-    "acc_code": "0008849",
+    "acc_code": "000008849",
     "name": "المتميز",
     "address": "الحى المتيز سنتر الهداية",
     "region": "Cairo Haram",
@@ -6421,7 +6617,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03587",
-    "acc_code": "0008878",
+    "acc_code": "000008878",
     "name": "يورومارشيه",
     "address": "243 ن البوابه الرابعة هضبة الأهرام  الهرم الجيزة",
     "region": "Cairo Haram",
@@ -6459,7 +6655,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03587",
-    "acc_code": "0008878",
+    "acc_code": "000008878",
     "name": "يورومارشيه",
     "address": "243 ن البوابه الرابعة هضبة الأهرام  الهرم الجيزة",
     "region": "Cairo Haram",
@@ -6495,7 +6691,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03610",
-    "acc_code": "0008993",
+    "acc_code": "000008993",
     "name": "اولاد الشيخ",
     "address": "بوابه 1الهضبه",
     "region": "Cairo Haram",
@@ -6533,7 +6729,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03866",
-    "acc_code": "0013263",
+    "acc_code": "000013263",
     "name": "بلو ابل ماركت",
     "address": "بفرلي يلز",
     "region": "Cairo Haram",
@@ -6571,7 +6767,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03866",
-    "acc_code": "0013263",
+    "acc_code": "000013263",
     "name": "بلو ابل ماركت",
     "address": "بفرلي يلز",
     "region": "Cairo Haram",
@@ -6607,7 +6803,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09354",
-    "acc_code": "0008952",
+    "acc_code": "000008952",
     "name": "Best way",
     "address": "زايد",
     "region": "Cairo Haram",
@@ -6645,7 +6841,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09354",
-    "acc_code": "0008952",
+    "acc_code": "000008952",
     "name": "Best way",
     "address": "زايد",
     "region": "Cairo Haram",
@@ -6681,7 +6877,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09344",
-    "acc_code": "0008825",
+    "acc_code": "000008825",
     "name": "بيزكس نيو جيزه",
     "address": "نيو جيزة بجوار حازم حسن",
     "region": "Cairo Haram",
@@ -6719,7 +6915,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09344",
-    "acc_code": "0008825",
+    "acc_code": "000008825",
     "name": "بيزكس نيو جيزه",
     "address": "نيو جيزة بجوار حازم حسن",
     "region": "Cairo Haram",
@@ -6755,7 +6951,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09543",
-    "acc_code": "0009010",
+    "acc_code": "000009010",
     "name": "دينا ماركت",
     "address": "طريق إسكندرية الصحراوي",
     "region": "Cairo Haram",
@@ -6793,7 +6989,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09543",
-    "acc_code": "0009010",
+    "acc_code": "000009010",
     "name": "دينا ماركت",
     "address": "طريق إسكندرية الصحراوي",
     "region": "Cairo Haram",
@@ -8054,6 +8250,80 @@ export const CUSTOMERS_DATA = [
     ]
   },
   {
+    "code": "09535",
+    "acc_code": "P10000001106",
+    "name": "المحلاوي (التجمع الأول)",
+    "address": "التجمع الأول",
+    "region": "Cairo South",
+    "chain": "Raya",
+    "merch_region": "Cairo South",
+    "team_leader": "Ekramy",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09535",
+    "acc_code": "P10000001106",
+    "name": "المحلاوي (التجمع الأول)",
+    "address": "التجمع الأول",
+    "region": "Cairo South",
+    "chain": "Raya",
+    "merch_region": "Cairo South",
+    "team_leader": "Ekramy",
+    "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
     "code": "04236",
     "acc_code": "P1A10538",
     "name": "الحسيني",
@@ -9170,7 +9440,7 @@ export const CUSTOMERS_DATA = [
   {
     "code": "02277",
     "acc_code": "P4D80025288",
-    "name": "بدر 3",
+    "name": "بدر 3- التعاون",
     "address": "التعاون شارع فيصل الرئيسى",
     "region": "Cairo West embaba",
     "chain": "Al Hadaf",
@@ -9208,7 +9478,7 @@ export const CUSTOMERS_DATA = [
   {
     "code": "02531",
     "acc_code": "P4D80025288",
-    "name": "بدر 3",
+    "name": "بدر 3 - عز الدين",
     "address": "ش عز الدين عمر - الهرم",
     "region": "Cairo West embaba",
     "chain": "Al Hadaf",
@@ -9246,7 +9516,7 @@ export const CUSTOMERS_DATA = [
   {
     "code": "02531",
     "acc_code": "P4D80025288",
-    "name": "بدر 3",
+    "name": "بدر 3 - عز الدين",
     "address": "ش عز الدين عمر - الهرم",
     "region": "Cairo West embaba",
     "chain": "Al Hadaf",
@@ -9988,6 +10258,42 @@ export const CUSTOMERS_DATA = [
     ]
   },
   {
+    "code": "07304",
+    "acc_code": "P40000002064",
+    "name": "محلاوي الطيران",
+    "address": "الطيران - مدينة نصر",
+    "region": "Cairo West embaba",
+    "chain": "Al Hadaf",
+    "merch_region": "Cairo West embaba",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
     "code": "07308",
     "acc_code": "P40000002064",
     "name": "محلاوي التجمع 2",
@@ -10174,6 +10480,42 @@ export const CUSTOMERS_DATA = [
     ]
   },
   {
+    "code": "09540",
+    "acc_code": "P40000002064",
+    "name": "المحلاوى( المهندسين)",
+    "address": "21 ش الأعناب المهندسين بجوار مطعم أبو حسن",
+    "region": "Cairo West embaba",
+    "chain": "Al Hadaf",
+    "merch_region": "Cairo West embaba",
+    "team_leader": "Abdelfattah",
+    "svp": "Essam Helmy",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
     "code": "02279",
     "acc_code": "P4D80008050",
     "name": "الفضالى2",
@@ -10208,6 +10550,42 @@ export const CUSTOMERS_DATA = [
       {
         "name": "CornFlex",
         "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "02279",
+    "acc_code": "P4D80008050",
+    "name": "الفضالى2",
+    "address": "بجوار فندق قاعود اخر فيصل",
+    "region": "Cairo West embaba",
+    "chain": "Al Hadaf",
+    "merch_region": "Cairo West embaba",
+    "team_leader": "Abdelfattah",
+    "svp": "Essam Helmy",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
       }
     ]
   },
@@ -10559,7 +10937,7 @@ export const CUSTOMERS_DATA = [
     "categories": [
       {
         "name": "MAGGI",
-        "target": 0.39999999999999997
+        "target": 0.4
       },
       {
         "name": "CERELAC",
@@ -10597,7 +10975,7 @@ export const CUSTOMERS_DATA = [
     "categories": [
       {
         "name": "MAGGI",
-        "target": 0.39999999999999997
+        "target": 0.4
       },
       {
         "name": "CERELAC",
@@ -10635,7 +11013,7 @@ export const CUSTOMERS_DATA = [
     "categories": [
       {
         "name": "MAGGI",
-        "target": 0.39999999999999997
+        "target": 0.4
       },
       {
         "name": "CERELAC",
@@ -10673,7 +11051,7 @@ export const CUSTOMERS_DATA = [
     "categories": [
       {
         "name": "MAGGI",
-        "target": 0.39999999999999997
+        "target": 0.4
       },
       {
         "name": "CERELAC",
@@ -10711,7 +11089,7 @@ export const CUSTOMERS_DATA = [
     "categories": [
       {
         "name": "MAGGI",
-        "target": 0.39999999999999997
+        "target": 0.4
       },
       {
         "name": "CERELAC",
@@ -10749,7 +11127,7 @@ export const CUSTOMERS_DATA = [
     "categories": [
       {
         "name": "MAGGI",
-        "target": 0.39999999999999997
+        "target": 0.4
       },
       {
         "name": "CERELAC",
@@ -11188,80 +11566,6 @@ export const CUSTOMERS_DATA = [
     "acc_code": "P2Y12804017",
     "name": "فكره",
     "address": "قويسنا ش الجيش بجوار المحكمة",
-    "region": "Delta Central",
-    "chain": "Kebaa Menofia",
-    "merch_region": "Delta Central",
-    "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
-    "source": "Impulse",
-    "categories": [
-      {
-        "name": "Kitkat %",
-        "target": 0.3
-      },
-      {
-        "name": "Fitness Biscuitts",
-        "type": "check",
-        "targetText": "1 Shelf"
-      },
-      {
-        "name": "Tola",
-        "type": "check",
-        "targetText": "1 Shelf"
-      },
-      {
-        "name": "Fitness Bars",
-        "target": 0.2
-      },
-      {
-        "name": "RTD Chillers",
-        "target": 0.1
-      }
-    ]
-  },
-  {
-    "code": "09129",
-    "acc_code": "P200004309",
-    "name": "مول البركه",
-    "address": "قوسنا شارع المحطه",
-    "region": "Delta Central",
-    "chain": "Kebaa Menofia",
-    "merch_region": "Delta Central",
-    "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
-    "source": "DRY",
-    "categories": [
-      {
-        "name": "MAGGI",
-        "target": 0.4
-      },
-      {
-        "name": "CERELAC",
-        "target": 0.5
-      },
-      {
-        "name": "NESCAFE",
-        "target": 0.7
-      },
-      {
-        "name": "Nido",
-        "target": 0.5
-      },
-      {
-        "name": "Nesquik",
-        "target": 0.5
-      },
-      {
-        "name": "CornFlex",
-        "target": 0.25
-      }
-    ]
-  },
-  {
-    "code": "09129",
-    "acc_code": "P200004309",
-    "name": "مول البركه",
-    "address": "قوسنا شارع المحطه",
     "region": "Delta Central",
     "chain": "Kebaa Menofia",
     "merch_region": "Delta Central",
@@ -12123,7 +12427,7 @@ export const CUSTOMERS_DATA = [
     "categories": [
       {
         "name": "MAGGI",
-        "target": 0.4000000000000001
+        "target": 0.4
       },
       {
         "name": "CERELAC",
@@ -12197,7 +12501,7 @@ export const CUSTOMERS_DATA = [
     "categories": [
       {
         "name": "MAGGI",
-        "target": 0.4000000000000001
+        "target": 0.4
       },
       {
         "name": "CERELAC",
@@ -12271,7 +12575,7 @@ export const CUSTOMERS_DATA = [
     "categories": [
       {
         "name": "MAGGI",
-        "target": 0.4000000000000001
+        "target": 0.4
       },
       {
         "name": "CERELAC",
@@ -14632,44 +14936,6 @@ export const CUSTOMERS_DATA = [
     ]
   },
   {
-    "code": "09007",
-    "acc_code": "P5A201003",
-    "name": "اسواق الشريف",
-    "address": "ش جمال عبد الناصر العصافرة",
-    "region": "Delta West",
-    "chain": "Sobhy Hamido",
-    "merch_region": "Delta West",
-    "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
-    "source": "DRY",
-    "categories": [
-      {
-        "name": "MAGGI",
-        "target": 0.4
-      },
-      {
-        "name": "CERELAC",
-        "target": 0.5
-      },
-      {
-        "name": "NESCAFE",
-        "target": 0.7
-      },
-      {
-        "name": "Nido",
-        "target": 0.5
-      },
-      {
-        "name": "Nesquik",
-        "target": 0.5
-      },
-      {
-        "name": "CornFlex",
-        "target": 0.25
-      }
-    ]
-  },
-  {
     "code": "09052",
     "acc_code": "P500003942",
     "name": "عثمان ماركت",
@@ -14708,124 +14974,10 @@ export const CUSTOMERS_DATA = [
     ]
   },
   {
-    "code": "09001",
-    "acc_code": "P5A410269",
-    "name": "Oscar Market",
-    "address": "دوران محمد نجيب سيدى بشر",
-    "region": "Delta West",
-    "chain": "Sobhy Hamido",
-    "merch_region": "Delta West",
-    "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
-    "source": "DRY",
-    "categories": [
-      {
-        "name": "MAGGI",
-        "target": 0.4
-      },
-      {
-        "name": "CERELAC",
-        "target": 0.5
-      },
-      {
-        "name": "NESCAFE",
-        "target": 0.7
-      },
-      {
-        "name": "Nido",
-        "target": 0.5
-      },
-      {
-        "name": "Nesquik",
-        "target": 0.5
-      },
-      {
-        "name": "CornFlex",
-        "target": 0.25
-      }
-    ]
-  },
-  {
-    "code": "09288",
-    "acc_code": "P5A411041",
-    "name": "ال ماضي",
-    "address": "ش/جمال عبد الناصر",
-    "region": "Delta West",
-    "chain": "Sobhy Hamido",
-    "merch_region": "Delta West",
-    "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
-    "source": "DRY",
-    "categories": [
-      {
-        "name": "MAGGI",
-        "target": 0.4
-      },
-      {
-        "name": "CERELAC",
-        "target": 0.5
-      },
-      {
-        "name": "NESCAFE",
-        "target": 0.7
-      },
-      {
-        "name": "Nido",
-        "target": 0.5
-      },
-      {
-        "name": "Nesquik",
-        "target": 0.5
-      },
-      {
-        "name": "CornFlex",
-        "target": 0.25
-      }
-    ]
-  },
-  {
     "code": "09008",
     "acc_code": "P5A202027",
     "name": "مصــراوي",
     "address": "ش ابراهيم شريف كيروسيز",
-    "region": "Delta West",
-    "chain": "Sobhy Hamido",
-    "merch_region": "Delta West",
-    "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
-    "source": "DRY",
-    "categories": [
-      {
-        "name": "MAGGI",
-        "target": 0.4
-      },
-      {
-        "name": "CERELAC",
-        "target": 0.5
-      },
-      {
-        "name": "NESCAFE",
-        "target": 0.7
-      },
-      {
-        "name": "Nido",
-        "target": 0.5
-      },
-      {
-        "name": "Nesquik",
-        "target": 0.5
-      },
-      {
-        "name": "CornFlex",
-        "target": 0.25
-      }
-    ]
-  },
-  {
-    "code": "09044",
-    "acc_code": "P5A302156",
-    "name": "الفلاح",
-    "address": "رشدى ش سوريا",
     "region": "Delta West",
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
@@ -15205,7 +15357,7 @@ export const CUSTOMERS_DATA = [
     "region": "Delta West",
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
-    "team_leader": "Seasonaliy",
+    "team_leader": "Mohamed Hussein",
     "svp": "Hany ElJaky Delta",
     "source": "DRY",
     "categories": [
@@ -15243,7 +15395,7 @@ export const CUSTOMERS_DATA = [
     "region": "Delta West",
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
-    "team_leader": "Seasonaliy",
+    "team_leader": "Mohamed Hussein",
     "svp": "Hany ElJaky Delta",
     "source": "Impulse",
     "categories": [
@@ -15279,7 +15431,7 @@ export const CUSTOMERS_DATA = [
     "region": "Delta West",
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
-    "team_leader": "Seasonaliy",
+    "team_leader": "Mohamed Hussein",
     "svp": "Hany ElJaky Delta",
     "source": "DRY",
     "categories": [
@@ -15317,7 +15469,7 @@ export const CUSTOMERS_DATA = [
     "region": "Delta West",
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
-    "team_leader": "Seasonaliy",
+    "team_leader": "Mohamed Hussein",
     "svp": "Hany ElJaky Delta",
     "source": "Impulse",
     "categories": [
@@ -15353,7 +15505,7 @@ export const CUSTOMERS_DATA = [
     "region": "Delta West",
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
-    "team_leader": "Seasonaliy",
+    "team_leader": "Mohamed Hussein",
     "svp": "Hany ElJaky Delta",
     "source": "DRY",
     "categories": [
@@ -15391,7 +15543,7 @@ export const CUSTOMERS_DATA = [
     "region": "Delta West",
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
-    "team_leader": "Seasonaliy",
+    "team_leader": "Mohamed Hussein",
     "svp": "Hany ElJaky Delta",
     "source": "Impulse",
     "categories": [
@@ -15427,7 +15579,7 @@ export const CUSTOMERS_DATA = [
     "region": "Delta West",
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
-    "team_leader": "Seasonaliy",
+    "team_leader": "Mohamed Hussein",
     "svp": "Hany ElJaky Delta",
     "source": "DRY",
     "categories": [
@@ -15465,7 +15617,7 @@ export const CUSTOMERS_DATA = [
     "region": "Delta West",
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
-    "team_leader": "Seasonaliy",
+    "team_leader": "Mohamed Hussein",
     "svp": "Hany ElJaky Delta",
     "source": "Impulse",
     "categories": [
@@ -15501,7 +15653,7 @@ export const CUSTOMERS_DATA = [
     "region": "Delta West",
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
-    "team_leader": "Seasonaliy",
+    "team_leader": "Mohamed Hussein",
     "svp": "Hany ElJaky Delta",
     "source": "DRY",
     "categories": [
@@ -15608,7 +15760,7 @@ export const CUSTOMERS_DATA = [
   {
     "code": "09334",
     "acc_code": "P5A204196",
-    "name": "Dreams Market",
+    "name": "دريمز هليوبليس القاهرة",
     "address": "القاهرة",
     "region": "Delta West",
     "chain": "Sobhy Hamido",
@@ -15646,7 +15798,7 @@ export const CUSTOMERS_DATA = [
   {
     "code": "09334",
     "acc_code": "P5A204196",
-    "name": "Dreams Market",
+    "name": "دريمز هليوبليس القاهرة",
     "address": "القاهرة",
     "region": "Delta West",
     "chain": "Sobhy Hamido",
@@ -15725,7 +15877,7 @@ export const CUSTOMERS_DATA = [
     "region": "Delta West",
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
-    "team_leader": "Seasonaliy",
+    "team_leader": "Mohamed Hussein",
     "svp": "Hany ElJaky Delta",
     "source": "DRY",
     "categories": [
@@ -15763,7 +15915,7 @@ export const CUSTOMERS_DATA = [
     "region": "Delta West",
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
-    "team_leader": "Seasonaliy",
+    "team_leader": "Mohamed Hussein",
     "svp": "Hany ElJaky Delta",
     "source": "DRY",
     "categories": [
@@ -15801,7 +15953,7 @@ export const CUSTOMERS_DATA = [
     "region": "Delta West",
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
-    "team_leader": "Seasonaliy",
+    "team_leader": "Mohamed Hussein",
     "svp": "Hany ElJaky Delta",
     "source": "Impulse",
     "categories": [
@@ -15837,7 +15989,7 @@ export const CUSTOMERS_DATA = [
     "region": "Delta West",
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
-    "team_leader": "Seasonaliy",
+    "team_leader": "Mohamed Hussein",
     "svp": "Hany ElJaky Delta",
     "source": "DRY",
     "categories": [
@@ -15875,7 +16027,7 @@ export const CUSTOMERS_DATA = [
     "region": "Delta West",
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
-    "team_leader": "Seasonaliy",
+    "team_leader": "Mohamed Hussein",
     "svp": "Hany ElJaky Delta",
     "source": "Impulse",
     "categories": [
@@ -15911,7 +16063,7 @@ export const CUSTOMERS_DATA = [
     "region": "Delta West",
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
-    "team_leader": "Seasonaliy",
+    "team_leader": "Mohamed Hussein",
     "svp": "Hany ElJaky Delta",
     "source": "DRY",
     "categories": [
@@ -15949,7 +16101,7 @@ export const CUSTOMERS_DATA = [
     "region": "Delta West",
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
-    "team_leader": "Seasonaliy",
+    "team_leader": "Mohamed Hussein",
     "svp": "Hany ElJaky Delta",
     "source": "Impulse",
     "categories": [
@@ -15985,7 +16137,7 @@ export const CUSTOMERS_DATA = [
     "region": "Delta West",
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
-    "team_leader": "Seasonaliy",
+    "team_leader": "Mohamed Hussein",
     "svp": "Hany ElJaky Delta",
     "source": "DRY",
     "categories": [
@@ -16023,7 +16175,7 @@ export const CUSTOMERS_DATA = [
     "region": "Delta West",
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
-    "team_leader": "Seasonaliy",
+    "team_leader": "Mohamed Hussein",
     "svp": "Hany ElJaky Delta",
     "source": "Impulse",
     "categories": [
@@ -16059,7 +16211,7 @@ export const CUSTOMERS_DATA = [
     "region": "Delta West",
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
-    "team_leader": "Seasonaliy",
+    "team_leader": "Mohamed Hussein",
     "svp": "Hany ElJaky Delta",
     "source": "DRY",
     "categories": [
@@ -16097,7 +16249,7 @@ export const CUSTOMERS_DATA = [
     "region": "Delta West",
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
-    "team_leader": "Seasonaliy",
+    "team_leader": "Mohamed Hussein",
     "svp": "Hany ElJaky Delta",
     "source": "Impulse",
     "categories": [
@@ -16133,7 +16285,7 @@ export const CUSTOMERS_DATA = [
     "region": "Delta West",
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
-    "team_leader": "Seasonaliy",
+    "team_leader": "Mohamed Hussein",
     "svp": "Hany ElJaky Delta",
     "source": "DRY",
     "categories": [
@@ -16171,7 +16323,7 @@ export const CUSTOMERS_DATA = [
     "region": "Delta West",
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
-    "team_leader": "Seasonaliy",
+    "team_leader": "Mohamed Hussein",
     "svp": "Hany ElJaky Delta",
     "source": "Impulse",
     "categories": [
@@ -16207,7 +16359,7 @@ export const CUSTOMERS_DATA = [
     "region": "Delta West",
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
-    "team_leader": "Seasonaliy",
+    "team_leader": "Mohamed Hussein",
     "svp": "Hany ElJaky Delta",
     "source": "DRY",
     "categories": [
@@ -16245,7 +16397,7 @@ export const CUSTOMERS_DATA = [
     "region": "Delta West",
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
-    "team_leader": "Seasonaliy",
+    "team_leader": "Mohamed Hussein",
     "svp": "Hany ElJaky Delta",
     "source": "DRY",
     "categories": [
@@ -16283,7 +16435,7 @@ export const CUSTOMERS_DATA = [
     "region": "Delta West",
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
-    "team_leader": "Seasonaliy",
+    "team_leader": "Mohamed Hussein",
     "svp": "Hany ElJaky Delta",
     "source": "DRY",
     "categories": [
@@ -16321,7 +16473,7 @@ export const CUSTOMERS_DATA = [
     "region": "Delta West",
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
-    "team_leader": "Seasonaliy",
+    "team_leader": "Mohamed Hussein",
     "svp": "Hany ElJaky Delta",
     "source": "DRY",
     "categories": [
@@ -16359,7 +16511,7 @@ export const CUSTOMERS_DATA = [
     "region": "Delta West",
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
-    "team_leader": "Seasonaliy",
+    "team_leader": "Mohamed Hussein",
     "svp": "Hany ElJaky Delta",
     "source": "Impulse",
     "categories": [
@@ -16395,7 +16547,7 @@ export const CUSTOMERS_DATA = [
     "region": "Delta West",
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
-    "team_leader": "Seasonaliy",
+    "team_leader": "Mohamed Hussein",
     "svp": "Hany ElJaky Delta",
     "source": "DRY",
     "categories": [
@@ -16433,7 +16585,7 @@ export const CUSTOMERS_DATA = [
     "region": "Delta West",
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
-    "team_leader": "Seasonaliy",
+    "team_leader": "Mohamed Hussein",
     "svp": "Hany ElJaky Delta",
     "source": "Impulse",
     "categories": [
@@ -16469,7 +16621,7 @@ export const CUSTOMERS_DATA = [
     "region": "Delta West",
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
-    "team_leader": "Seasonaliy",
+    "team_leader": "Mohamed Hussein",
     "svp": "Hany ElJaky Delta",
     "source": "DRY",
     "categories": [
@@ -16507,7 +16659,7 @@ export const CUSTOMERS_DATA = [
     "region": "Delta West",
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
-    "team_leader": "Seasonaliy",
+    "team_leader": "Mohamed Hussein",
     "svp": "Hany ElJaky Delta",
     "source": "DRY",
     "categories": [
@@ -16545,7 +16697,7 @@ export const CUSTOMERS_DATA = [
     "region": "Delta West",
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
-    "team_leader": "Seasonaliy",
+    "team_leader": "Mohamed Hussein",
     "svp": "Hany ElJaky Delta",
     "source": "Impulse",
     "categories": [
@@ -16581,7 +16733,7 @@ export const CUSTOMERS_DATA = [
     "region": "Delta West",
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
-    "team_leader": "Seasonaliy",
+    "team_leader": "Mohamed Hussein",
     "svp": "Hany ElJaky Delta",
     "source": "DRY",
     "categories": [
@@ -17989,7 +18141,7 @@ export const CUSTOMERS_DATA = [
     "region": "SUE",
     "chain": "Raya Qena",
     "merch_region": "SUE",
-    "team_leader": "Mahmoud Radwan",
+    "team_leader": "Ekramy",
     "svp": "Essam Helmy Cairo",
     "source": "DRY",
     "categories": [
@@ -18027,7 +18179,7 @@ export const CUSTOMERS_DATA = [
     "region": "SUE",
     "chain": "Raya Qena",
     "merch_region": "SUE",
-    "team_leader": "Mahmoud Radwan",
+    "team_leader": "Ekramy",
     "svp": "Essam Helmy Cairo",
     "source": "DRY",
     "categories": [
@@ -18065,7 +18217,7 @@ export const CUSTOMERS_DATA = [
     "region": "SUE",
     "chain": "Raya Qena",
     "merch_region": "SUE",
-    "team_leader": "Mahmoud Radwan",
+    "team_leader": "Ekramy",
     "svp": "Essam Helmy Cairo",
     "source": "DRY",
     "categories": [
@@ -18103,7 +18255,7 @@ export const CUSTOMERS_DATA = [
     "region": "SUE",
     "chain": "Raya Qena",
     "merch_region": "SUE",
-    "team_leader": "Mahmoud Radwan",
+    "team_leader": "Ekramy",
     "svp": "Essam Helmy Cairo",
     "source": "DRY",
     "categories": [
@@ -18141,7 +18293,7 @@ export const CUSTOMERS_DATA = [
     "region": "SUE",
     "chain": "Raya Qena",
     "merch_region": "SUE",
-    "team_leader": "Mahmoud Radwan",
+    "team_leader": "Ekramy",
     "svp": "Essam Helmy Cairo",
     "source": "DRY",
     "categories": [
@@ -18179,7 +18331,7 @@ export const CUSTOMERS_DATA = [
     "region": "SUE",
     "chain": "Raya Qena",
     "merch_region": "SUE",
-    "team_leader": "Mahmoud Radwan",
+    "team_leader": "Ekramy",
     "svp": "Essam Helmy Cairo",
     "source": "DRY",
     "categories": [
@@ -18217,7 +18369,7 @@ export const CUSTOMERS_DATA = [
     "region": "SUE",
     "chain": "Raya Qena",
     "merch_region": "SUE",
-    "team_leader": "Mahmoud Radwan",
+    "team_leader": "Ekramy",
     "svp": "Essam Helmy Cairo",
     "source": "DRY",
     "categories": [
@@ -18255,7 +18407,7 @@ export const CUSTOMERS_DATA = [
     "region": "SUE",
     "chain": "Raya Qena",
     "merch_region": "SUE",
-    "team_leader": "Mahmoud Radwan",
+    "team_leader": "Ekramy",
     "svp": "Essam Helmy Cairo",
     "source": "DRY",
     "categories": [
@@ -18293,7 +18445,7 @@ export const CUSTOMERS_DATA = [
     "region": "SUE",
     "chain": "Raya Qena",
     "merch_region": "SUE",
-    "team_leader": "Mahmoud Radwan",
+    "team_leader": "Ekramy",
     "svp": "Essam Helmy Cairo",
     "source": "DRY",
     "categories": [
@@ -18331,7 +18483,7 @@ export const CUSTOMERS_DATA = [
     "region": "SUE",
     "chain": "Raya Luxor",
     "merch_region": "SUE",
-    "team_leader": "Mahmoud Radwan",
+    "team_leader": "Ekramy",
     "svp": "Essam Helmy Cairo",
     "source": "DRY",
     "categories": [
@@ -18369,7 +18521,7 @@ export const CUSTOMERS_DATA = [
     "region": "SUE",
     "chain": "Raya Luxor",
     "merch_region": "SUE",
-    "team_leader": "Mahmoud Radwan",
+    "team_leader": "Ekramy",
     "svp": "Essam Helmy Cairo",
     "source": "DRY",
     "categories": [
@@ -18407,7 +18559,7 @@ export const CUSTOMERS_DATA = [
     "region": "SUE",
     "chain": "Raya Luxor",
     "merch_region": "SUE",
-    "team_leader": "Mahmoud Radwan",
+    "team_leader": "Ekramy",
     "svp": "Essam Helmy Cairo",
     "source": "DRY",
     "categories": [
@@ -18445,7 +18597,7 @@ export const CUSTOMERS_DATA = [
     "region": "SUE",
     "chain": "Raya Luxor",
     "merch_region": "SUE",
-    "team_leader": "Mahmoud Radwan",
+    "team_leader": "Ekramy",
     "svp": "Essam Helmy Cairo",
     "source": "DRY",
     "categories": [
@@ -18483,7 +18635,7 @@ export const CUSTOMERS_DATA = [
     "region": "SUE",
     "chain": "Raya Luxor",
     "merch_region": "SUE",
-    "team_leader": "Mahmoud Radwan",
+    "team_leader": "Ekramy",
     "svp": "Essam Helmy Cairo",
     "source": "DRY",
     "categories": [
@@ -18521,7 +18673,7 @@ export const CUSTOMERS_DATA = [
     "region": "SUE",
     "chain": "Raya Luxor",
     "merch_region": "SUE",
-    "team_leader": "Mahmoud Radwan",
+    "team_leader": "Ekramy",
     "svp": "Essam Helmy Cairo",
     "source": "DRY",
     "categories": [
@@ -18559,7 +18711,7 @@ export const CUSTOMERS_DATA = [
     "region": "SUE",
     "chain": "Raya Luxor",
     "merch_region": "SUE",
-    "team_leader": "Mahmoud Radwan",
+    "team_leader": "Ekramy",
     "svp": "Essam Helmy Cairo",
     "source": "DRY",
     "categories": [
@@ -18597,7 +18749,7 @@ export const CUSTOMERS_DATA = [
     "region": "SUE",
     "chain": "Raya Luxor",
     "merch_region": "SUE",
-    "team_leader": "Mahmoud Radwan",
+    "team_leader": "Ekramy",
     "svp": "Essam Helmy Cairo",
     "source": "DRY",
     "categories": [
@@ -18635,7 +18787,7 @@ export const CUSTOMERS_DATA = [
     "region": "SUE",
     "chain": "Raya Luxor",
     "merch_region": "SUE",
-    "team_leader": "Mahmoud Radwan",
+    "team_leader": "Ekramy",
     "svp": "Essam Helmy Cairo",
     "source": "DRY",
     "categories": [
@@ -18673,7 +18825,7 @@ export const CUSTOMERS_DATA = [
     "region": "SUE",
     "chain": "Raya Luxor",
     "merch_region": "SUE",
-    "team_leader": "Mahmoud Radwan",
+    "team_leader": "Ekramy",
     "svp": "Essam Helmy Cairo",
     "source": "DRY",
     "categories": [
@@ -18711,7 +18863,7 @@ export const CUSTOMERS_DATA = [
     "region": "SUE",
     "chain": "Awlad Elberthy",
     "merch_region": "SUE",
-    "team_leader": "Mahmoud Radwan",
+    "team_leader": "Ekramy",
     "svp": "Essam Helmy Cairo",
     "source": "DRY",
     "categories": [
@@ -18749,7 +18901,7 @@ export const CUSTOMERS_DATA = [
     "region": "SUE",
     "chain": "Awlad Elberthy",
     "merch_region": "SUE",
-    "team_leader": "Mahmoud Radwan",
+    "team_leader": "Ekramy",
     "svp": "Essam Helmy Cairo",
     "source": "Impulse",
     "categories": [
@@ -18785,7 +18937,7 @@ export const CUSTOMERS_DATA = [
     "region": "SUE",
     "chain": "Awlad Elberthy",
     "merch_region": "SUE",
-    "team_leader": "Mahmoud Radwan",
+    "team_leader": "Ekramy",
     "svp": "Essam Helmy Cairo",
     "source": "DRY",
     "categories": [
@@ -18823,7 +18975,7 @@ export const CUSTOMERS_DATA = [
     "region": "SUE",
     "chain": "Awlad Elberthy",
     "merch_region": "SUE",
-    "team_leader": "Mahmoud Radwan",
+    "team_leader": "Ekramy",
     "svp": "Essam Helmy Cairo",
     "source": "Impulse",
     "categories": [
@@ -18859,7 +19011,7 @@ export const CUSTOMERS_DATA = [
     "region": "SUE",
     "chain": "Awlad Elberthy",
     "merch_region": "SUE",
-    "team_leader": "Mahmoud Radwan",
+    "team_leader": "Ekramy",
     "svp": "Essam Helmy Cairo",
     "source": "DRY",
     "categories": [
@@ -18897,7 +19049,7 @@ export const CUSTOMERS_DATA = [
     "region": "SUE",
     "chain": "Awlad Elberthy",
     "merch_region": "SUE",
-    "team_leader": "Mahmoud Radwan",
+    "team_leader": "Ekramy",
     "svp": "Essam Helmy Cairo",
     "source": "DRY",
     "categories": [
@@ -18935,7 +19087,7 @@ export const CUSTOMERS_DATA = [
     "region": "SUE",
     "chain": "Awlad Elberthy",
     "merch_region": "SUE",
-    "team_leader": "Mahmoud Radwan",
+    "team_leader": "Ekramy",
     "svp": "Essam Helmy Cairo",
     "source": "DRY",
     "categories": [
@@ -18973,7 +19125,7 @@ export const CUSTOMERS_DATA = [
     "region": "SUE",
     "chain": "Awlad Elberthy",
     "merch_region": "SUE",
-    "team_leader": "Mahmoud Radwan",
+    "team_leader": "Ekramy",
     "svp": "Essam Helmy Cairo",
     "source": "DRY",
     "categories": [
@@ -19011,7 +19163,7 @@ export const CUSTOMERS_DATA = [
     "region": "SUE",
     "chain": "Awlad Elberthy",
     "merch_region": "SUE",
-    "team_leader": "Mahmoud Radwan",
+    "team_leader": "Ekramy",
     "svp": "Essam Helmy Cairo",
     "source": "DRY",
     "categories": [
@@ -19042,7 +19194,7 @@ export const CUSTOMERS_DATA = [
     ]
   },
   {
-    "code": "02108",
+    "code": "00002108",
     "acc_code": "0049880",
     "name": "فاميلى ميلسا",
     "address": "عمارات ميلسا على ش حسن افلاطون بجوار مختبر التحاليل ارض الجولف - مصر الجديدة",
@@ -19078,7 +19230,7 @@ export const CUSTOMERS_DATA = [
     ]
   },
   {
-    "code": "02134",
+    "code": "00002134",
     "acc_code": "0036180",
     "name": "حلويات الدوران",
     "address": "102ش شبرا امام محطة مترو روض الفرج - شبرا مصر",
@@ -19115,8 +19267,8 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09347",
-    "acc_code": "0005257",
-    "name": "كاندى شوب",
+    "acc_code": "000005257",
+    "name": "كاندى شوب - تريموف",
     "address": "10 ميدان تريومف بجوار مطعم رافت  مصر الجديدة",
     "region": "Cairo East",
     "chain": "L5 EG El Wagdy Cairo",
@@ -19152,7 +19304,7 @@ export const CUSTOMERS_DATA = [
   {
     "code": "09348",
     "acc_code": "0079640",
-    "name": "كاندى شوب",
+    "name": "كاندى شوب - مدينة نصر",
     "address": "مدينه نصر امتداد مصطفى النحاس عند مطعم البرج",
     "region": "Cairo East",
     "chain": "L5 EG El Wagdy Cairo",
@@ -19182,6 +19334,44 @@ export const CUSTOMERS_DATA = [
       {
         "name": "RTD Chillers",
         "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "06902",
+    "acc_code": "0008092",
+    "name": "اوسكار - واتر واي",
+    "address": "5 أ     وتر واى",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Ekramy",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
       }
     ]
   },
@@ -19231,6 +19421,44 @@ export const CUSTOMERS_DATA = [
     "merch_region": "Cairo Haram",
     "team_leader": "Abdelfattah",
     "svp": "Essam Helmy",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "07099",
+    "acc_code": "0008092",
+    "name": "اوسكار - الشيخ زايد",
+    "address": "الشيخ زايد",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo Haram",
+    "team_leader": "Abdelfattah",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -19254,6 +19482,44 @@ export const CUSTOMERS_DATA = [
       {
         "name": "RTD Chillers",
         "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "07370",
+    "acc_code": "0008092",
+    "name": "اوسكار - مدينتي",
+    "address": "مدينتي / south park mall",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Ekramy",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
       }
     ]
   },
@@ -19303,6 +19569,44 @@ export const CUSTOMERS_DATA = [
     "merch_region": "Cairo East",
     "team_leader": "Ekramy",
     "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "06903",
+    "acc_code": "0008092",
+    "name": "اوسكار - زهراء المعادي",
+    "address": "زهراء المعادى - المعادى",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Ekramy",
+    "svp": "Essam Helmy Cairo",
     "source": "Impulse",
     "categories": [
       {
@@ -19330,7 +19634,7 @@ export const CUSTOMERS_DATA = [
     ]
   },
   {
-    "code": "02180",
+    "code": "00002180",
     "acc_code": "0096429",
     "name": "الاسرة السعيدة",
     "address": "مول بانوراما منطقة الفلل بجوار البنك الاهلى - الشروق",
@@ -19366,7 +19670,7 @@ export const CUSTOMERS_DATA = [
     ]
   },
   {
-    "code": "02275",
+    "code": "00002275",
     "acc_code": "0096427",
     "name": "الرهيف",
     "address": "ممر السنترال من ش طلعت حرب او ش (عرابى) بعد ناصية ش 26 يوليو بجوار دايس - وسط البلد",
@@ -19582,8 +19886,8 @@ export const CUSTOMERS_DATA = [
     ]
   },
   {
-    "code": "02105",
-    "acc_code": "2008349",
+    "code": "00002105",
+    "acc_code": "002008349",
     "name": "شركة ليدل لتجارة السلع التجارية (جراندي هايبر مارك",
     "address": "شارع الخليفة القاهر بجوار مجمع مدارس الملك فهد- الحى السابع – مدينة نصر",
     "region": "Cairo East",
@@ -19619,7 +19923,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09555",
-    "acc_code": "2013234",
+    "acc_code": 2013234,
     "name": "شركة اليسر( هايبر جراند) عين شمس",
     "address": "عين شمس",
     "region": "Cairo East",
@@ -19655,8 +19959,46 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "03289",
-    "acc_code": "0008870",
-    "name": "مكاوى ماركت",
+    "acc_code": "000008870",
+    "name": "مكاوى ماركت العمرانية",
+    "address": "العمرانية",
+    "region": "Cairo Haram",
+    "chain": "L5 EG Elwagdy Giza",
+    "merch_region": "Cairo Haram",
+    "team_leader": "Abdelfattah",
+    "svp": "Essam Helmy",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "03289",
+    "acc_code": "000008870",
+    "name": "مكاوى ماركت العمرانية",
     "address": "العمرانية",
     "region": "Cairo Haram",
     "chain": "L5 EG Elwagdy Giza",
@@ -19771,6 +20113,44 @@ export const CUSTOMERS_DATA = [
     "merch_region": "Delta Central",
     "team_leader": "Moaaz Ahmed",
     "svp": "Hany ElJaky Delta",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09265",
+    "acc_code": "P20000020306",
+    "name": "السلام  - شارع المتوكل",
+    "address": "طنطا شارع المتوكل مع البحر",
+    "region": "Delta Central",
+    "chain": "Kebaa - Gharbia",
+    "merch_region": "Delta Central",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky Delta",
     "source": "Impulse",
     "categories": [
       {
@@ -19807,6 +20187,44 @@ export const CUSTOMERS_DATA = [
     "merch_region": "Delta Central",
     "team_leader": "Moaaz Ahmed",
     "svp": "Hany ElJaky Delta",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09267",
+    "acc_code": "P2A12801203",
+    "name": "السلام - شارع محمد فريد",
+    "address": "طنطا ش محمد فريد",
+    "region": "Delta Central",
+    "chain": "Kebaa - Gharbia",
+    "merch_region": "Delta Central",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky Delta",
     "source": "Impulse",
     "categories": [
       {
@@ -19830,6 +20248,44 @@ export const CUSTOMERS_DATA = [
       {
         "name": "RTD Chillers",
         "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09266",
+    "acc_code": "P2A12800716",
+    "name": "السلام - شارع الحلو",
+    "address": "طنطا - شارع الحلو",
+    "region": "Delta Central",
+    "chain": "Kebaa - Gharbia",
+    "merch_region": "Delta Central",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky Delta",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
       }
     ]
   },
@@ -19978,7 +20434,7 @@ export const CUSTOMERS_DATA = [
     ]
   },
   {
-    "code": "00696",
+    "code": "00000696",
     "acc_code": "P2B12802002",
     "name": "عالم ماركت اللورين",
     "address": "الزقازيق  مجلس المدينه",
@@ -20465,6 +20921,44 @@ export const CUSTOMERS_DATA = [
     "merch_region": "Delta West",
     "team_leader": "Tarek Ahmed",
     "svp": "Hany ElJaky Delta",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09222",
+    "acc_code": "P5A202139",
+    "name": "السرايا ماركت - العيسوى",
+    "address": "العيسوى",
+    "region": "Delta West",
+    "chain": "Sobhy Hamido",
+    "merch_region": "Delta West",
+    "team_leader": "Tarek Ahmed",
+    "svp": "Hany ElJaky Delta",
     "source": "Impulse",
     "categories": [
       {
@@ -20488,6 +20982,44 @@ export const CUSTOMERS_DATA = [
       {
         "name": "RTD Chillers",
         "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09220",
+    "acc_code": "P5A202139",
+    "name": "السرايا ماركت - سموحة",
+    "address": "سموحة",
+    "region": "Delta West",
+    "chain": "Sobhy Hamido",
+    "merch_region": "Delta West",
+    "team_leader": "Mohamed Hussein",
+    "svp": "Hany ElJaky Delta",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
       }
     ]
   },
@@ -21141,7 +21673,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09405",
-    "acc_code": "5087753",
+    "acc_code": 5087753,
     "name": "عرفة ماركت- دلة",
     "address": "دله أمام مدرسة الزراعة برج حزب مستقبل وطن",
     "region": "NUE",
@@ -21179,7 +21711,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09406",
-    "acc_code": "5087753",
+    "acc_code": 5087753,
     "name": "عرفة ماركت - حى الجامعة",
     "address": "جى الجامعة",
     "region": "NUE",
@@ -21217,7 +21749,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09407",
-    "acc_code": "5087753",
+    "acc_code": 5087753,
     "name": "عرفة ماركت - الحواتم",
     "address": "الحواتم",
     "region": "NUE",
@@ -21255,7 +21787,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09408",
-    "acc_code": "5087753",
+    "acc_code": 5087753,
     "name": "عرفة ماركت- الإصلاح",
     "address": "الإصلاح",
     "region": "NUE",
@@ -21293,7 +21825,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09409",
-    "acc_code": "5087753",
+    "acc_code": 5087753,
     "name": "عرفة ماركت - صلاح سالم",
     "address": "صلاح سالم",
     "region": "NUE",
@@ -21331,7 +21863,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09410",
-    "acc_code": "5087753",
+    "acc_code": 5087753,
     "name": "عرفة ماركت- بنك الإسكندرية",
     "address": "بنك الإسكندرية",
     "region": "NUE",
@@ -21369,7 +21901,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09411",
-    "acc_code": "5087753",
+    "acc_code": 5087753,
     "name": "عرفة ماركت - لطف الله",
     "address": "لطف الله",
     "region": "NUE",
@@ -21407,7 +21939,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09412",
-    "acc_code": "5054069",
+    "acc_code": 5054069,
     "name": "هايبر مترو ماكس",
     "address": "الحمرايا شرق النيل ( بنى سويف الجديدة )",
     "region": "NUE",
@@ -21445,7 +21977,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09413",
-    "acc_code": "5101193",
+    "acc_code": 5101193,
     "name": "اجياد مكه بن سليمان",
     "address": "ابراج أجياد مكة - حي الزهور -  محافظة بنى سويف",
     "region": "NUE",
@@ -21483,7 +22015,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09414",
-    "acc_code": "5054088",
+    "acc_code": 5054088,
     "name": "ماركت الجوكر",
     "address": "حى مقبل امام مدرسة المنتزه - محافظة بنى سويف",
     "region": "NUE",
@@ -21521,7 +22053,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09415",
-    "acc_code": "5054096",
+    "acc_code": 5054096,
     "name": "هايبر الشروق",
     "address": "شرق النيل ( بنى سويف الجديدة )",
     "region": "NUE",
@@ -21559,7 +22091,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09416",
-    "acc_code": "5054116",
+    "acc_code": 5054116,
     "name": "الوليد وخير زمان",
     "address": "مركز الواسطى - محافظة بنى سويف",
     "region": "NUE",
@@ -21597,7 +22129,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09417",
-    "acc_code": "5054151",
+    "acc_code": 5054151,
     "name": "هيبر ميزه",
     "address": "حى الأباصيري خلف الرقابة الإدارية",
     "region": "NUE",
@@ -21635,7 +22167,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09421",
-    "acc_code": "5046758",
+    "acc_code": 5046758,
     "name": "شركة الشروق للأسواق و المحلات التجارية",
     "address": "Iامام المسجد الفولى المنياI",
     "region": "NUE",
@@ -21673,7 +22205,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09422",
-    "acc_code": "5046730",
+    "acc_code": 5046730,
     "name": "الجمعية التعاونية الاستهلاكية - المنيا",
     "address": "المنيا المدينة",
     "region": "NUE",
@@ -21711,7 +22243,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09423",
-    "acc_code": "5046733",
+    "acc_code": 5046733,
     "name": "أسواق الإتحاد ابو قرقاص|5453",
     "address": "ابو قرقاص",
     "region": "NUE",
@@ -21749,7 +22281,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09424",
-    "acc_code": "5046781",
+    "acc_code": 5046781,
     "name": "اتحاد ملوى |5453 (REF)",
     "address": "ملوى",
     "region": "NUE",
@@ -21787,7 +22319,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09425",
-    "acc_code": "5046748",
+    "acc_code": 5046748,
     "name": "أسواق العمدة",
     "address": "Iشرق مغاغه منطقة العبورمغاغة المنيI",
     "region": "NUE",
@@ -21825,7 +22357,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09426",
-    "acc_code": "5046746",
+    "acc_code": 5046746,
     "name": "ميشو",
     "address": "Iعدنان المالكي ارض سلطان المنياI",
     "region": "NUE",
@@ -21863,7 +22395,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09427",
-    "acc_code": "5046714",
+    "acc_code": 5046714,
     "name": "ناجح العربي",
     "address": "Iالحى الاول المنيا الجديدة المنياI",
     "region": "NUE",
@@ -21901,7 +22433,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09428",
-    "acc_code": "5046754",
+    "acc_code": 5046754,
     "name": "لقمه هنية",
     "address": "Iالعهد الجديد سمالوط المنياI",
     "region": "NUE",
@@ -21939,7 +22471,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09429",
-    "acc_code": "5046750",
+    "acc_code": 5046750,
     "name": "مينا",
     "address": "Iشرق بني مزار المنياI",
     "region": "NUE",
@@ -21977,7 +22509,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09430",
-    "acc_code": "5054582",
+    "acc_code": 5054582,
     "name": "شركة الفردوس",
     "address": "Iالقوصية اسيوطI",
     "region": "NUE",
@@ -22015,7 +22547,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09431",
-    "acc_code": "5054683",
+    "acc_code": 5054683,
     "name": "سويت سنتر",
     "address": "Iاسيوط ش الجمهوريه اسفل كوبرى الجمI",
     "region": "NUE",
@@ -22053,7 +22585,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09445",
-    "acc_code": "5054675",
+    "acc_code": 5054675,
     "name": "هايبر أولاد جوده",
     "address": "Iاسيوط غرب مصنع سيدI",
     "region": "NUE",
@@ -22091,7 +22623,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09432",
-    "acc_code": "5054680",
+    "acc_code": 5054680,
     "name": "هايبر جوده",
     "address": "Iالميدان سيتي اسيوطI",
     "region": "NUE",
@@ -22129,7 +22661,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09433",
-    "acc_code": "5048569",
+    "acc_code": 5048569,
     "name": "مول السلطان|5453",
     "address": "سوهاج – مركز البلينا – شارع السوق",
     "region": "NUE",
@@ -22167,7 +22699,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09434",
-    "acc_code": "5048555",
+    "acc_code": 5048555,
     "name": "زادك|5453",
     "address": "سوهاج – شارع عمر أفندى",
     "region": "NUE",
@@ -22205,7 +22737,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09435",
-    "acc_code": "5050362",
+    "acc_code": 5050362,
     "name": "بيت العيلة|5453",
     "address": "سوهاج – مركز البلينا – عرابة أبيدوس",
     "region": "NUE",
@@ -22243,7 +22775,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09436",
-    "acc_code": "5048624",
+    "acc_code": 5048624,
     "name": "هايبر البقال عبد الخالق|5453",
     "address": "سوهاج – مركز دار السلام – شارع السوق",
     "region": "NUE",
@@ -22281,7 +22813,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09439",
-    "acc_code": "5048615",
+    "acc_code": 5048615,
     "name": "هايبر جرين تري|5453",
     "address": "سوهاج – الكوامل – بجوار صيدلية د/ اسلام فتحى",
     "region": "NUE",
@@ -22319,7 +22851,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09440",
-    "acc_code": "5048616",
+    "acc_code": 5048616,
     "name": "هايبر البركه|5453",
     "address": "سوهاج – مركز طهطا – بجوار صيدلية د/ اسلام فتحى",
     "region": "NUE",
@@ -22357,7 +22889,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09441",
-    "acc_code": "5048583",
+    "acc_code": 5048583,
     "name": "الزهراء|5453",
     "address": "سوهاج – شارع التحرير – بجوار مكتبة النهضة",
     "region": "NUE",
@@ -22395,7 +22927,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "09444",
-    "acc_code": "5105830",
+    "acc_code": 5105830,
     "name": "سامح ماركت|5453",
     "address": "سوهاج – شارع الكاشف – خلف مدرسة الباحثة البادية",
     "region": "NUE",
@@ -22432,7 +22964,7 @@ export const CUSTOMERS_DATA = [
     ]
   },
   {
-    "code": "02122",
+    "code": "00002122",
     "acc_code": "0076368",
     "name": "البتول",
     "address": "43ش نصوح من طومان باى - حدائق الزيتون",
@@ -22468,8 +23000,8 @@ export const CUSTOMERS_DATA = [
     ]
   },
   {
-    "code": "02103",
-    "acc_code": "2004191",
+    "code": "00002103",
+    "acc_code": "002004191",
     "name": "هايبر مصر",
     "address": "14عمارت المروة ش احمد تيسير من نبيل الوقاد بجوار كلية البنات - مصر الجديدة",
     "region": "Cairo East",
@@ -22477,6 +23009,5852 @@ export const CUSTOMERS_DATA = [
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
     "svp": "Essam Helmy",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09156",
+    "acc_code": "P3A000000428",
+    "name": "وكالة المنصورة (المشاية)",
+    "address": "المنصورة - شارع المشاية السفلية امام نادي الجزيرة",
+    "region": "Delta East",
+    "chain": "Target Plus",
+    "merch_region": "Delta East",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky Delta",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09156",
+    "acc_code": "P3A000000428",
+    "name": "وكالة المنصورة (المشاية)",
+    "address": "المنصورة - شارع المشاية السفلية امام نادي الجزيرة",
+    "region": "Delta East",
+    "chain": "Target Plus",
+    "merch_region": "Delta East",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky Delta",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09157",
+    "acc_code": "P3A000000419",
+    "name": "وكالة المنصورة (الترعة)",
+    "address": "المنصورة آخر شارع الترعه بجوار فرع فودافون",
+    "region": "Delta East",
+    "chain": "Target Plus",
+    "merch_region": "Delta East",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky Delta",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09157",
+    "acc_code": "P3A000000419",
+    "name": "وكالة المنصورة (الترعة)",
+    "address": "المنصورة آخر شارع الترعه بجوار فرع فودافون",
+    "region": "Delta East",
+    "chain": "Target Plus",
+    "merch_region": "Delta East",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky Delta",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09158",
+    "acc_code": "P3A000000433",
+    "name": "وكالة المنصورة (الهايبر)",
+    "address": "توريل الجديدة بجوار مترو",
+    "region": "Delta East",
+    "chain": "Target Plus",
+    "merch_region": "Delta East",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky Delta",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09158",
+    "acc_code": "P3A000000433",
+    "name": "وكالة المنصورة (الهايبر)",
+    "address": "توريل الجديدة بجوار مترو",
+    "region": "Delta East",
+    "chain": "Target Plus",
+    "merch_region": "Delta East",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky Delta",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09159",
+    "acc_code": "P3A000000427",
+    "name": "وكالة المنصورة (سامية الجمل)",
+    "address": "تقسيم خطاب متفرع من سامية الجمل",
+    "region": "Delta East",
+    "chain": "Target Plus",
+    "merch_region": "Delta East",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky Delta",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09159",
+    "acc_code": "P3A000000427",
+    "name": "وكالة المنصورة (سامية الجمل)",
+    "address": "تقسيم خطاب متفرع من سامية الجمل",
+    "region": "Delta East",
+    "chain": "Target Plus",
+    "merch_region": "Delta East",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky Delta",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09160",
+    "acc_code": "P3A000000438",
+    "name": "وكالة المنصورة (صلاح سالم)",
+    "address": "المنصورة طلخا شارع صلاح سالم - بجوار الخارجية",
+    "region": "Delta East",
+    "chain": "Target Plus",
+    "merch_region": "Delta East",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky Delta",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09160",
+    "acc_code": "P3A000000438",
+    "name": "وكالة المنصورة (صلاح سالم)",
+    "address": "المنصورة طلخا شارع صلاح سالم - بجوار الخارجية",
+    "region": "Delta East",
+    "chain": "Target Plus",
+    "merch_region": "Delta East",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky Delta",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09161",
+    "acc_code": "P3A000000429",
+    "name": "وكالة المنصورة (المختلط)",
+    "address": "المنصورة - اول شارع المحطة بجوار مصر للتامين",
+    "region": "Delta East",
+    "chain": "Target Plus",
+    "merch_region": "Delta East",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky Delta",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09161",
+    "acc_code": "P3A000000429",
+    "name": "وكالة المنصورة (المختلط)",
+    "address": "المنصورة - اول شارع المحطة بجوار مصر للتامين",
+    "region": "Delta East",
+    "chain": "Target Plus",
+    "merch_region": "Delta East",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky Delta",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09162",
+    "acc_code": "P3A000000434",
+    "name": "وكالة المنصورة (بلقاس)",
+    "address": "المنصورة بلقاس شارع ابو رجيله",
+    "region": "Delta East",
+    "chain": "Target Plus",
+    "merch_region": "Delta East",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky Delta",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09162",
+    "acc_code": "P3A000000434",
+    "name": "وكالة المنصورة (بلقاس)",
+    "address": "المنصورة بلقاس شارع ابو رجيله",
+    "region": "Delta East",
+    "chain": "Target Plus",
+    "merch_region": "Delta East",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky Delta",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09163",
+    "acc_code": "P3A000000435",
+    "name": "وكالة المنصورة (اجا)",
+    "address": "المنصورة اجا  شارع البحر بجوار مستشفي الطوارئ",
+    "region": "Delta East",
+    "chain": "Target Plus",
+    "merch_region": "Delta East",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky Delta",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09163",
+    "acc_code": "P3A000000435",
+    "name": "وكالة المنصورة (اجا)",
+    "address": "المنصورة اجا  شارع البحر بجوار مستشفي الطوارئ",
+    "region": "Delta East",
+    "chain": "Target Plus",
+    "merch_region": "Delta East",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky Delta",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09238",
+    "acc_code": "P3A000000432",
+    "name": "وكالة المنصورة (توريل)",
+    "address": "شارع الامام محمد عبده امام جاسمين",
+    "region": "Delta East",
+    "chain": "Target Plus",
+    "merch_region": "Delta East",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky Delta",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09238",
+    "acc_code": "P3A000000432",
+    "name": "وكالة المنصورة (توريل)",
+    "address": "شارع الامام محمد عبده امام جاسمين",
+    "region": "Delta East",
+    "chain": "Target Plus",
+    "merch_region": "Delta East",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky Delta",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09240",
+    "acc_code": "P3A000000437",
+    "name": "وكالة المنصورة (حى الجامعة)",
+    "address": "حي الجامعه بجوار حلواني الرضا",
+    "region": "Delta East",
+    "chain": "Target Plus",
+    "merch_region": "Delta East",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky Delta",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09240",
+    "acc_code": "P3A000000437",
+    "name": "وكالة المنصورة (حى الجامعة)",
+    "address": "حي الجامعه بجوار حلواني الرضا",
+    "region": "Delta East",
+    "chain": "Target Plus",
+    "merch_region": "Delta East",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky Delta",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09241",
+    "acc_code": "P3A000000439",
+    "name": "وكالة المنصورة (البحر الاعظم)",
+    "address": "طلخا شارع البحر الاعظم بجوار المحكمة",
+    "region": "Delta East",
+    "chain": "Target Plus",
+    "merch_region": "Delta East",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky Delta",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09241",
+    "acc_code": "P3A000000439",
+    "name": "وكالة المنصورة (البحر الاعظم)",
+    "address": "طلخا شارع البحر الاعظم بجوار المحكمة",
+    "region": "Delta East",
+    "chain": "Target Plus",
+    "merch_region": "Delta East",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky Delta",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09242",
+    "acc_code": "P3A000000440",
+    "name": "وكالة المنصورة (النوادى)",
+    "address": "طلخا شارع النوادي بجوار بنك مصر",
+    "region": "Delta East",
+    "chain": "Target Plus",
+    "merch_region": "Delta East",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky Delta",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09242",
+    "acc_code": "P3A000000440",
+    "name": "وكالة المنصورة (النوادى)",
+    "address": "طلخا شارع النوادي بجوار بنك مصر",
+    "region": "Delta East",
+    "chain": "Target Plus",
+    "merch_region": "Delta East",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky Delta",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09331",
+    "acc_code": "P30000006357",
+    "name": "وكالة المنصورة (السنبلاوين )",
+    "address": "السنبلاويين",
+    "region": "Delta East",
+    "chain": "Target Plus",
+    "merch_region": "Delta East",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky Delta",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09331",
+    "acc_code": "P30000006357",
+    "name": "وكالة المنصورة (السنبلاوين )",
+    "address": "السنبلاويين",
+    "region": "Delta East",
+    "chain": "Target Plus",
+    "merch_region": "Delta East",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky Delta",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09510",
+    "acc_code": "P3A12800422",
+    "name": "وكالة المنصورة (فرع شربين)",
+    "address": "الدقهلية - شربين - بجوار قسم الشرطة",
+    "region": "Delta East",
+    "chain": "Target Plus",
+    "merch_region": "Delta East",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky Delta",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09510",
+    "acc_code": "P3A12800422",
+    "name": "وكالة المنصورة (فرع شربين)",
+    "address": "الدقهلية - شربين - بجوار قسم الشرطة",
+    "region": "Delta East",
+    "chain": "Target Plus",
+    "merch_region": "Delta East",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky Delta",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09507",
+    "acc_code": "P3B12816040",
+    "name": "القواس - الدولي",
+    "address": "دمياط الجديدة - الطريق الدولى - بنزينة طاقة",
+    "region": "Delta East",
+    "chain": "Target Plus For Export LLC",
+    "merch_region": "Delta East",
+    "team_leader": "Mahmoud El Attar",
+    "svp": "Hany ElJaky Delta",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09507",
+    "acc_code": "P3B12816040",
+    "name": "القواس - الدولي",
+    "address": "دمياط الجديدة - الطريق الدولى - بنزينة طاقة",
+    "region": "Delta East",
+    "chain": "Target Plus For Export LLC",
+    "merch_region": "Delta East",
+    "team_leader": "Mahmoud El Attar",
+    "svp": "Hany ElJaky Delta",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09508",
+    "acc_code": "P3B12816040",
+    "name": "القواس - المحجوب",
+    "address": "دمياط الجديدة - شارع المحجوب - هايبر المدينة",
+    "region": "Delta East",
+    "chain": "Target Plus For Export LLC",
+    "merch_region": "Delta East",
+    "team_leader": "Mahmoud El Attar",
+    "svp": "Hany ElJaky Delta",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09508",
+    "acc_code": "P3B12816040",
+    "name": "القواس - المحجوب",
+    "address": "دمياط الجديدة - شارع المحجوب - هايبر المدينة",
+    "region": "Delta East",
+    "chain": "Target Plus For Export LLC",
+    "merch_region": "Delta East",
+    "team_leader": "Mahmoud El Attar",
+    "svp": "Hany ElJaky Delta",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09528",
+    "acc_code": "P38000000162",
+    "name": "محمود الفار - مدينتي B6",
+    "address": "الفار/ فرع مدينتي P6",
+    "region": "Delta East",
+    "chain": "Kebaa Canal",
+    "merch_region": "Cairo South",
+    "team_leader": "Ekramy",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09528",
+    "acc_code": "P38000000162",
+    "name": "محمود الفار - مدينتي B6",
+    "address": "الفار/ فرع مدينتي P6",
+    "region": "Delta East",
+    "chain": "Kebaa Canal",
+    "merch_region": "Cairo South",
+    "team_leader": "Ekramy",
+    "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09800",
+    "acc_code": "P38000000162",
+    "name": "محمود الفار - الساحل الشمالى",
+    "address": "فرع الساحل",
+    "region": "Delta East",
+    "chain": "Kebaa Canal",
+    "merch_region": "Delta West",
+    "team_leader": "Mohamed Hussein",
+    "svp": "Hany ElJaky Delta",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09800",
+    "acc_code": "P38000000162",
+    "name": "محمود الفار - الساحل الشمالى",
+    "address": "فرع الساحل",
+    "region": "Delta East",
+    "chain": "Kebaa Canal",
+    "merch_region": "Delta West",
+    "team_leader": "Mohamed Hussein",
+    "svp": "Hany ElJaky Delta",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09268",
+    "acc_code": "P200003895",
+    "name": "جالهوم - شارع الجلاء",
+    "address": "شبين الكوم - امتداد شارع الجلاء",
+    "region": "Delta Central",
+    "chain": "Kebaa Menofia",
+    "merch_region": "Delta Central",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky Delta",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09268",
+    "acc_code": "P200003895",
+    "name": "جالهوم - شارع الجلاء",
+    "address": "شبين الكوم - امتداد شارع الجلاء",
+    "region": "Delta Central",
+    "chain": "Kebaa Menofia",
+    "merch_region": "Delta Central",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky Delta",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09269",
+    "acc_code": "P2Y12804111",
+    "name": "جالهوم - المحافظة",
+    "address": "شبين الكوم-بجوار المحافظه",
+    "region": "Delta Central",
+    "chain": "Kebaa Menofia",
+    "merch_region": "Delta Central",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky Delta",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09269",
+    "acc_code": "P2Y12804111",
+    "name": "جالهوم - المحافظة",
+    "address": "شبين الكوم-بجوار المحافظه",
+    "region": "Delta Central",
+    "chain": "Kebaa Menofia",
+    "merch_region": "Delta Central",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky Delta",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09068",
+    "acc_code": "P2B12802014",
+    "name": "A2Z - الأمن الغئائى",
+    "address": "الزقازيق ش الامن الغذائي",
+    "region": "Delta Central",
+    "chain": "Kebaa - Sharkia",
+    "merch_region": "Delta Central",
+    "team_leader": "Omar Mokhtar",
+    "svp": "Hany ElJaky Delta",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09068",
+    "acc_code": "P2B12802014",
+    "name": "A2Z - الأمن الغئائى",
+    "address": "الزقازيق ش الامن الغذائي",
+    "region": "Delta Central",
+    "chain": "Kebaa - Sharkia",
+    "merch_region": "Delta Central",
+    "team_leader": "Omar Mokhtar",
+    "svp": "Hany ElJaky Delta",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09801",
+    "acc_code": "P5A204196",
+    "name": "دريمز السخنة 1",
+    "address": "السخنة 1",
+    "region": "Delta West",
+    "chain": "Sobhy Hamido",
+    "merch_region": "Delta East",
+    "team_leader": "Not Covered",
+    "svp": "Hany ElJaky Delta",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.85
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.7
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.4
+      }
+    ]
+  },
+  {
+    "code": "09801",
+    "acc_code": "P5A204196",
+    "name": "دريمز السخنة 1",
+    "address": "السخنة 1",
+    "region": "Delta West",
+    "chain": "Sobhy Hamido",
+    "merch_region": "Delta East",
+    "team_leader": "Not Covered",
+    "svp": "Hany ElJaky Delta",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09802",
+    "acc_code": "P5A204196",
+    "name": "دريمز السخنة2",
+    "address": "السخنة 2",
+    "region": "Delta West",
+    "chain": "Sobhy Hamido",
+    "merch_region": "Delta East",
+    "team_leader": "Not Covered",
+    "svp": "Hany ElJaky Delta",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.85
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.7
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.4
+      }
+    ]
+  },
+  {
+    "code": "09802",
+    "acc_code": "P5A204196",
+    "name": "دريمز السخنة2",
+    "address": "السخنة 2",
+    "region": "Delta West",
+    "chain": "Sobhy Hamido",
+    "merch_region": "Delta East",
+    "team_leader": "Not Covered",
+    "svp": "Hany ElJaky Delta",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09803",
+    "acc_code": "P5A204196",
+    "name": "دريمز New Capital",
+    "address": "New Capital",
+    "region": "Delta West",
+    "chain": "Sobhy Hamido",
+    "merch_region": "Cairo East",
+    "team_leader": "Ekramy",
+    "svp": "Essam Helmy",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.85
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.7
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.4
+      }
+    ]
+  },
+  {
+    "code": "09803",
+    "acc_code": "P5A204196",
+    "name": "دريمز New Capital",
+    "address": "New Capital",
+    "region": "Delta West",
+    "chain": "Sobhy Hamido",
+    "merch_region": "Cairo East",
+    "team_leader": "Ekramy",
+    "svp": "Essam Helmy",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09804",
+    "acc_code": "P5A202139",
+    "name": "السرايا أليكس ويست",
+    "address": "الإسكندرية أليكس ويست",
+    "region": "Delta West",
+    "chain": "Sobhy Hamido",
+    "merch_region": "Delta West",
+    "team_leader": "Mohamed Hussein",
+    "svp": "Hany ElJaky Delta",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09804",
+    "acc_code": "P5A202139",
+    "name": "السرايا أليكس ويست",
+    "address": "الإسكندرية أليكس ويست",
+    "region": "Delta West",
+    "chain": "Sobhy Hamido",
+    "merch_region": "Delta West",
+    "team_leader": "Mohamed Hussein",
+    "svp": "Hany ElJaky Delta",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09805",
+    "acc_code": "P5A202139",
+    "name": "السرايا مصر الجديده",
+    "address": "4ش الحجاز -مصر الجديده",
+    "region": "Delta West",
+    "chain": "Sobhy Hamido",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09805",
+    "acc_code": "P5A202139",
+    "name": "السرايا مصر الجديده",
+    "address": "4ش الحجاز -مصر الجديده",
+    "region": "Delta West",
+    "chain": "Sobhy Hamido",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09806",
+    "acc_code": "P5A202139",
+    "name": "السرايا التجمع الخامس",
+    "address": "التجمع الخامس التسعين الشمالى مول ذا فاونت",
+    "region": "Delta West",
+    "chain": "Sobhy Hamido",
+    "merch_region": "Cairo South",
+    "team_leader": "Ekramy",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09806",
+    "acc_code": "P5A202139",
+    "name": "السرايا التجمع الخامس",
+    "address": "التجمع الخامس التسعين الشمالى مول ذا فاونت",
+    "region": "Delta West",
+    "chain": "Sobhy Hamido",
+    "merch_region": "Cairo South",
+    "team_leader": "Ekramy",
+    "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09807",
+    "acc_code": "P5A202139",
+    "name": "السرايا الساحل الشمالى",
+    "address": "الساحل الشمالى",
+    "region": "Delta West",
+    "chain": "Sobhy Hamido",
+    "merch_region": "Delta West",
+    "team_leader": "Mohamed Hussein",
+    "svp": "Hany ElJaky Delta",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09807",
+    "acc_code": "P5A202139",
+    "name": "السرايا الساحل الشمالى",
+    "address": "الساحل الشمالى",
+    "region": "Delta West",
+    "chain": "Sobhy Hamido",
+    "merch_region": "Delta West",
+    "team_leader": "Mohamed Hussein",
+    "svp": "Hany ElJaky Delta",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "07353",
+    "acc_code": "P40000002064",
+    "name": "المحلاوى( ألف مسكن) نادي الشمس",
+    "address": "الف مسكن اامام بوابة نادى الشمس",
+    "region": "Cairo West embaba",
+    "chain": "Al Hadaf",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "07353",
+    "acc_code": "P40000002064",
+    "name": "المحلاوى( ألف مسكن) نادي الشمس",
+    "address": "الف مسكن اامام بوابة نادى الشمس",
+    "region": "Cairo West embaba",
+    "chain": "Al Hadaf",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "07301",
+    "acc_code": "P40000002064",
+    "name": "محلاوي النحاس 1",
+    "address": "اول مصطفي النحاس",
+    "region": "Cairo West embaba",
+    "chain": "Al Hadaf",
+    "merch_region": "Cairo West embaba",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "07301",
+    "acc_code": "P40000002064",
+    "name": "محلاوي النحاس 1",
+    "address": "اول مصطفي النحاس",
+    "region": "Cairo West embaba",
+    "chain": "Al Hadaf",
+    "merch_region": "Cairo West embaba",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "07305",
+    "acc_code": "P40000002064",
+    "name": "المحلاوى تريمومف ( النزاهة)",
+    "address": "تريومف - مصر الجديده",
+    "region": "Cairo West embaba",
+    "chain": "Al Hadaf",
+    "merch_region": "Cairo West embaba",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "07305",
+    "acc_code": "P40000002064",
+    "name": "المحلاوى تريمومف ( النزاهة)",
+    "address": "تريومف - مصر الجديده",
+    "region": "Cairo West embaba",
+    "chain": "Al Hadaf",
+    "merch_region": "Cairo West embaba",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09808",
+    "acc_code": "P8A129010026",
+    "name": "A10 الغردقة",
+    "address": "المول ط الحجاز",
+    "region": "Red Sea",
+    "chain": "Red Sea",
+    "merch_region": "Red Sea",
+    "team_leader": "Not Covered",
+    "svp": "Essam Helmy",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09808",
+    "acc_code": "P8A129010026",
+    "name": "A10 الغردقة",
+    "address": "المول ط الحجاز",
+    "region": "Red Sea",
+    "chain": "Red Sea",
+    "merch_region": "Red Sea",
+    "team_leader": "Not Covered",
+    "svp": "Essam Helmy",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09809",
+    "acc_code": "P8A129010026",
+    "name": "A10 الممشي",
+    "address": "الممشي",
+    "region": "Red Sea",
+    "chain": "Red Sea",
+    "merch_region": "Red Sea",
+    "team_leader": "Not Covered",
+    "svp": "Essam Helmy",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09809",
+    "acc_code": "P8A129010026",
+    "name": "A10 الممشي",
+    "address": "الممشي",
+    "region": "Red Sea",
+    "chain": "Red Sea",
+    "merch_region": "Red Sea",
+    "team_leader": "Not Covered",
+    "svp": "Essam Helmy",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09810",
+    "acc_code": "P8A129010026",
+    "name": "A10 1",
+    "address": 1,
+    "region": "Red Sea",
+    "chain": "Red Sea",
+    "merch_region": "Red Sea",
+    "team_leader": "Not Covered",
+    "svp": "Essam Helmy",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09810",
+    "acc_code": "P8A129010026",
+    "name": "A10 1",
+    "address": 1,
+    "region": "Red Sea",
+    "chain": "Red Sea",
+    "merch_region": "Red Sea",
+    "team_leader": "Not Covered",
+    "svp": "Essam Helmy",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09811",
+    "acc_code": "P8A129010026",
+    "name": "A10 2",
+    "address": 2,
+    "region": "Red Sea",
+    "chain": "Red Sea",
+    "merch_region": "Red Sea",
+    "team_leader": "Not Covered",
+    "svp": "Essam Helmy",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09811",
+    "acc_code": "P8A129010026",
+    "name": "A10 2",
+    "address": 2,
+    "region": "Red Sea",
+    "chain": "Red Sea",
+    "merch_region": "Red Sea",
+    "team_leader": "Not Covered",
+    "svp": "Essam Helmy",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09812",
+    "acc_code": "P8A129010026",
+    "name": "A10 3",
+    "address": 3,
+    "region": "Red Sea",
+    "chain": "Red Sea",
+    "merch_region": "Red Sea",
+    "team_leader": "Not Covered",
+    "svp": "Essam Helmy",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09812",
+    "acc_code": "P8A129010026",
+    "name": "A10 3",
+    "address": 3,
+    "region": "Red Sea",
+    "chain": "Red Sea",
+    "merch_region": "Red Sea",
+    "team_leader": "Not Covered",
+    "svp": "Essam Helmy",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09813",
+    "acc_code": "P8A129010006",
+    "name": "Best Way",
+    "address": "Gouna",
+    "region": "Red Sea",
+    "chain": "Red Sea",
+    "merch_region": "Red Sea",
+    "team_leader": "Not Covered",
+    "svp": "Essam Helmy",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09813",
+    "acc_code": "P8A129010006",
+    "name": "Best Way",
+    "address": "Gouna",
+    "region": "Red Sea",
+    "chain": "Red Sea",
+    "merch_region": "Red Sea",
+    "team_leader": "Not Covered",
+    "svp": "Essam Helmy",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09814",
+    "acc_code": "P8A129020309",
+    "name": "A10 El Kawthar Bank Street - Hurghada",
+    "address": "El Kawthar Bank Street - Hurghada",
+    "region": "Red Sea",
+    "chain": "Red Sea",
+    "merch_region": "Red Sea",
+    "team_leader": "Not Covered",
+    "svp": "Essam Helmy",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09814",
+    "acc_code": "P8A129020309",
+    "name": "A10 El Kawthar Bank Street - Hurghada",
+    "address": "El Kawthar Bank Street - Hurghada",
+    "region": "Red Sea",
+    "chain": "Red Sea",
+    "merch_region": "Red Sea",
+    "team_leader": "Not Covered",
+    "svp": "Essam Helmy",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09815",
+    "acc_code": "P8A129020309",
+    "name": "Best way 1",
+    "address": 1,
+    "region": "Red Sea",
+    "chain": "Red Sea",
+    "merch_region": "Red Sea",
+    "team_leader": "Not Covered",
+    "svp": "Essam Helmy",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09815",
+    "acc_code": "P8A129020309",
+    "name": "Best way 1",
+    "address": 1,
+    "region": "Red Sea",
+    "chain": "Red Sea",
+    "merch_region": "Red Sea",
+    "team_leader": "Not Covered",
+    "svp": "Essam Helmy",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09816",
+    "acc_code": "P8A129020309",
+    "name": "Best way 2",
+    "address": 2,
+    "region": "Red Sea",
+    "chain": "Red Sea",
+    "merch_region": "Red Sea",
+    "team_leader": "Not Covered",
+    "svp": "Essam Helmy",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09816",
+    "acc_code": "P8A129020309",
+    "name": "Best way 2",
+    "address": 2,
+    "region": "Red Sea",
+    "chain": "Red Sea",
+    "merch_region": "Red Sea",
+    "team_leader": "Not Covered",
+    "svp": "Essam Helmy",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09817",
+    "acc_code": "P8A129020309",
+    "name": "Best way 2",
+    "address": 3,
+    "region": "Red Sea",
+    "chain": "Red Sea",
+    "merch_region": "Red Sea",
+    "team_leader": "Not Covered",
+    "svp": "Essam Helmy",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09817",
+    "acc_code": "P8A129020309",
+    "name": "Best way 2",
+    "address": 3,
+    "region": "Red Sea",
+    "chain": "Red Sea",
+    "merch_region": "Red Sea",
+    "team_leader": "Not Covered",
+    "svp": "Essam Helmy",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09818",
+    "acc_code": "P1A75797",
+    "name": "مؤمن وبشار M & B",
+    "address": "",
+    "region": "Cairo South",
+    "chain": "Raya",
+    "merch_region": "Cairo South",
+    "team_leader": "Ekramy",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09818",
+    "acc_code": "P1A75797",
+    "name": "مؤمن وبشار M & B",
+    "address": "",
+    "region": "Cairo South",
+    "chain": "Raya",
+    "merch_region": "Cairo South",
+    "team_leader": "Ekramy",
+    "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09819",
+    "acc_code": "-",
+    "name": "مؤمن وبشار AUC",
+    "address": "خلف الجامعة الأمريكية التجمع الخامس",
+    "region": "Cairo South",
+    "chain": "Raya",
+    "merch_region": "Cairo South",
+    "team_leader": "Ekramy",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09819",
+    "acc_code": "-",
+    "name": "مؤمن وبشار AUC",
+    "address": "خلف الجامعة الأمريكية التجمع الخامس",
+    "region": "Cairo South",
+    "chain": "Raya",
+    "merch_region": "Cairo South",
+    "team_leader": "Ekramy",
+    "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "00299",
+    "acc_code": "0008061",
+    "name": "الرايه - المعادي",
+    "address": "الرايه المعادي  ش 105 عمر افندي سابقا بجوار بجانب سوبر ماركت مترو الاسلكي",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "00299",
+    "acc_code": "0008061",
+    "name": "الرايه - المعادي",
+    "address": "الرايه المعادي  ش 105 عمر افندي سابقا بجوار بجانب سوبر ماركت مترو الاسلكي",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "00297",
+    "acc_code": "0008061",
+    "name": "الرايه - مصر والسودان",
+    "address": "رايه مصر والسودان امام محكه امبابه الكيت كات",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "00297",
+    "acc_code": "0008061",
+    "name": "الرايه - مصر والسودان",
+    "address": "رايه مصر والسودان امام محكه امبابه الكيت كات",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "00305",
+    "acc_code": "0008061",
+    "name": "الرايه - المريوطية",
+    "address": "فيصل 7 ش الشعراوي برج الشعراوي 3 المريوطيه",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "00305",
+    "acc_code": "0008061",
+    "name": "الرايه - المريوطية",
+    "address": "فيصل 7 ش الشعراوي برج الشعراوي 3 المريوطيه",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09364",
+    "acc_code": "0008061",
+    "name": "الراية - الأقصر",
+    "address": "الاقصر شارع المدينه المنورة - خلف شارع التليفزيون وسط البلد",
+    "region": "Cairo East",
+    "chain": "SUE",
+    "merch_region": "SUE",
+    "team_leader": "Ekramy",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09364",
+    "acc_code": "0008061",
+    "name": "الراية - الأقصر",
+    "address": "الاقصر شارع المدينه المنورة - خلف شارع التليفزيون وسط البلد",
+    "region": "Cairo East",
+    "chain": "SUE",
+    "merch_region": "SUE",
+    "team_leader": "Ekramy",
+    "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09367",
+    "acc_code": "0008061",
+    "name": "الراية - اسوان الطابية",
+    "address": "اسوان الطابيه ش شرق البندر ناصية ش عباس فريد امام بنك الاسكان والتعمير",
+    "region": "Cairo East",
+    "chain": "SUE",
+    "merch_region": "SUE",
+    "team_leader": "Ekramy",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09367",
+    "acc_code": "0008061",
+    "name": "الراية - اسوان الطابية",
+    "address": "اسوان الطابيه ش شرق البندر ناصية ش عباس فريد امام بنك الاسكان والتعمير",
+    "region": "Cairo East",
+    "chain": "SUE",
+    "merch_region": "SUE",
+    "team_leader": "Ekramy",
+    "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09368",
+    "acc_code": "0008061",
+    "name": "الراية - ااسوان كوم امبو",
+    "address": "اسوان شارع المخبز الالى - امام الماذون الشرعى - منطقه السبعين - كوم امبو",
+    "region": "Cairo East",
+    "chain": "SUE",
+    "merch_region": "SUE",
+    "team_leader": "Ekramy",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09368",
+    "acc_code": "0008061",
+    "name": "الراية - ااسوان كوم امبو",
+    "address": "اسوان شارع المخبز الالى - امام الماذون الشرعى - منطقه السبعين - كوم امبو",
+    "region": "Cairo East",
+    "chain": "SUE",
+    "merch_region": "SUE",
+    "team_leader": "Ekramy",
+    "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09358",
+    "acc_code": "0008061",
+    "name": "الراية المنيا",
+    "address": "امام ابراج نقابه الاطباء وهيئة التنظيم واالدارة - كورنيش النيل المنيا",
+    "region": "Cairo East",
+    "chain": "NUE",
+    "merch_region": "NUE",
+    "team_leader": "Abdelfattah",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09358",
+    "acc_code": "0008061",
+    "name": "الراية المنيا",
+    "address": "امام ابراج نقابه الاطباء وهيئة التنظيم واالدارة - كورنيش النيل المنيا",
+    "region": "Cairo East",
+    "chain": "NUE",
+    "merch_region": "NUE",
+    "team_leader": "Abdelfattah",
+    "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09362",
+    "acc_code": "0008061",
+    "name": "الراية سوهاج 3",
+    "address": "سوهاج 3 برج الخليفه شارع الثقافه امام الملاعب المفتوحه ميدان الثقافة",
+    "region": "Cairo East",
+    "chain": "NUE",
+    "merch_region": "NUE",
+    "team_leader": "Abdelfattah",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09362",
+    "acc_code": "0008061",
+    "name": "الراية سوهاج 3",
+    "address": "سوهاج 3 برج الخليفه شارع الثقافه امام الملاعب المفتوحه ميدان الثقافة",
+    "region": "Cairo East",
+    "chain": "NUE",
+    "merch_region": "NUE",
+    "team_leader": "Abdelfattah",
+    "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09359",
+    "acc_code": "0008061",
+    "name": "الراية أسيوط",
+    "address": "اسيوط شارع المحافظه برج الوحده بجوار مدرسه الوحده العربية",
+    "region": "Cairo East",
+    "chain": "NUE",
+    "merch_region": "NUE",
+    "team_leader": "Abdelfattah",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09359",
+    "acc_code": "0008061",
+    "name": "الراية أسيوط",
+    "address": "اسيوط شارع المحافظه برج الوحده بجوار مدرسه الوحده العربية",
+    "region": "Cairo East",
+    "chain": "NUE",
+    "merch_region": "NUE",
+    "team_leader": "Abdelfattah",
+    "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09361",
+    "acc_code": "0008061",
+    "name": "الراية سوهاج 2",
+    "address": "سوهاج 2 عمارات الاوقاف شركه بيع المصنوعات شارع المدارس حى مدينه ناصر",
+    "region": "Cairo East",
+    "chain": "NUE",
+    "merch_region": "NUE",
+    "team_leader": "Abdelfattah",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09361",
+    "acc_code": "0008061",
+    "name": "الراية سوهاج 2",
+    "address": "سوهاج 2 عمارات الاوقاف شركه بيع المصنوعات شارع المدارس حى مدينه ناصر",
+    "region": "Cairo East",
+    "chain": "NUE",
+    "merch_region": "NUE",
+    "team_leader": "Abdelfattah",
+    "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09355",
+    "acc_code": "0008061",
+    "name": "الراية بني سويف",
+    "address": "بنى سويف ميدان المديريه القديم بجوار عمر افندى امام الصالون الاخضر",
+    "region": "Cairo East",
+    "chain": "NUE",
+    "merch_region": "NUE",
+    "team_leader": "Abdelfattah",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09355",
+    "acc_code": "0008061",
+    "name": "الراية بني سويف",
+    "address": "بنى سويف ميدان المديريه القديم بجوار عمر افندى امام الصالون الاخضر",
+    "region": "Cairo East",
+    "chain": "NUE",
+    "merch_region": "NUE",
+    "team_leader": "Abdelfattah",
+    "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09360",
+    "acc_code": "0008061",
+    "name": "الراية سوهاج 1",
+    "address": "سوهاج شارع سيتى مول جراند سيتى بجوار موقف طهطا",
+    "region": "Cairo East",
+    "chain": "NUE",
+    "merch_region": "NUE",
+    "team_leader": "Abdelfattah",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09360",
+    "acc_code": "0008061",
+    "name": "الراية سوهاج 1",
+    "address": "سوهاج شارع سيتى مول جراند سيتى بجوار موقف طهطا",
+    "region": "Cairo East",
+    "chain": "NUE",
+    "merch_region": "NUE",
+    "team_leader": "Abdelfattah",
+    "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09356",
+    "acc_code": "0008061",
+    "name": "الراية المنيا - ش طه حسين",
+    "address": "المنيا شارع طه حسين خلف فندق ايتاب بجوار مؤمن",
+    "region": "Cairo East",
+    "chain": "NUE",
+    "merch_region": "NUE",
+    "team_leader": "Abdelfattah",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09356",
+    "acc_code": "0008061",
+    "name": "الراية المنيا - ش طه حسين",
+    "address": "المنيا شارع طه حسين خلف فندق ايتاب بجوار مؤمن",
+    "region": "Cairo East",
+    "chain": "NUE",
+    "merch_region": "NUE",
+    "team_leader": "Abdelfattah",
+    "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09357",
+    "acc_code": "0008061",
+    "name": "الراية - المنيا بجوار بي تك",
+    "address": "المنيا2 -33ش الجيش امتداد ميدان الساعه بجوار بى تك",
+    "region": "Cairo East",
+    "chain": "NUE",
+    "merch_region": "NUE",
+    "team_leader": "Abdelfattah",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09357",
+    "acc_code": "0008061",
+    "name": "الراية - المنيا بجوار بي تك",
+    "address": "المنيا2 -33ش الجيش امتداد ميدان الساعه بجوار بى تك",
+    "region": "Cairo East",
+    "chain": "NUE",
+    "merch_region": "NUE",
+    "team_leader": "Abdelfattah",
+    "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "01673",
+    "acc_code": "0008065",
+    "name": "سامى سلامة - فرع مصر الجديدة",
+    "address": "3حسن رمزى ميدان الجامع - مصر الجديدة",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "01673",
+    "acc_code": "0008065",
+    "name": "سامى سلامة - فرع مصر الجديدة",
+    "address": "3حسن رمزى ميدان الجامع - مصر الجديدة",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "07040",
+    "acc_code": "0008065",
+    "name": "سامى سلامة - فرع جسر السويس",
+    "address": "252ش عزيز المصري خلف فيلات 23يوليو بعد ملاهي العرب جسر السويس",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "07040",
+    "acc_code": "0008065",
+    "name": "سامى سلامة - فرع جسر السويس",
+    "address": "252ش عزيز المصري خلف فيلات 23يوليو بعد ملاهي العرب جسر السويس",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09820",
+    "acc_code": "0008065",
+    "name": "سامى سلامة - فرع الرقابة الإدارية",
+    "address": "الرقابه اللادارية",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09820",
+    "acc_code": "0008065",
+    "name": "سامى سلامة - فرع الرقابة الإدارية",
+    "address": "الرقابه اللادارية",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "00142",
+    "acc_code": "0008065",
+    "name": "سامي سلامه  - فرع مصر والسودان",
+    "address": "ش مصر والسودان حدائق القبة",
+    "region": "L5 EG El Wagdy Cairo",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "00142",
+    "acc_code": "0008065",
+    "name": "سامي سلامه  - فرع مصر والسودان",
+    "address": "ش مصر والسودان حدائق القبة",
+    "region": "L5 EG El Wagdy Cairo",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "06892",
+    "acc_code": "0085209",
+    "name": "البنيان للتوريدات - فرع شبرا مصر",
+    "address": "13ش روض الفرج شبرا مصر",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "06892",
+    "acc_code": "0085209",
+    "name": "البنيان للتوريدات - فرع شبرا مصر",
+    "address": "13ش روض الفرج شبرا مصر",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "06894",
+    "acc_code": "0085209",
+    "name": "البنيان للتوريدات - فرع أحمد عصمت",
+    "address": "94شش احمد عصمت امام مودرن سكول عين شمس",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "06894",
+    "acc_code": "0085209",
+    "name": "البنيان للتوريدات - فرع أحمد عصمت",
+    "address": "94شش احمد عصمت امام مودرن سكول عين شمس",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "06898",
+    "acc_code": "0085209",
+    "name": "البنيان للتوريدات - فرع جمال عبدالناصر",
+    "address": "شارع جمال عبد الناصر امام مستشفي جوهار",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "06898",
+    "acc_code": "0085209",
+    "name": "البنيان للتوريدات - فرع جمال عبدالناصر",
+    "address": "شارع جمال عبد الناصر امام مستشفي جوهار",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "06901",
+    "acc_code": "0085209",
+    "name": "البنيان للتوريدات - فرع النزهة الجديدة",
+    "address": "31ش المؤرخ محمد رفعت - النزهة الجديدة",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "06901",
+    "acc_code": "0085209",
+    "name": "البنيان للتوريدات - فرع النزهة الجديدة",
+    "address": "31ش المؤرخ محمد رفعت - النزهة الجديدة",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "06904",
+    "acc_code": "0085209",
+    "name": "البنيان للتوريدات - فرع عز الدين عمر - الهرم",
+    "address": "تقاطع ش العروبة مع شارع عز الدين عمر - الهرم",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Abdelfattah",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "06904",
+    "acc_code": "0085209",
+    "name": "البنيان للتوريدات - فرع عز الدين عمر - الهرم",
+    "address": "تقاطع ش العروبة مع شارع عز الدين عمر - الهرم",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Abdelfattah",
+    "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "07090",
+    "acc_code": "0085209",
+    "name": "البنيان للتوريدات - فرع المهندسين",
+    "address": "احمد عرابي المهندسين",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Abdelfattah",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "07090",
+    "acc_code": "0085209",
+    "name": "البنيان للتوريدات - فرع المهندسين",
+    "address": "احمد عرابي المهندسين",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Abdelfattah",
+    "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "07300",
+    "acc_code": "0085209",
+    "name": "البنيان للتوريدات - فرع العبور",
+    "address": "فرع العبور /",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "07300",
+    "acc_code": "0085209",
+    "name": "البنيان للتوريدات - فرع العبور",
+    "address": "فرع العبور /",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "07351",
+    "acc_code": "0085209",
+    "name": "البنيان للتوريدات - فرع عين شمس عبدالحميد عثمان",
+    "address": "شارع عبدالحميد عثمان من شارع عين شمس - عين شمس",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "07351",
+    "acc_code": "0085209",
+    "name": "البنيان للتوريدات - فرع عين شمس عبدالحميد عثمان",
+    "address": "شارع عبدالحميد عثمان من شارع عين شمس - عين شمس",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "07352",
+    "acc_code": "0085209",
+    "name": "البنيان للتوريدات - فرع عين شمس منشية التحرير",
+    "address": "شارع احمد اسماعيل ناصية شارع منشية التحرير -  عين شمس",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "07352",
+    "acc_code": "0085209",
+    "name": "البنيان للتوريدات - فرع عين شمس منشية التحرير",
+    "address": "شارع احمد اسماعيل ناصية شارع منشية التحرير -  عين شمس",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09536",
+    "acc_code": "0085209",
+    "name": "البنيان للتوريدات - فرع حلوان",
+    "address": "حلوان",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Ekramy",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09536",
+    "acc_code": "0085209",
+    "name": "البنيان للتوريدات - فرع حلوان",
+    "address": "حلوان",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Ekramy",
+    "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "01847",
+    "acc_code": "0008066",
+    "name": "نجمة هليوبوليس - ميدان الجامع",
+    "address": "ميدان الجامع مصر الجديدة",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "01847",
+    "acc_code": "0008066",
+    "name": "نجمة هليوبوليس - ميدان الجامع",
+    "address": "ميدان الجامع مصر الجديدة",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "01655",
+    "acc_code": "0008092",
+    "name": "اوسكار - مصر الجديدة",
+    "address": "- 105عمر بن الخطاب الماظه - مصر الجديدة",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "01655",
+    "acc_code": "0008092",
+    "name": "اوسكار - مصر الجديدة",
+    "address": "- 105عمر بن الخطاب الماظه - مصر الجديدة",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09821",
+    "acc_code": "0008092",
+    "name": "اوسكار - الشيخ زايد 2",
+    "address": "الشيخ زايد 2",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo Haram",
+    "team_leader": "Abdelfattah",
+    "svp": "Essam Helmy",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09821",
+    "acc_code": "0008092",
+    "name": "اوسكار - الشيخ زايد 2",
+    "address": "الشيخ زايد 2",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo Haram",
+    "team_leader": "Abdelfattah",
+    "svp": "Essam Helmy",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09825",
+    "acc_code": "0008092",
+    "name": "اوسكار - الساحل الشمالى",
+    "address": "الساحل الشمالى",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Delta West",
+    "team_leader": "Mohamed Hussein",
+    "svp": "Hany ElJaky Delta",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09825",
+    "acc_code": "0008092",
+    "name": "اوسكار - الساحل الشمالى",
+    "address": "الساحل الشمالى",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Delta West",
+    "team_leader": "Mohamed Hussein",
+    "svp": "Hany ElJaky Delta",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09822",
+    "acc_code": "0008092",
+    "name": "اوسكار - الساحل الشمالى 2",
+    "address": "الساحل الشمالى  2",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Delta West",
+    "team_leader": "Mohamed Hussein",
+    "svp": "Hany ElJaky Delta",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09822",
+    "acc_code": "0008092",
+    "name": "اوسكار - الساحل الشمالى 2",
+    "address": "الساحل الشمالى  2",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Delta West",
+    "team_leader": "Mohamed Hussein",
+    "svp": "Hany ElJaky Delta",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09534",
+    "acc_code": "0008058",
+    "name": "فلامنجو - مدينتي",
+    "address": "مدينتي",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Ekramy",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09534",
+    "acc_code": "0008058",
+    "name": "فلامنجو - مدينتي",
+    "address": "مدينتي",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Ekramy",
+    "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09823",
+    "acc_code": "0008058",
+    "name": "فلامنجو - المصرية - ميدنة نصر",
+    "address": "المصرية شارع الطاقه الحى الثامن مدينه نصر",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09823",
+    "acc_code": "0008058",
+    "name": "فلامنجو - المصرية - ميدنة نصر",
+    "address": "المصرية شارع الطاقه الحى الثامن مدينه نصر",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09824",
+    "acc_code": "0008058",
+    "name": "فلامنجو - مدينة بدر",
+    "address": "مدينه بدر",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09824",
+    "acc_code": "0008058",
+    "name": "فلامنجو - مدينة بدر",
+    "address": "مدينه بدر",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy Cairo",
     "source": "Impulse",
     "categories": [
       {
