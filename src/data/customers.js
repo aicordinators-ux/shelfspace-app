@@ -1,4 +1,4 @@
-// Customers Master Data - 778 contract records across 480 customers
+// Customers Master Data - 779 contract records across 480 customers
 // This data is bundled with the app (not stored in Firebase)
 // Generated from: SM Home Shelf Visibility DG & Impulse
 
@@ -15308,6 +15308,42 @@ export const CUSTOMERS_DATA = [
       {
         "name": "CornFlex",
         "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09287",
+    "acc_code": "P5A404320",
+    "name": "برايم 1",
+    "address": "اول ش الكينج طريق الاستاد",
+    "region": "Delta West",
+    "chain": "Sobhy Hamido",
+    "merch_region": "Delta West",
+    "team_leader": "Mohamed Hussein",
+    "svp": "Hany ElJaky Delta",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
       }
     ]
   },
