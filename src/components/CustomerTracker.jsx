@@ -1,0 +1,316 @@
+import { useState, useMemo } from 'react';
+import {
+  ClipboardCheck, Search, X, MapPin, CheckCircle2, CircleDashed, Users, Percent,
+} from 'lucide-react';
+
+// Period options for the time filter. `days` = how many days back (including
+// today) count as "in range"; null means no time limit.
+const PERIODS = [
+  { value: 'today', label: 'اليوم', days: 1 },
+  { value: '7d', label: 'آخر 7 أيام', days: 7 },
+  { value: '30d', label: 'آخر 30 يوم', days: 30 },
+  { value: 'all', label: 'كل الوقت', days: null },
+];
+
+// Start of the period as a millisecond timestamp (local time).
+// Returns null for "all time".
+function periodStart(period) {
+  const opt = PERIODS.find((p) => p.value === period);
+  if (!opt || opt.days == null) return null;
+  const d = new Date();
+  d.setHours(0, 0, 0, 0);
+  d.setDate(d.getDate() - (opt.days - 1));
+  return d.getTime();
+}
+
+// Visits carry an ISO string timestamp (normalized in services/visits.js).
+function visitTime(v) {
+  const raw = v.timestamp || v.clientTimestamp;
+  if (!raw) return NaN;
+  const t = new Date(raw).getTime();
+  return isNaN(t) ? NaN : t;
+}
+
+function formatDate(value) {
+  if (!value) return '';
+  try {
+    const d = new Date(value);
+    if (isNaN(d.getTime())) return '';
+    return d.toLocaleDateString('ar-EG', {
+      year: 'numeric', month: '2-digit', day: '2-digit',
+    });
+  } catch {
+    return '';
+  }
+}
+
+// Codes come from two places (customers file / saved visits) and can differ in
+// padding or type, so normalize before matching.
+const normCode = (code) => String(code ?? '').trim();
+
+export default function CustomerTracker({ visits = [], customers = [] }) {
+  const [period, setPeriod] = useState('today');
+  const [filterRegion, setFilterRegion] = useState('');
+  const [filterChain, setFilterChain] = useState('');
+  const [filterRep, setFilterRep] = useState('');
+  const [filterStatus, setFilterStatus] = useState(''); // '' | 'visited' | 'not_visited'
+  const [searchQuery, setSearchQuery] = useState('');
+
+  // ===== One entry per customer code =====
+  // The master file holds a row per contract (DRY / Impulse), so the same shop
+  // appears more than once. Tracking is per shop, so collapse by code.
+  const uniqueCustomers = useMemo(() => {
+    const byCode = new Map();
+    customers.forEach((c) => {
+      const code = normCode(c.code);
+      if (!code || byCode.has(code)) return;
+      byCode.set(code, {
+        code,
+        name: c.name || '',
+        address: c.address || '',
+        region: c.region || '',
+        chain: c.chain || '',
+        acc_code: c.acc_code || '',
+      });
+    });
+    return [...byCode.values()];
+  }, [customers]);
+
+  // ===== Filter option lists =====
+  const regionOptions = useMemo(
+    () => [...new Set(uniqueCustomers.map((c) => c.region).filter(Boolean))].sort(),
+    [uniqueCustomers]
+  );
+  // Agents narrow down to the selected region so the list stays usable.
+  const chainOptions = useMemo(() => {
+    const source = filterRegion
+      ? uniqueCustomers.filter((c) => c.region === filterRegion)
+      : uniqueCustomers;
+    return [...new Set(source.map((c) => c.chain).filter(Boolean))].sort();
+  }, [uniqueCustomers, filterRegion]);
+
+  const repOptions = useMemo(() => {
+    const set = new Set();
+    visits.forEach((v) => v.savedBy?.name && set.add(v.savedBy.name));
+    return [...set].sort();
+  }, [visits]);
+
+  // ===== Latest qualifying visit per customer code =====
+  // Incomplete visits don't count as a visit for tracking purposes.
+  const visitByCode = useMemo(() => {
+    const start = periodStart(period);
+    const map = new Map();
+    visits.forEach((v) => {
+      if (v.incomplete) return;
+      if (filterRep && v.savedBy?.name !== filterRep) return;
+      const code = normCode(v.customer_code);
+      if (!code) return;
+      const t = visitTime(v);
+      if (start != null) {
+        if (isNaN(t) || t < start) return;
+      }
+      const prev = map.get(code);
+      if (!prev || (!isNaN(t) && t > prev.time)) {
+        map.set(code, { time: isNaN(t) ? 0 : t, visit: v });
+      }
+    });
+    return map;
+  }, [visits, period, filterRep]);
+
+  // ===== Customers in scope (everything except the status filter) =====
+  const scoped = useMemo(() => {
+    const q = searchQuery.trim().toLowerCase();
+    return uniqueCustomers.filter((c) => {
+      if (filterRegion && c.region !== filterRegion) return false;
+      if (filterChain && c.chain !== filterChain) return false;
+      if (q && !(
+        c.code.toLowerCase().includes(q) ||
+        c.name.toLowerCase().includes(q) ||
+        String(c.acc_code).toLowerCase().includes(q) ||
+        c.address.toLowerCase().includes(q)
+      )) return false;
+      return true;
+    });
+  }, [uniqueCustomers, filterRegion, filterChain, searchQuery]);
+
+  // ===== Stats over the scope (before the status filter) =====
+  const stats = useMemo(() => {
+    const total = scoped.length;
+    let visited = 0;
+    scoped.forEach((c) => { if (visitByCode.has(c.code)) visited++; });
+    return {
+      total,
+      visited,
+      remaining: total - visited,
+      pct: total ? Math.round((visited / total) * 100) : 0,
+    };
+  }, [scoped, visitByCode]);
+
+  // ===== Final list =====
+  const list = useMemo(() => {
+    const rows = scoped.map((c) => ({ customer: c, entry: visitByCode.get(c.code) || null }));
+    if (filterStatus === 'visited') return rows.filter((r) => r.entry);
+    if (filterStatus === 'not_visited') return rows.filter((r) => !r.entry);
+    return rows;
+  }, [scoped, visitByCode, filterStatus]);
+
+  const activeFilters =
+    [filterRegion, filterChain, filterRep, filterStatus, searchQuery].filter(Boolean).length;
+
+  function clearAllFilters() {
+    setFilterRegion('');
+    setFilterChain('');
+    setFilterRep('');
+    setFilterStatus('');
+    setSearchQuery('');
+  }
+
+  const periodLabel = PERIODS.find((p) => p.value === period)?.label || '';
+
+  return (
+    <main className="tracker-page">
+      <div className="page-head">
+        <div>
+          <h2><ClipboardCheck size={20} /> متابعة العملاء</h2>
+          <p>
+            حالة تغطية العملاء خلال: <b>{periodLabel}</b>
+            {activeFilters > 0 && (
+              <> · <span style={{ color: 'var(--text-faint)' }}>{activeFilters} فلتر مفعّل</span></>
+            )}
+          </p>
+        </div>
+        {activeFilters > 0 && (
+          <button className="ghost" onClick={clearAllFilters}>
+            <X size={14} /> مسح الفلاتر
+          </button>
+        )}
+      </div>
+
+      {/* Stats */}
+      <div className="tracker-stats">
+        <div className="stat">
+          <i><Users size={18} /></i>
+          <strong>{stats.total}</strong>
+          <small>إجمالي العملاء</small>
+        </div>
+        <div className="stat ok">
+          <i><CheckCircle2 size={18} /></i>
+          <strong>{stats.visited}</strong>
+          <small>تمت زيارتهم</small>
+        </div>
+        <div className="stat bad">
+          <i><CircleDashed size={18} /></i>
+          <strong>{stats.remaining}</strong>
+          <small>متبقي</small>
+        </div>
+        <div className="stat">
+          <i><Percent size={18} /></i>
+          <strong>{stats.pct}%</strong>
+          <small>نسبة الإنجاز</small>
+          <div className="tracker-progress">
+            <span style={{ width: stats.pct + '%' }} />
+          </div>
+        </div>
+      </div>
+
+      {/* Period switcher */}
+      <div className="tracker-periods">
+        {PERIODS.map((p) => (
+          <button
+            key={p.value}
+            className={period === p.value ? 'period-btn active' : 'period-btn'}
+            onClick={() => setPeriod(p.value)}
+          >
+            {p.label}
+          </button>
+        ))}
+      </div>
+
+      {/* Search */}
+      <div className="search-wrap" style={{ marginBottom: 10 }}>
+        <Search size={16} />
+        <input
+          placeholder="ابحث بكود العميل أو الاسم..."
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+        />
+        {searchQuery && (
+          <button onClick={() => setSearchQuery('')}><X size={14} /></button>
+        )}
+      </div>
+
+      {/* Filters */}
+      <div className="visits-filters">
+        <select
+          value={filterRegion}
+          onChange={(e) => {
+            setFilterRegion(e.target.value);
+            setFilterChain(''); // agent list depends on the region
+          }}
+        >
+          <option value="">كل المناطق</option>
+          {regionOptions.map((r) => <option key={r} value={r}>{r}</option>)}
+        </select>
+
+        <select value={filterChain} onChange={(e) => setFilterChain(e.target.value)}>
+          <option value="">كل الوكلاء</option>
+          {chainOptions.map((c) => <option key={c} value={c}>{c}</option>)}
+        </select>
+
+        <select value={filterRep} onChange={(e) => setFilterRep(e.target.value)}>
+          <option value="">كل المنسقين</option>
+          {repOptions.map((r) => <option key={r} value={r}>{r}</option>)}
+        </select>
+
+        <select value={filterStatus} onChange={(e) => setFilterStatus(e.target.value)}>
+          <option value="">كل الحالات</option>
+          <option value="visited">تمت زيارته</option>
+          <option value="not_visited">لم تتم زيارته</option>
+        </select>
+      </div>
+
+      {/* List */}
+      {list.length === 0 ? (
+        <div className="welcome">
+          <h3>لا توجد نتائج</h3>
+          <p>جرب تغيير الفلاتر أو الفترة الزمنية</p>
+        </div>
+      ) : (
+        <div className="tracker-list">
+          {list.map(({ customer: c, entry }) => (
+            <article className={entry ? 'tracker-item visited' : 'tracker-item'} key={c.code}>
+              <div className="tracker-item-main">
+                <div className="tracker-item-head">
+                  <span className="pill">#{c.code}</span>
+                  <strong>{c.name}</strong>
+                </div>
+                {c.address && (
+                  <p className="address"><MapPin size={12} /> {c.address}</p>
+                )}
+                <small>{[c.region, c.chain].filter(Boolean).join(' · ')}</small>
+              </div>
+
+              <div className="tracker-item-status">
+                {entry ? (
+                  <>
+                    <span className="tracker-badge ok">
+                      <CheckCircle2 size={13} /> تمت زيارته
+                    </span>
+                    <em>
+                      {formatDate(entry.visit.timestamp || entry.visit.clientTimestamp)}
+                      {entry.visit.savedBy?.name && <> · {entry.visit.savedBy.name}</>}
+                    </em>
+                  </>
+                ) : (
+                  <span className="tracker-badge none">
+                    <CircleDashed size={13} /> لم تتم زيارته
+                  </span>
+                )}
+              </div>
+            </article>
+          ))}
+        </div>
+      )}
+    </main>
+  );
+}

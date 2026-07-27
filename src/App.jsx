@@ -2,7 +2,7 @@ import { useState, useEffect, useMemo } from 'react';
 import * as XLSX from 'xlsx-js-style';
 import {
   Search, MapPin, Store, BarChart3, FileText, Sparkles, X,
-  CheckCircle2, LogOut, Users, Database,
+  CheckCircle2, LogOut, Users, Database, ClipboardCheck,
 } from 'lucide-react';
 
 import { CUSTOMERS_DATA } from './data/customers';
@@ -28,6 +28,7 @@ import CustomerPanel from './components/CustomerPanel';
 import Dashboard from './components/Dashboard';
 import VisitsLog from './components/VisitsLog';
 import RepsManagement from './components/RepsManagement';
+import CustomerTracker from './components/CustomerTracker';
 import IncompleteVisitModal from './components/IncompleteVisitModal';
 
 const OLD_LOCAL_KEY = 'shelfspace_visits_v1';
@@ -582,6 +583,14 @@ export default function App() {
           </button>
           {session.role === 'manager' && (
             <button
+              className={tab === 'tracker' ? 'tab active' : 'tab'}
+              onClick={() => setTab('tracker')}
+            >
+              <ClipboardCheck size={15} /> متابعة
+            </button>
+          )}
+          {session.role === 'manager' && (
+            <button
               className={tab === 'reps' ? 'tab active' : 'tab'}
               onClick={() => setTab('reps')}
             >
@@ -747,6 +756,10 @@ export default function App() {
               onDelete={handleDeleteVisit}
               session={session}
             />
+          )}
+
+          {tab === 'tracker' && session.role === 'manager' && (
+            <CustomerTracker visits={visits} customers={CUSTOMERS_DATA} />
           )}
 
           {tab === 'reps' && session.role === 'manager' && (

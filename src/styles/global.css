@@ -26,7 +26,7 @@ body { margin: 0; font-family: 'Tajawal', 'Segoe UI', Tahoma, Arial, sans-serif;
 }
 
 /* ===== Topbar / Cards / Containers ===== */
-.topbar, .sidebar, .main-panel, .customer-panel, .dashboard, .visits, .panel, .reps-page {
+.topbar, .sidebar, .main-panel, .customer-panel, .dashboard, .visits, .panel, .reps-page, .tracker-page {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 16px;
@@ -291,7 +291,7 @@ select:focus, input:focus, textarea:focus {
 }
 
 /* ===== Dashboard ===== */
-.dashboard, .visits, .reps-page { padding: 22px; }
+.dashboard, .visits, .reps-page, .tracker-page { padding: 22px; }
 .stats {
   display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px;
 }
@@ -640,10 +640,91 @@ footer {
   margin: 4px 0 0; color: var(--text-muted); font-size: 13px;
 }
 
+/* ===== Customer Tracker (manager only) ===== */
+.tracker-stats {
+  display: grid; grid-template-columns: repeat(4, 1fr);
+  gap: 12px; margin-bottom: 14px;
+}
+.tracker-stats .stat { min-height: 118px; }
+.tracker-stats .stat.ok i { color: var(--ok); }
+.tracker-stats .stat.ok strong { color: #15803d; }
+.tracker-stats .stat.bad i { color: var(--bad); }
+.tracker-stats .stat.bad strong { color: #b91c1c; }
+.tracker-progress {
+  height: 6px; background: #f1f5f9;
+  border-radius: 999px; overflow: hidden; margin-top: 2px;
+}
+.tracker-progress span {
+  display: block; height: 100%;
+  background: var(--ok); border-radius: 999px;
+}
+
+/* Period switcher */
+.tracker-periods {
+  display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px;
+}
+.period-btn {
+  background: #f8fafc; border: 1px solid var(--border);
+  color: var(--text-muted); border-radius: 999px;
+  padding: 7px 14px; font-family: inherit;
+  font-size: 13px; font-weight: 700; cursor: pointer;
+}
+.period-btn:hover { background: #f1f5f9; }
+.period-btn.active {
+  background: var(--primary); border-color: var(--primary);
+  color: #fff; font-weight: 800;
+}
+
+/* Customer list */
+.tracker-list {
+  display: flex; flex-direction: column; gap: 8px;
+  max-height: 70vh; overflow: auto;
+}
+.tracker-item {
+  background: #fff; border: 1px solid var(--border);
+  border-right: 4px solid var(--text-faint);
+  border-radius: 12px; padding: 12px 14px;
+  display: flex; justify-content: space-between;
+  align-items: center; gap: 12px;
+}
+.tracker-item.visited {
+  border-right-color: var(--ok);
+  background: #f8fffb;
+}
+.tracker-item-main {
+  display: flex; flex-direction: column; gap: 3px; min-width: 0;
+}
+.tracker-item-head {
+  display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+}
+.tracker-item-head strong { font-size: 15px; color: var(--text); }
+.tracker-item .address { margin: 0; font-size: 12px; }
+.tracker-item small { color: var(--text-faint); font-size: 12px; }
+
+.tracker-item-status {
+  display: flex; flex-direction: column;
+  align-items: flex-end; gap: 4px; flex-shrink: 0;
+}
+.tracker-item-status em {
+  font-style: normal; font-size: 11px; color: var(--text-muted);
+  white-space: nowrap;
+}
+.tracker-badge {
+  display: inline-flex; gap: 6px; align-items: center;
+  border-radius: 999px; padding: 4px 12px;
+  font-size: 12px; font-weight: 800; white-space: nowrap;
+}
+.tracker-badge.ok {
+  background: var(--ok-soft); border: 1px solid var(--ok-border); color: #15803d;
+}
+.tracker-badge.none {
+  background: #f8fafc; border: 1px solid var(--bad-border); color: #b91c1c;
+}
+
 /* ===== Mobile ===== */
 @media (max-width: 900px) {
   .layout, .dash-grid { grid-template-columns: 1fr; }
-  .stats { grid-template-columns: 1fr 1fr; }
+  .stats, .tracker-stats { grid-template-columns: 1fr 1fr; }
   .cat { grid-template-columns: 1fr; }
   .filters, .dash-filters { grid-template-columns: 1fr; }
   .topbar { align-items: flex-start; }
@@ -660,6 +741,13 @@ footer {
 @media (max-width: 600px) {
   .app-root { padding: 12px; padding-bottom: 86px; }
   .stats { grid-template-columns: 1fr; }
+  /* Keep the tracker stats 2-up on phones — they're compact counters. */
+  .tracker-stats { grid-template-columns: 1fr 1fr; gap: 8px; }
+  .tracker-stats .stat { min-height: 96px; padding: 12px; }
+  .tracker-stats .stat strong { font-size: 22px; }
+  .tracker-item { flex-direction: column; align-items: stretch; }
+  .tracker-item-status { align-items: flex-start; }
+  .tracker-list { max-height: none; }
   .topbar { flex-direction: column; align-items: stretch; }
   .conn-status { left: 10px; bottom: 78px; }
 
