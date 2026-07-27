@@ -1,7 +1,9 @@
 import { useState, useMemo } from 'react';
 import {
   ClipboardCheck, Search, X, MapPin, CheckCircle2, CircleDashed, Users, Percent,
+  AlertTriangle,
 } from 'lucide-react';
+import { getReasonLabel } from '../services/incompleteReasons';
 
 // Period options for the time filter. `days` = how many days back (including
 // today) count as "in range"; null means no time limit.
@@ -53,7 +55,7 @@ export default function CustomerTracker({ visits = [], customers = [] }) {
   const [filterRegion, setFilterRegion] = useState('');
   const [filterChain, setFilterChain] = useState('');
   const [filterRep, setFilterRep] = useState('');
-  const [filterStatus, setFilterStatus] = useState(''); // '' | 'visited' | 'not_visited'
+  const [filterStatus, setFilterStatus] = useState(''); // '' | 'visited' | 'incomplete' | 'not_visited'
   const [searchQuery, setSearchQuery] = useState('');
 
   // ===== One entry per customer code =====
@@ -96,25 +98,30 @@ export default function CustomerTracker({ visits = [], customers = [] }) {
   }, [visits]);
 
   // ===== Latest qualifying visit per customer code =====
-  // Incomplete visits don't count as a visit for tracking purposes.
-  const visitByCode = useMemo(() => {
+  // Complete and incomplete visits are tracked separately: a customer with a
+  // complete visit counts as covered, while one that only has an incomplete
+  // visit (closed / refused / postponed) is shown as its own state — the rep
+  // did go there, but there are no measurements.
+  const { doneByCode, incompleteByCode } = useMemo(() => {
     const start = periodStart(period);
-    const map = new Map();
+    const done = new Map();
+    const incomplete = new Map();
+
     visits.forEach((v) => {
-      if (v.incomplete) return;
       if (filterRep && v.savedBy?.name !== filterRep) return;
       const code = normCode(v.customer_code);
       if (!code) return;
       const t = visitTime(v);
-      if (start != null) {
-        if (isNaN(t) || t < start) return;
-      }
+      if (start != null && (isNaN(t) || t < start)) return;
+
+      const map = v.incomplete ? incomplete : done;
       const prev = map.get(code);
       if (!prev || (!isNaN(t) && t > prev.time)) {
         map.set(code, { time: isNaN(t) ? 0 : t, visit: v });
       }
     });
-    return map;
+
+    return { doneByCode: done, incompleteByCode: incomplete };
   }, [visits, period, filterRep]);
 
   // ===== Customers in scope (everything except the status filter) =====
@@ -134,25 +141,40 @@ export default function CustomerTracker({ visits = [], customers = [] }) {
   }, [uniqueCustomers, filterRegion, filterChain, searchQuery]);
 
   // ===== Stats over the scope (before the status filter) =====
+  // visited + incomplete + remaining always add up to total: a customer with
+  // both kinds of visit is counted once, under "visited".
   const stats = useMemo(() => {
     const total = scoped.length;
     let visited = 0;
-    scoped.forEach((c) => { if (visitByCode.has(c.code)) visited++; });
+    let incomplete = 0;
+    scoped.forEach((c) => {
+      if (doneByCode.has(c.code)) visited++;
+      else if (incompleteByCode.has(c.code)) incomplete++;
+    });
     return {
       total,
       visited,
-      remaining: total - visited,
+      incomplete,
+      remaining: total - visited - incomplete,
+      // Completion counts measured visits only.
       pct: total ? Math.round((visited / total) * 100) : 0,
     };
-  }, [scoped, visitByCode]);
+  }, [scoped, doneByCode, incompleteByCode]);
 
   // ===== Final list =====
   const list = useMemo(() => {
-    const rows = scoped.map((c) => ({ customer: c, entry: visitByCode.get(c.code) || null }));
-    if (filterStatus === 'visited') return rows.filter((r) => r.entry);
-    if (filterStatus === 'not_visited') return rows.filter((r) => !r.entry);
-    return rows;
-  }, [scoped, visitByCode, filterStatus]);
+    const rows = scoped.map((c) => {
+      const done = doneByCode.get(c.code) || null;
+      const incomplete = done ? null : incompleteByCode.get(c.code) || null;
+      return {
+        customer: c,
+        entry: done || incomplete,
+        status: done ? 'visited' : incomplete ? 'incomplete' : 'not_visited',
+      };
+    });
+    if (!filterStatus) return rows;
+    return rows.filter((r) => r.status === filterStatus);
+  }, [scoped, doneByCode, incompleteByCode, filterStatus]);
 
   const activeFilters =
     [filterRegion, filterChain, filterRep, filterStatus, searchQuery].filter(Boolean).length;
@@ -197,6 +219,11 @@ export default function CustomerTracker({ visits = [], customers = [] }) {
           <i><CheckCircle2 size={18} /></i>
           <strong>{stats.visited}</strong>
           <small>تمت زيارتهم</small>
+        </div>
+        <div className="stat warn">
+          <i><AlertTriangle size={18} /></i>
+          <strong>{stats.incomplete}</strong>
+          <small>غير مكتملة</small>
         </div>
         <div className="stat bad">
           <i><CircleDashed size={18} /></i>
@@ -265,6 +292,7 @@ export default function CustomerTracker({ visits = [], customers = [] }) {
         <select value={filterStatus} onChange={(e) => setFilterStatus(e.target.value)}>
           <option value="">كل الحالات</option>
           <option value="visited">تمت زيارته</option>
+          <option value="incomplete">غير مكتملة</option>
           <option value="not_visited">لم تتم زيارته</option>
         </select>
       </div>
@@ -277,8 +305,8 @@ export default function CustomerTracker({ visits = [], customers = [] }) {
         </div>
       ) : (
         <div className="tracker-list">
-          {list.map(({ customer: c, entry }) => (
-            <article className={entry ? 'tracker-item visited' : 'tracker-item'} key={c.code}>
+          {list.map(({ customer: c, entry, status }) => (
+            <article className={'tracker-item ' + status} key={c.code}>
               <div className="tracker-item-main">
                 <div className="tracker-item-head">
                   <span className="pill">#{c.code}</span>
@@ -288,23 +316,35 @@ export default function CustomerTracker({ visits = [], customers = [] }) {
                   <p className="address"><MapPin size={12} /> {c.address}</p>
                 )}
                 <small>{[c.region, c.chain].filter(Boolean).join(' · ')}</small>
+                {status === 'incomplete' && (
+                  <span className="tracker-reason">
+                    السبب: <b>{getReasonLabel(entry.visit.incompleteReason)}</b>
+                    {entry.visit.incompleteNote && <> — {entry.visit.incompleteNote}</>}
+                  </span>
+                )}
               </div>
 
               <div className="tracker-item-status">
-                {entry ? (
+                {status === 'not_visited' ? (
+                  <span className="tracker-badge none">
+                    <CircleDashed size={13} /> لم تتم زيارته
+                  </span>
+                ) : (
                   <>
-                    <span className="tracker-badge ok">
-                      <CheckCircle2 size={13} /> تمت زيارته
-                    </span>
+                    {status === 'visited' ? (
+                      <span className="tracker-badge ok">
+                        <CheckCircle2 size={13} /> تمت زيارته
+                      </span>
+                    ) : (
+                      <span className="tracker-badge warn">
+                        <AlertTriangle size={13} /> غير مكتملة
+                      </span>
+                    )}
                     <em>
                       {formatDate(entry.visit.timestamp || entry.visit.clientTimestamp)}
                       {entry.visit.savedBy?.name && <> · {entry.visit.savedBy.name}</>}
                     </em>
                   </>
-                ) : (
-                  <span className="tracker-badge none">
-                    <CircleDashed size={13} /> لم تتم زيارته
-                  </span>
                 )}
               </div>
             </article>

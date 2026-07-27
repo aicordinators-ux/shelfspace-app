@@ -21,6 +21,7 @@ import {
   deleteVisit as fbDeleteVisit,
 } from './services/visits';
 import { subscribeToReps } from './services/reps';
+import { getReasonLabel } from './services/incompleteReasons';
 import { getSession, logout } from './services/auth';
 
 import LoginScreen from './components/LoginScreen';
@@ -344,14 +345,15 @@ export default function App() {
 
   // ===== Excel Export =====
   function exportXLSX() {
-    // Exclude incomplete visits from Excel export entirely
-    const baseVisits = visits.filter((v) => !v.incomplete);
+    // Incomplete visits are exported too: their category columns stay blank and
+    // the reason is carried in the status columns, so the manager can see where
+    // the rep went even when no measurements could be taken.
     const visibleVisits = session?.role === 'rep'
-      ? baseVisits.filter((v) => v.savedBy?.name === session.name)
-      : baseVisits;
+      ? visits.filter((v) => v.savedBy?.name === session.name)
+      : visits;
 
     if (visibleVisits.length === 0) {
-      alert('لا توجد زيارات مكتملة للتصدير');
+      alert('لا توجد زيارات للتصدير');
       return;
     }
 
@@ -416,6 +418,7 @@ export default function App() {
     const baseHeaders = [
       'Date', 'Code', 'Region', 'Desc_L5', 'ACC-Code',
       'Customer Name', 'Customer Address', 'Saved By',
+      'Visit Status', 'Incomplete Reason',
     ];
     const categoryHeaders = categories.flatMap((cat) => [
       `Contract ${cat}`,
@@ -433,6 +436,11 @@ export default function App() {
       });
       // Use clientTimestamp as fallback if server timestamp isn't available yet
       const visitDate = safeDate(v.timestamp) || safeDate(v.clientTimestamp);
+      const reasonText = v.incomplete
+        ? [getReasonLabel(v.incompleteReason), v.incompleteNote]
+            .filter(Boolean)
+            .join(' — ')
+        : '';
       const line = [
         visitDate,
         String(v.customer_code || ''),
@@ -442,6 +450,8 @@ export default function App() {
         v.customer_name || '',
         v.customer_address || '',
         v.savedBy?.name || '',
+        v.incomplete ? 'Incomplete' : 'Complete',
+        reasonText,
       ];
       categories.forEach((cat) => {
         const r = rowMap[cat.toLowerCase()];
@@ -503,6 +513,20 @@ export default function App() {
       });
     }
 
+    // Highlight incomplete visits in the status column so they stand out
+    const statusColIdx = baseHeaders.indexOf('Visit Status');
+    for (let r = 1; r <= rows.length; r++) {
+      const cellRef = XLSX.utils.encode_cell({ r, c: statusColIdx });
+      const cell = worksheet[cellRef];
+      if (cell && cell.v === 'Incomplete') {
+        cell.s = {
+          fill: { fgColor: { rgb: 'FFE9B8' } },
+          font: { color: { rgb: '92400E' }, bold: true },
+          alignment: { horizontal: 'center', vertical: 'center' },
+        };
+      }
+    }
+
     // Style header row (bold + centered)
     for (let c = 0; c < headers.length; c++) {
       const cellRef = XLSX.utils.encode_cell({ r: 0, c });
@@ -517,8 +541,8 @@ export default function App() {
 
     // Column widths
     worksheet['!cols'] = headers.map((h) => {
-      if (h === 'Customer Address' || h === 'Customer Name') return { wch: 32 };
-      if (['Code', 'ACC-Code', 'Date', 'Region', 'Desc_L5', 'Saved By'].includes(h)) return { wch: 16 };
+      if (h === 'Customer Address' || h === 'Customer Name' || h === 'Incomplete Reason') return { wch: 32 };
+      if (['Code', 'ACC-Code', 'Date', 'Region', 'Desc_L5', 'Saved By', 'Visit Status'].includes(h)) return { wch: 16 };
       return { wch: Math.max(15, String(h).length + 3) };
     });
 

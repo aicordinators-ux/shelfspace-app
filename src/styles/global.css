@@ -642,12 +642,14 @@ footer {
 
 /* ===== Customer Tracker (manager only) ===== */
 .tracker-stats {
-  display: grid; grid-template-columns: repeat(4, 1fr);
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 12px; margin-bottom: 14px;
 }
 .tracker-stats .stat { min-height: 118px; }
 .tracker-stats .stat.ok i { color: var(--ok); }
 .tracker-stats .stat.ok strong { color: #15803d; }
+.tracker-stats .stat.warn i { color: var(--warn); }
+.tracker-stats .stat.warn strong { color: #b45309; }
 .tracker-stats .stat.bad i { color: var(--bad); }
 .tracker-stats .stat.bad strong { color: #b91c1c; }
 .tracker-progress {
@@ -691,6 +693,18 @@ footer {
   border-right-color: var(--ok);
   background: #f8fffb;
 }
+.tracker-item.incomplete {
+  border-right-color: var(--warn);
+  background: #fffbeb;
+  border-color: var(--warn-border);
+}
+.tracker-reason {
+  font-size: 12px; color: #92400e;
+  background: var(--warn-soft); border: 1px solid var(--warn-border);
+  border-radius: 8px; padding: 3px 10px;
+  align-self: flex-start; margin-top: 4px;
+}
+.tracker-reason b { font-weight: 800; }
 .tracker-item-main {
   display: flex; flex-direction: column; gap: 3px; min-width: 0;
 }
@@ -716,6 +730,9 @@ footer {
 }
 .tracker-badge.ok {
   background: var(--ok-soft); border: 1px solid var(--ok-border); color: #15803d;
+}
+.tracker-badge.warn {
+  background: var(--warn-soft); border: 1px solid var(--warn-border); color: #92400e;
 }
 .tracker-badge.none {
   background: #f8fafc; border: 1px solid var(--bad-border); color: #b91c1c;

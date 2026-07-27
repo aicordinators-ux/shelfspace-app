@@ -142,7 +142,6 @@ export default function VisitsLog({ visits, onExport, onEdit, onDelete, session 
   // Counts
   const incompleteCount = searchedVisits.filter((v) => v.incomplete).length;
   const completeCount = searchedVisits.length - incompleteCount;
-  const totalCompleteCount = visibleVisits.filter((v) => !v.incomplete).length;
 
   // Active filters count (for "clear all" button)
   const activeFilters = [filterRegion, filterChain, filterRep, filterStatus, filterDate, searchQuery].filter(Boolean).length;
@@ -178,7 +177,7 @@ export default function VisitsLog({ visits, onExport, onEdit, onDelete, session 
             )}
           </p>
         </div>
-        <button className="primary" onClick={onExport} disabled={!totalCompleteCount}>
+        <button className="primary" onClick={onExport} disabled={!visibleVisits.length}>
           <Download size={16} /> تصدير التقرير
         </button>
       </div>
