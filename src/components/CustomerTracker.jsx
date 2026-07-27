@@ -50,6 +50,11 @@ function formatDate(value) {
 // padding or type, so normalize before matching.
 const normCode = (code) => String(code ?? '').trim();
 
+// The master file mirrors the source workbook, so a cell that holds a bare
+// number (a few branches have an address of just "1") arrives as a number.
+// Coerce every text field once, up front, so search and render can rely on it.
+const text = (value) => (value == null ? '' : String(value));
+
 export default function CustomerTracker({ visits = [], customers = [] }) {
   const [period, setPeriod] = useState('today');
   const [filterRegion, setFilterRegion] = useState('');
@@ -68,11 +73,11 @@ export default function CustomerTracker({ visits = [], customers = [] }) {
       if (!code || byCode.has(code)) return;
       byCode.set(code, {
         code,
-        name: c.name || '',
-        address: c.address || '',
-        region: c.region || '',
-        chain: c.chain || '',
-        acc_code: c.acc_code || '',
+        name: text(c.name),
+        address: text(c.address),
+        region: text(c.region),
+        chain: text(c.chain),
+        acc_code: text(c.acc_code),
       });
     });
     return [...byCode.values()];
@@ -133,7 +138,7 @@ export default function CustomerTracker({ visits = [], customers = [] }) {
       if (q && !(
         c.code.toLowerCase().includes(q) ||
         c.name.toLowerCase().includes(q) ||
-        String(c.acc_code).toLowerCase().includes(q) ||
+        c.acc_code.toLowerCase().includes(q) ||
         c.address.toLowerCase().includes(q)
       )) return false;
       return true;
