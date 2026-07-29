@@ -335,6 +335,27 @@ select:focus, input:focus, textarea:focus {
   gap: 10px;
   margin-top: 10px;
 }
+/* DRY / Impulse blocks inside a single visit card */
+.visit-group + .visit-group {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px dashed var(--border);
+}
+.visit-group-head {
+  display: flex; justify-content: space-between; align-items: center;
+  gap: 10px; flex-wrap: wrap;
+  margin: 10px 0 0;
+}
+.visit-group-title {
+  font-size: 13px; font-weight: 800; color: var(--primary);
+}
+.visit-group-score {
+  border-radius: 999px; padding: 3px 10px;
+  font-size: 12px; font-weight: 800; white-space: nowrap;
+}
+.visit-group-score.ok { background: var(--ok-soft); color: #15803d; }
+.visit-group-score.warn { background: var(--warn-soft); color: #b45309; }
+.visit-group-score.bad { background: var(--bad-soft); color: #b91c1c; }
 .cat-card {
   background: #f8fafc;
   border: 1px solid var(--border);

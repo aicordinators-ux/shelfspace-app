@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'react';
 import { FileText, MapPin, Download, Trash2, AlertTriangle, Search, X, Filter, Share2 } from 'lucide-react';
-import { TARGET_THRESHOLD, contractLabel, colorFor } from '../services/contracts';
+import { TARGET_THRESHOLD, contractLabel, colorFor, summarize } from '../services/contracts';
 import { canEditVisit } from '../services/auth';
 import { getReasonLabel } from '../services/incompleteReasons';
 import { shareVisitCard } from '../services/shareCard';
@@ -27,6 +27,26 @@ function formatDate(value) {
   } catch {
     return '';
   }
+}
+
+// Split a visit's rows by contract source (DRY / Impulse) so each group's
+// achievement can be read on its own, while both stay inside the same card.
+// DRY comes first, then Impulse, then anything unexpected — same order as the
+// entry form.
+const SOURCE_ORDER = ['DRY', 'Impulse'];
+
+function groupRowsBySource(rows) {
+  const groups = new Map();
+  (rows || []).forEach((r) => {
+    const source = r.source || 'DRY';
+    if (!groups.has(source)) groups.set(source, []);
+    groups.get(source).push(r);
+  });
+  const rank = (s) => {
+    const i = SOURCE_ORDER.indexOf(s);
+    return i === -1 ? SOURCE_ORDER.length : i;
+  };
+  return [...groups.entries()].sort((a, b) => rank(a[0]) - rank(b[0]));
 }
 
 export default function VisitsLog({ visits, onExport, onEdit, onDelete, session }) {
@@ -337,56 +357,75 @@ export default function VisitsLog({ visits, onExport, onEdit, onDelete, session 
                       {v.weightedAvg >= TARGET_THRESHOLD ? 'محقق' : 'غير محقق'}{' '}
                       {Number(v.weightedAvg || 0).toFixed(0)}%
                     </p>
-                    <div className="visit-cats">
-                      {(v.rows || []).map((r) => {
-                        const achievementPct = Number(r.achievement || 0);
-                        const isAchieved = achievementPct >= TARGET_THRESHOLD;
-                        const achievementColor = isAchieved
-                          ? '#4ade80'
-                          : achievementPct >= 50 ? '#fb923c' : '#f87171';
+                    {groupRowsBySource(v.rows).map(([source, rows]) => {
+                      const s = summarize(rows);
+                      const groupPct = Number(s.weightedAvg || 0);
 
-                        return (
-                          <span key={r.key || r.name} className="cat-card">
-                            <div className="cat-card-head">
-                              <b>{r.name}</b>
-                              <span className="cat-section">
-                                {r.source || 'DRY'}
-                              </span>
-                            </div>
+                      return (
+                        <section className="visit-group" key={source}>
+                          <h4 className="visit-group-head">
+                            <span className="visit-group-title">{contractLabel(source)}</span>
+                            <span className={'visit-group-score ' + colorFor(groupPct)}>
+                              {groupPct >= TARGET_THRESHOLD ? 'محقق' : 'غير محقق'}{' '}
+                              {groupPct.toFixed(0)}%
+                              {' · '}
+                              {s.achievedCount}/{rows.length}
+                            </span>
+                          </h4>
 
-                            {r.type === 'check' ? (
-                              <>
-                                <div className="cat-line">
-                                  <em>الحالة:</em>
-                                  <b style={{ color: r.applied ? '#4ade80' : '#f87171' }}>
-                                    {r.applied ? 'مطبق ✓' : 'غير مطبق ✗'}
-                                  </b>
-                                </div>
-                                {!r.applied && r.notAppliedSpace ? (
-                                  <div className="cat-line">
-                                    <em>المساحة الفعلية:</em>
-                                    <b>{r.notAppliedSpace}</b>
+                          <div className="visit-cats">
+                            {rows.map((r) => {
+                              const achievementPct = Number(r.achievement || 0);
+                              const isAchieved = achievementPct >= TARGET_THRESHOLD;
+                              const achievementColor = isAchieved
+                                ? '#4ade80'
+                                : achievementPct >= 50 ? '#fb923c' : '#f87171';
+
+                              return (
+                                <span key={r.key || r.name} className="cat-card">
+                                  <div className="cat-card-head">
+                                    <b>{r.name}</b>
+                                    <span className="cat-section">
+                                      {r.source || 'DRY'}
+                                    </span>
                                   </div>
-                                ) : null}
-                              </>
-                            ) : (
-                              <>
-                                <div className="cat-line">
-                                  <em>المطلوب:</em>
-                                  <b>{Number(r.targetPct || 0).toFixed(0)}%</b>
-                                </div>
-                                <div className="cat-line">
-                                  <em>المحقق:</em>
-                                  <b style={{ color: achievementColor }}>
-                                    {Number(r.actualPct || 0).toFixed(0)}%
-                                  </b>
-                                </div>
-                              </>
-                            )}
-                          </span>
-                        );
-                      })}
-                    </div>
+
+                                  {r.type === 'check' ? (
+                                    <>
+                                      <div className="cat-line">
+                                        <em>الحالة:</em>
+                                        <b style={{ color: r.applied ? '#4ade80' : '#f87171' }}>
+                                          {r.applied ? 'مطبق ✓' : 'غير مطبق ✗'}
+                                        </b>
+                                      </div>
+                                      {!r.applied && r.notAppliedSpace ? (
+                                        <div className="cat-line">
+                                          <em>المساحة الفعلية:</em>
+                                          <b>{r.notAppliedSpace}</b>
+                                        </div>
+                                      ) : null}
+                                    </>
+                                  ) : (
+                                    <>
+                                      <div className="cat-line">
+                                        <em>المطلوب:</em>
+                                        <b>{Number(r.targetPct || 0).toFixed(0)}%</b>
+                                      </div>
+                                      <div className="cat-line">
+                                        <em>المحقق:</em>
+                                        <b style={{ color: achievementColor }}>
+                                          {Number(r.actualPct || 0).toFixed(0)}%
+                                        </b>
+                                      </div>
+                                    </>
+                                  )}
+                                </span>
+                              );
+                            })}
+                          </div>
+                        </section>
+                      );
+                    })}
                   </>
                 )}
 
