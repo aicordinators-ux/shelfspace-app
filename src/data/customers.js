@@ -1,4 +1,4 @@
-// Customers Master Data - 779 contract records across 480 customers
+// Customers Master Data - 781 contract records across 482 customers
 // This data is bundled with the app (not stored in Firebase)
 // Generated from: SM Home Shelf Visibility DG & Impulse
 
@@ -28891,6 +28891,78 @@ export const CUSTOMERS_DATA = [
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
     "svp": "Essam Helmy Cairo",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "01697",
+    "acc_code": "0008281",
+    "name": "سنابل",
+    "address": "16المقريزى نهاية مترو مصر الجديدة منشية البكرى - مصر الجديدة",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Cairo East",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "01670",
+    "acc_code": "0094839",
+    "name": "أسواق العجايبى",
+    "address": "14/16سنان من طومان باى بجوار مدرسة سنان الابتدائية - الزيتون الشرقية",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
