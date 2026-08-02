@@ -1,4 +1,4 @@
-// Customers Master Data - 781 contract records across 482 customers
+// Customers Master Data - 787 contract records across 484 customers
 // This data is bundled with the app (not stored in Firebase)
 // Generated from: SM Home Shelf Visibility DG & Impulse
 
@@ -21285,6 +21285,44 @@ export const CUSTOMERS_DATA = [
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
     "svp": "Hany ElJaky Delta",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09944",
+    "acc_code": "P5A410422",
+    "name": "سكر",
+    "address": "سيشل",
+    "region": "Delta West",
+    "chain": "Sobhy Hamido",
+    "merch_region": "Delta West",
+    "team_leader": "Mohamed Hussein",
+    "svp": "Hany ElJaky Delta",
     "source": "Impulse",
     "categories": [
       {
@@ -21308,6 +21346,44 @@ export const CUSTOMERS_DATA = [
       {
         "name": "RTD Chillers",
         "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09945",
+    "acc_code": "P5A400267",
+    "name": "سكر",
+    "address": "ستيلا",
+    "region": "Delta West",
+    "chain": "Sobhy Hamido",
+    "merch_region": "Delta West",
+    "team_leader": "Mohamed Hussein",
+    "svp": "Hany ElJaky Delta",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
       }
     ]
   },
@@ -21537,6 +21613,44 @@ export const CUSTOMERS_DATA = [
     "merch_region": "Delta West BHR",
     "team_leader": "Mohamed Hussein",
     "svp": "Hany ElJaky Delta",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09293",
+    "acc_code": "P5D00000364",
+    "name": "لوجيستيك",
+    "address": "البحيرة - حوش عيسي - ش  المحكمه",
+    "region": "Delta West BHR",
+    "chain": "Kebaa - Behira",
+    "merch_region": "Delta West BHR",
+    "team_leader": "Mohamed Hussein",
+    "svp": "Hany ElJaky Delta",
     "source": "Impulse",
     "categories": [
       {
@@ -21560,6 +21674,44 @@ export const CUSTOMERS_DATA = [
       {
         "name": "RTD Chillers",
         "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09290",
+    "acc_code": "P5D1295002688",
+    "name": "احمد ماهر",
+    "address": "البحيره - مدخل وادي النطرون",
+    "region": "Delta West BHR",
+    "chain": "Kebaa - Behira",
+    "merch_region": "Delta West BHR",
+    "team_leader": "Mohamed Hussein",
+    "svp": "Hany ElJaky Delta",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
       }
     ]
   },
@@ -28986,6 +29138,82 @@ export const CUSTOMERS_DATA = [
       {
         "name": "RTD Chillers",
         "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09016",
+    "acc_code": "P5A201020",
+    "name": "الكيلانى",
+    "address": "المندره جمال عبد الناصر",
+    "region": "Delta West",
+    "chain": "Sobhy Hamido",
+    "merch_region": "Delta West",
+    "team_leader": "Tarek Ahmed",
+    "svp": "Hany ElJaky Delta",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09014",
+    "acc_code": "P5A202044",
+    "name": "الديناصــور",
+    "address": "37ش خليل الخياط - كفر عبده",
+    "region": "Delta West",
+    "chain": "Sobhy Hamido",
+    "merch_region": "Delta West",
+    "team_leader": "Tarek Ahmed",
+    "svp": "Hany ElJaky Delta",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
       }
     ]
   }
