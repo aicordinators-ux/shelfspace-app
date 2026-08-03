@@ -1,4 +1,4 @@
-// Customers Master Data - 822 contract records across 500 customers
+// Customers Master Data - 830 contract records across 504 customers
 // This data is bundled with the app (not stored in Firebase)
 // Generated from: SM Home Shelf Visibility DG & Impulse
 
@@ -30476,6 +30476,302 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Sharkia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
+    "svp": "Hany ElJaky",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09262",
+    "acc_code": "P2A12800809",
+    "name": "المنشاوى - ش حسن رضوان",
+    "address": "طنطا ش حسن رضوان",
+    "region": "Delta Central",
+    "chain": "Kebaa - Gharbia",
+    "merch_region": "Delta Central",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09262",
+    "acc_code": "P2A12800809",
+    "name": "المنشاوى - ش حسن رضوان",
+    "address": "طنطا ش حسن رضوان",
+    "region": "Delta Central",
+    "chain": "Kebaa - Gharbia",
+    "merch_region": "Delta Central",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09263",
+    "acc_code": "P2A00001870",
+    "name": "المنشاوى - ش النحاس",
+    "address": "طنطا ش  النحاس",
+    "region": "Delta Central",
+    "chain": "Kebaa - Gharbia",
+    "merch_region": "Delta Central",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09263",
+    "acc_code": "P2A00001870",
+    "name": "المنشاوى - ش النحاس",
+    "address": "طنطا ش  النحاس",
+    "region": "Delta Central",
+    "chain": "Kebaa - Gharbia",
+    "merch_region": "Delta Central",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09264",
+    "acc_code": "P2A00001871",
+    "name": "المنشاوى - ش الجلاء",
+    "address": "طنطا ش الجلاء",
+    "region": "Delta Central",
+    "chain": "Kebaa - Gharbia",
+    "merch_region": "Delta Central",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09264",
+    "acc_code": "P2A00001871",
+    "name": "المنشاوى - ش الجلاء",
+    "address": "طنطا ش الجلاء",
+    "region": "Delta Central",
+    "chain": "Kebaa - Gharbia",
+    "merch_region": "Delta Central",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09254",
+    "acc_code": "P40000001784",
+    "name": "المحلاوى - المنصورة",
+    "address": "المنصورة- شارع الجيش",
+    "region": "Delta East",
+    "chain": "Al Hadaf",
+    "merch_region": "Cairo West embaba",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09254",
+    "acc_code": "P40000001784",
+    "name": "المحلاوى - المنصورة",
+    "address": "المنصورة- شارع الجيش",
+    "region": "Delta East",
+    "chain": "Al Hadaf",
+    "merch_region": "Cairo West embaba",
+    "team_leader": "Moaaz Ahmed",
     "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
