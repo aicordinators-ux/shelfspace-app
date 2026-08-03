@@ -1,4 +1,4 @@
-// Customers Master Data - 787 contract records across 484 customers
+// Customers Master Data - 821 contract records across 500 customers
 // This data is bundled with the app (not stored in Firebase)
 // Generated from: SM Home Shelf Visibility DG & Impulse
 
@@ -12,7 +12,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -50,7 +50,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -160,7 +160,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -198,7 +198,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -234,7 +234,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -272,7 +272,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -308,7 +308,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -346,7 +346,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -382,7 +382,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -420,7 +420,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -456,7 +456,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -494,7 +494,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -530,7 +530,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -568,7 +568,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -604,7 +604,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "SUE",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -642,7 +642,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "SUE",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -678,7 +678,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "SUE",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -716,7 +716,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "SUE",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -752,7 +752,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "SUE",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -790,7 +790,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "SUE",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -1048,7 +1048,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -1086,7 +1086,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -1122,7 +1122,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -1160,7 +1160,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -1196,7 +1196,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -1234,7 +1234,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -1270,7 +1270,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -1308,7 +1308,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -1344,7 +1344,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -1382,7 +1382,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -1418,7 +1418,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -1456,7 +1456,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -1492,7 +1492,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -1530,7 +1530,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -1566,7 +1566,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -1604,7 +1604,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -1640,7 +1640,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -1678,7 +1678,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -1716,7 +1716,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -1752,7 +1752,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -1790,7 +1790,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -1826,7 +1826,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -1864,7 +1864,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -1902,7 +1902,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -1938,7 +1938,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -1976,7 +1976,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -2012,7 +2012,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -2050,7 +2050,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -2086,7 +2086,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -2124,7 +2124,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -2160,7 +2160,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -2198,7 +2198,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -2234,7 +2234,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -2272,7 +2272,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -2308,7 +2308,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -2346,7 +2346,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -2384,7 +2384,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -2422,7 +2422,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -2460,7 +2460,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Delta Central",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -2498,7 +2498,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -2536,7 +2536,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -2572,7 +2572,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -2610,7 +2610,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -2648,7 +2648,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -2684,7 +2684,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -2722,7 +2722,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -2760,7 +2760,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -2798,7 +2798,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -2834,7 +2834,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -2872,7 +2872,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -2908,7 +2908,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -2946,7 +2946,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -2984,7 +2984,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -3022,7 +3022,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -3058,7 +3058,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -3096,7 +3096,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -3132,7 +3132,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -3170,7 +3170,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -3206,7 +3206,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -3244,7 +3244,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -3280,7 +3280,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -3318,7 +3318,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -3354,7 +3354,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -3392,7 +3392,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -3428,7 +3428,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -3466,7 +3466,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -3502,7 +3502,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -3540,7 +3540,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -3576,7 +3576,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -3614,7 +3614,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -3650,7 +3650,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -3688,7 +3688,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -3724,7 +3724,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -3762,7 +3762,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -3800,7 +3800,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -3836,7 +3836,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -3874,7 +3874,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -3912,7 +3912,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -3948,7 +3948,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -3986,7 +3986,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -4022,7 +4022,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -4060,7 +4060,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -4098,7 +4098,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -4136,7 +4136,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -4174,7 +4174,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -4210,7 +4210,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -4248,7 +4248,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -4286,7 +4286,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -4322,7 +4322,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -4360,7 +4360,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -4396,7 +4396,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -4434,7 +4434,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -4470,7 +4470,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -4500,6 +4500,42 @@ export const CUSTOMERS_DATA = [
     ]
   },
   {
+    "code": "09551",
+    "acc_code": "002013741",
+    "name": "الماسه للتجاره (اولاد علوش)",
+    "address": "الماظة",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
     "code": "09553",
     "acc_code": 2013234,
     "name": "شركة اليسر( هايبر جراند) النزهه",
@@ -4508,7 +4544,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -4546,7 +4582,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Abdelfattah",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -7032,7 +7068,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -7070,7 +7106,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -7106,7 +7142,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -7144,7 +7180,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -7180,7 +7216,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -7218,7 +7254,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -7254,7 +7290,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -7292,7 +7328,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -7328,7 +7364,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -7366,7 +7402,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -7404,7 +7440,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -7442,7 +7478,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -7478,7 +7514,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -7516,7 +7552,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -7552,7 +7588,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -7590,7 +7626,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -7626,7 +7662,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -7664,7 +7700,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -7700,7 +7736,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -7738,7 +7774,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -7776,7 +7812,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -7814,7 +7850,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -7852,7 +7888,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -7888,7 +7924,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -7926,7 +7962,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -7962,7 +7998,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -8000,7 +8036,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -8036,7 +8072,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -8074,7 +8110,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -8110,7 +8146,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -8148,7 +8184,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -8184,7 +8220,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -8222,7 +8258,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -8258,7 +8294,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -8296,7 +8332,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -8332,7 +8368,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -8370,7 +8406,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -8406,7 +8442,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -8444,7 +8480,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -8480,7 +8516,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -8518,7 +8554,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -8554,7 +8590,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -8592,7 +8628,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -8628,7 +8664,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -8666,7 +8702,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -8702,7 +8738,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -8740,7 +8776,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -8776,7 +8812,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -8814,7 +8850,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -8850,7 +8886,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -8888,7 +8924,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -8924,7 +8960,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -8962,7 +8998,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -8998,7 +9034,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -9036,7 +9072,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -9072,7 +9108,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -9110,7 +9146,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -9148,7 +9184,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -9184,7 +9220,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -9222,7 +9258,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -9260,7 +9296,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -9298,7 +9334,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -9334,7 +9370,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -9372,7 +9408,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -9820,7 +9856,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Al Hadaf",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -9858,7 +9894,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Al Hadaf",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -10302,7 +10338,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Al Hadaf",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -10340,7 +10376,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Al Hadaf",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -10598,7 +10634,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Gharbia",
     "merch_region": "Delta Central",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -10636,7 +10672,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Gharbia",
     "merch_region": "Delta Central",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -10672,7 +10708,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Gharbia",
     "merch_region": "Delta Central",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -10710,7 +10746,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Gharbia",
     "merch_region": "Delta Central",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -10746,7 +10782,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Gharbia",
     "merch_region": "Delta Central",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -10784,7 +10820,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Excellence-Kalubia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -10822,7 +10858,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Excellence-Kalubia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -10858,7 +10894,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Excellence-Kalubia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -10896,7 +10932,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Excellence-Kalubia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -10932,7 +10968,81 @@ export const CUSTOMERS_DATA = [
     "chain": "Excellence-Kalubia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09136",
+    "acc_code": "P2X12805536",
+    "name": "حلال  - الجبل الأصفر",
+    "address": "الجبل الاصفر الطريق العمومى",
+    "region": "Delta Central",
+    "chain": "Excellence-Kalubia",
+    "merch_region": "Delta Central",
+    "team_leader": "Omar Mokhtar",
+    "svp": "Hany ElJaky",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09137",
+    "acc_code": "P2X12805508",
+    "name": "حلال  - المرج الجديدة",
+    "address": "المرج الجديده نزله دائرى المرج الطريق العمومى",
+    "region": "Delta Central",
+    "chain": "Excellence-Kalubia",
+    "merch_region": "Delta Central",
+    "team_leader": "Omar Mokhtar",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -10970,7 +11080,43 @@ export const CUSTOMERS_DATA = [
     "chain": "Excellence-Kalubia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09138",
+    "acc_code": "P2X12805535",
+    "name": "حلال  - القلج",
+    "address": "القلج الطريق العمومى",
+    "region": "Delta Central",
+    "chain": "Excellence-Kalubia",
+    "merch_region": "Delta Central",
+    "team_leader": "Omar Mokhtar",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -11008,7 +11154,43 @@ export const CUSTOMERS_DATA = [
     "chain": "Excellence-Kalubia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09139",
+    "acc_code": "P2X12805538",
+    "name": "حلال - الخانكة",
+    "address": "الخانكه امام مدرسه الصنايع بجوار المستشفي",
+    "region": "Delta Central",
+    "chain": "Excellence-Kalubia",
+    "merch_region": "Delta Central",
+    "team_leader": "Omar Mokhtar",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -11046,7 +11228,43 @@ export const CUSTOMERS_DATA = [
     "chain": "Excellence-Kalubia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09140",
+    "acc_code": "P2X12805540",
+    "name": "حلال - أبو زعبل",
+    "address": "ابو زعبل امام نقطه الشرطه الطريق العمومى",
+    "region": "Delta Central",
+    "chain": "Excellence-Kalubia",
+    "merch_region": "Delta Central",
+    "team_leader": "Omar Mokhtar",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -11084,7 +11302,43 @@ export const CUSTOMERS_DATA = [
     "chain": "Excellence-Kalubia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09141",
+    "acc_code": "P2X12805507",
+    "name": "حلال  - المرج القديمة",
+    "address": "المرج القديمه بجوار قسم المرج شارع ابوطالب",
+    "region": "Delta Central",
+    "chain": "Excellence-Kalubia",
+    "merch_region": "Delta Central",
+    "team_leader": "Omar Mokhtar",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -11122,7 +11376,43 @@ export const CUSTOMERS_DATA = [
     "chain": "Excellence-Kalubia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09142",
+    "acc_code": "P2X12805644",
+    "name": "الماسة ماركت",
+    "address": "المرج شارع الشيخ منصور امام قصر نعمه",
+    "region": "Delta Central",
+    "chain": "Excellence-Kalubia",
+    "merch_region": "Delta Central",
+    "team_leader": "Omar Mokhtar",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -11160,7 +11450,43 @@ export const CUSTOMERS_DATA = [
     "chain": "Excellence-Kalubia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09148",
+    "acc_code": "P2X00002649",
+    "name": "اسواق الشمس - كفر الجزار",
+    "address": "كفر الجزار - الطريق العمومي",
+    "region": "Delta Central",
+    "chain": "Excellence-Kalubia",
+    "merch_region": "Delta Central",
+    "team_leader": "Omar Mokhtar",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -11198,7 +11524,43 @@ export const CUSTOMERS_DATA = [
     "chain": "Excellence-Kalubia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09149",
+    "acc_code": "P2X12805206",
+    "name": "اسواق الشمس - شبين القناطر",
+    "address": "شبين القناطر بجوار كوبرى عبد العال",
+    "region": "Delta Central",
+    "chain": "Excellence-Kalubia",
+    "merch_region": "Delta Central",
+    "team_leader": "Omar Mokhtar",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -11236,45 +11598,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Excellence-Kalubia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
-    "source": "DRY",
-    "categories": [
-      {
-        "name": "MAGGI",
-        "target": 0.4
-      },
-      {
-        "name": "CERELAC",
-        "target": 0.5
-      },
-      {
-        "name": "NESCAFE",
-        "target": 0.7
-      },
-      {
-        "name": "Nido",
-        "target": 0.5
-      },
-      {
-        "name": "Nesquik",
-        "target": 0.5
-      },
-      {
-        "name": "CornFlex",
-        "target": 0.25
-      }
-    ]
-  },
-  {
-    "code": "09149",
-    "acc_code": "P2X12805206",
-    "name": "اسواق الشمس - شبين القناطر",
-    "address": "شبين القناطر بجوار كوبرى عبد العال",
-    "region": "Delta Central",
-    "chain": "Excellence-Kalubia",
-    "merch_region": "Delta Central",
-    "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -11310,7 +11634,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Excellence-Kalubia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -11348,7 +11672,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Excellence-Kalubia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -11384,7 +11708,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Menofia",
     "merch_region": "Delta Central",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -11422,7 +11746,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Menofia",
     "merch_region": "Delta Central",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -11458,7 +11782,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Menofia",
     "merch_region": "Delta Central",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -11496,7 +11820,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Menofia",
     "merch_region": "Delta Central",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -11532,7 +11856,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Menofia",
     "merch_region": "Delta Central",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -11570,7 +11894,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Menofia",
     "merch_region": "Delta Central",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -11606,7 +11930,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Menofia",
     "merch_region": "Delta Central",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -11644,7 +11968,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Menofia",
     "merch_region": "Delta Central",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -11680,7 +12004,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Sharkia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -11718,7 +12042,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Sharkia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -11754,7 +12078,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Sharkia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -11792,7 +12116,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Sharkia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -11828,7 +12152,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Sharkia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -11866,7 +12190,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Sharkia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -11902,7 +12226,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Sharkia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -11940,7 +12264,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Sharkia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -11976,7 +12300,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Sharkia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -12014,7 +12338,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Sharkia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -12050,7 +12374,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Sharkia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -12088,7 +12412,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Sharkia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -12126,7 +12450,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Sharkia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -12162,7 +12486,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Sharkia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -12200,7 +12524,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Sharkia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -12236,7 +12560,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Sharkia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -12274,7 +12598,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Sharkia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -12310,7 +12634,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Sharkia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -12348,7 +12672,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Sharkia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -12386,7 +12710,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Sharkia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -12422,7 +12746,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Sharkia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -12460,7 +12784,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Sharkia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -12496,7 +12820,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Sharkia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -12534,7 +12858,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Sharkia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -12570,7 +12894,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Sharkia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -12608,7 +12932,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Sharkia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -12644,7 +12968,81 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Sharkia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09082",
+    "acc_code": "P2B12800020",
+    "name": "اسواق البدر",
+    "address": "العاشر  المجاوره 43",
+    "region": "Delta Central",
+    "chain": "Kebaa - Sharkia",
+    "merch_region": "Delta Central",
+    "team_leader": "Omar Mokhtar",
+    "svp": "Hany ElJaky",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09231",
+    "acc_code": "P2B0000005156",
+    "name": "اسواق البدر 2",
+    "address": "العاشر مجاوره ٧٢",
+    "region": "Delta Central",
+    "chain": "Kebaa - Sharkia",
+    "merch_region": "Delta Central",
+    "team_leader": "Omar Mokhtar",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -12682,32 +13080,30 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Sharkia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
-    "source": "DRY",
+    "svp": "Hany ElJaky",
+    "source": "Impulse",
     "categories": [
       {
-        "name": "MAGGI",
-        "target": 0.4
+        "name": "Kitkat %",
+        "target": 0.3
       },
       {
-        "name": "CERELAC",
-        "target": 0.5
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
       },
       {
-        "name": "NESCAFE",
-        "target": 0.7
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
       },
       {
-        "name": "Nido",
-        "target": 0.5
+        "name": "Fitness Bars",
+        "target": 0.2
       },
       {
-        "name": "Nesquik",
-        "target": 0.5
-      },
-      {
-        "name": "CornFlex",
-        "target": 0.25
+        "name": "RTD Chillers",
+        "target": 0.1
       }
     ]
   },
@@ -12720,7 +13116,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Sharkia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -12758,7 +13154,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Sharkia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -12796,7 +13192,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Sharkia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -12832,7 +13228,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Sharkia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -12870,7 +13266,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Sharkia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -12906,7 +13302,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Gharbia",
     "merch_region": "Delta Central",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -12944,7 +13340,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Gharbia",
     "merch_region": "Delta Central",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -12980,7 +13376,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Gharbia",
     "merch_region": "Delta Central",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -13018,7 +13414,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Gharbia",
     "merch_region": "Delta Central",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -13054,7 +13450,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Canal",
     "merch_region": "Delta East",
     "team_leader": "Mahmoud EL Attar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -13092,7 +13488,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Canal",
     "merch_region": "Delta East",
     "team_leader": "Mahmoud EL Attar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -13128,7 +13524,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Canal",
     "merch_region": "Delta East",
     "team_leader": "Mahmoud EL Attar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -13166,7 +13562,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Canal",
     "merch_region": "Delta East",
     "team_leader": "Mahmoud EL Attar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -13202,7 +13598,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Canal",
     "merch_region": "Delta East",
     "team_leader": "Mahmoud EL Attar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -13240,7 +13636,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Canal",
     "merch_region": "Delta East",
     "team_leader": "Mahmoud EL Attar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -13276,7 +13672,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus For Export LLC",
     "merch_region": "Delta East",
     "team_leader": "Mahmoud El Attar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -13314,7 +13710,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus For Export LLC",
     "merch_region": "Delta East",
     "team_leader": "Mahmoud El Attar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -13350,7 +13746,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus",
     "merch_region": "Delta East",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -13388,7 +13784,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus",
     "merch_region": "Delta East",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -13426,7 +13822,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus",
     "merch_region": "Delta East",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -13462,7 +13858,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus",
     "merch_region": "Delta East",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -13500,7 +13896,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus",
     "merch_region": "Delta East",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -13536,7 +13932,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus",
     "merch_region": "Delta East",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -13574,7 +13970,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus",
     "merch_region": "Delta East",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -13610,7 +14006,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Canal",
     "merch_region": "Delta East",
     "team_leader": "Mahmoud EL Attar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -13648,7 +14044,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Canal",
     "merch_region": "Delta East",
     "team_leader": "Mahmoud EL Attar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -13684,7 +14080,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Canal",
     "merch_region": "Delta East",
     "team_leader": "Mahmoud EL Attar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -13722,7 +14118,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Canal",
     "merch_region": "Delta East",
     "team_leader": "Mahmoud EL Attar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -13758,7 +14154,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus",
     "merch_region": "Delta East",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -13796,7 +14192,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Canal",
     "merch_region": "Delta East",
     "team_leader": "Mahmoud El Attar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -13834,7 +14230,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Canal",
     "merch_region": "Delta East",
     "team_leader": "Mahmoud El Attar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -13870,7 +14266,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Canal",
     "merch_region": "Delta East",
     "team_leader": "Mahmoud El Attar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -13908,7 +14304,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Canal",
     "merch_region": "Delta East",
     "team_leader": "Mahmoud El Attar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -13944,7 +14340,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Canal",
     "merch_region": "Delta East",
     "team_leader": "Mahmoud El Attar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -13982,7 +14378,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Canal",
     "merch_region": "Delta East",
     "team_leader": "Mahmoud El Attar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -14018,7 +14414,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Canal",
     "merch_region": "Delta East",
     "team_leader": "Mahmoud El Attar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -14056,7 +14452,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Canal",
     "merch_region": "Delta East",
     "team_leader": "Mahmoud El Attar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -14092,7 +14488,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Canal",
     "merch_region": "Delta East",
     "team_leader": "Mahmoud El Attar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -14130,7 +14526,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Canal",
     "merch_region": "Delta East",
     "team_leader": "Mahmoud El Attar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -14166,7 +14562,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Canal",
     "merch_region": "Delta East",
     "team_leader": "Mahmoud El Attar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -14204,7 +14600,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Canal",
     "merch_region": "Delta East",
     "team_leader": "Mahmoud El Attar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -14240,7 +14636,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Canal",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -14278,7 +14674,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Canal",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -14314,7 +14710,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Canal",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -14352,7 +14748,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Canal",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -14388,7 +14784,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Canal",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -14426,7 +14822,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Canal",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -14462,7 +14858,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Canal",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -14500,7 +14896,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Canal",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -14684,7 +15080,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Canal",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -14722,7 +15118,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Canal",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -14758,7 +15154,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Canal",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -14796,7 +15192,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Canal",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -14832,7 +15228,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -14870,7 +15266,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -14908,7 +15304,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -14944,7 +15340,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -14982,7 +15378,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -15008,6 +15404,42 @@ export const CUSTOMERS_DATA = [
       {
         "name": "CornFlex",
         "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09008",
+    "acc_code": "P5A202027",
+    "name": "مصــراوي",
+    "address": "ش ابراهيم شريف كيروسيز",
+    "region": "Delta West",
+    "chain": "Sobhy Hamido",
+    "merch_region": "Delta West",
+    "team_leader": "Tarek Ahmed",
+    "svp": "Hany ElJaky",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
       }
     ]
   },
@@ -15020,7 +15452,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -15058,7 +15490,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -15096,7 +15528,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -15132,7 +15564,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -15170,7 +15602,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -15206,7 +15638,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -15244,7 +15676,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -15282,7 +15714,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -15320,7 +15752,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -15356,7 +15788,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -15394,7 +15826,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -15432,7 +15864,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -15468,7 +15900,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -15506,7 +15938,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -15542,7 +15974,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -15580,7 +16012,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -15616,7 +16048,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -15654,7 +16086,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -15690,7 +16122,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -15802,7 +16234,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -15840,7 +16272,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -15876,7 +16308,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Cairo East",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -15908,13 +16340,87 @@ export const CUSTOMERS_DATA = [
   {
     "code": "09909",
     "acc_code": "P5A204039",
-    "name": "ميدو",
-    "address": "ميدو مارينا 5 - الساحل الشمالى",
+    "name": "ميدو ماركت5",
+    "address": "مارينا 5  - الساحل الشمالى",
     "region": "Delta West",
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09909",
+    "acc_code": "P5A204039",
+    "name": "ميدو ماركت5",
+    "address": "مارينا 5  - الساحل الشمالى",
+    "region": "Delta West",
+    "chain": "Sobhy Hamido",
+    "merch_region": "Delta West",
+    "team_leader": "Mohamed Hussein",
+    "svp": "Hany ElJaky",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09910",
+    "acc_code": "P5A204014",
+    "name": "أماكن  - مرسيليا 2",
+    "address": "مرسيليا 2  - الساحل الشمالى",
+    "region": "Delta West",
+    "chain": "Sobhy Hamido",
+    "merch_region": "Delta West",
+    "team_leader": "Mohamed Hussein",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -15952,45 +16458,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
-    "source": "DRY",
-    "categories": [
-      {
-        "name": "MAGGI",
-        "target": 0.4
-      },
-      {
-        "name": "CERELAC",
-        "target": 0.5
-      },
-      {
-        "name": "NESCAFE",
-        "target": 0.7
-      },
-      {
-        "name": "Nido",
-        "target": 0.5
-      },
-      {
-        "name": "Nesquik",
-        "target": 0.5
-      },
-      {
-        "name": "CornFlex",
-        "target": 0.25
-      }
-    ]
-  },
-  {
-    "code": "09910",
-    "acc_code": "P5A204014",
-    "name": "أماكن  - مرسيليا 2",
-    "address": "مرسيليا 2  - الساحل الشمالى",
-    "region": "Delta West",
-    "chain": "Sobhy Hamido",
-    "merch_region": "Delta West",
-    "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -16026,7 +16494,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -16064,7 +16532,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -16100,7 +16568,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -16138,7 +16606,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -16174,7 +16642,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -16212,7 +16680,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -16248,7 +16716,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -16286,7 +16754,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -16322,7 +16790,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -16360,7 +16828,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -16396,7 +16864,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -16434,7 +16902,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -16472,7 +16940,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -16510,7 +16978,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -16548,7 +17016,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -16584,7 +17052,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -16622,7 +17090,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -16658,7 +17126,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -16696,7 +17164,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -16734,7 +17202,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -16770,7 +17238,81 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09932",
+    "acc_code": "P500004963",
+    "name": "ميدو جولف مناع 2",
+    "address": "مارينا 1  الساحل الشمالى",
+    "region": "Delta West",
+    "chain": "Sobhy Hamido",
+    "merch_region": "Delta West",
+    "team_leader": "Mohamed Hussein",
+    "svp": "Hany ElJaky",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09302",
+    "acc_code": "P5C12860003",
+    "name": "الفهد",
+    "address": "كفر الشيخ - بيلا  - ش العشري",
+    "region": "Delta West KFR",
+    "chain": "kebaa - Kafr El shikh",
+    "merch_region": "Delta West KFR",
+    "team_leader": "Tarek Ahmed",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -16808,45 +17350,7 @@ export const CUSTOMERS_DATA = [
     "chain": "kebaa - Kafr El shikh",
     "merch_region": "Delta West KFR",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
-    "source": "DRY",
-    "categories": [
-      {
-        "name": "MAGGI",
-        "target": 0.4
-      },
-      {
-        "name": "CERELAC",
-        "target": 0.5
-      },
-      {
-        "name": "NESCAFE",
-        "target": 0.7
-      },
-      {
-        "name": "Nido",
-        "target": 0.5
-      },
-      {
-        "name": "Nesquik",
-        "target": 0.5
-      },
-      {
-        "name": "CornFlex",
-        "target": 0.25
-      }
-    ]
-  },
-  {
-    "code": "09302",
-    "acc_code": "P5C12860003",
-    "name": "الفهد",
-    "address": "كفر الشيخ - بيلا  - ش العشري",
-    "region": "Delta West KFR",
-    "chain": "kebaa - Kafr El shikh",
-    "merch_region": "Delta West KFR",
-    "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -16882,7 +17386,7 @@ export const CUSTOMERS_DATA = [
     "chain": "kebaa - Kafr El shikh",
     "merch_region": "Delta West KFR",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -16920,7 +17424,7 @@ export const CUSTOMERS_DATA = [
     "chain": "kebaa - Kafr El shikh",
     "merch_region": "Delta West KFR",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -16956,7 +17460,7 @@ export const CUSTOMERS_DATA = [
     "chain": "kebaa - Kafr El shikh",
     "merch_region": "Delta West KFR",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -16994,7 +17498,7 @@ export const CUSTOMERS_DATA = [
     "chain": "kebaa - Kafr El shikh",
     "merch_region": "Delta West KFR",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -17030,7 +17534,7 @@ export const CUSTOMERS_DATA = [
     "chain": "kebaa - Kafr El shikh",
     "merch_region": "Delta West KFR",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -17068,7 +17572,7 @@ export const CUSTOMERS_DATA = [
     "chain": "kebaa - Kafr El shikh",
     "merch_region": "Delta West KFR",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -17104,7 +17608,7 @@ export const CUSTOMERS_DATA = [
     "chain": "kebaa - Kafr El shikh",
     "merch_region": "Delta West KFR",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -17142,7 +17646,7 @@ export const CUSTOMERS_DATA = [
     "chain": "kebaa - Kafr El shikh",
     "merch_region": "Delta West KFR",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -17178,7 +17682,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Behira",
     "merch_region": "Delta West BHR",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -17216,7 +17720,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Behira",
     "merch_region": "Delta West BHR",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -17252,7 +17756,7 @@ export const CUSTOMERS_DATA = [
     "chain": "kebaa - Kafr El shikh",
     "merch_region": "Delta West KFR",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -17290,7 +17794,7 @@ export const CUSTOMERS_DATA = [
     "chain": "kebaa - Kafr El shikh",
     "merch_region": "Delta West KFR",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -17326,7 +17830,7 @@ export const CUSTOMERS_DATA = [
     "chain": "kebaa - Kafr El shikh",
     "merch_region": "Delta West KFR",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -17364,7 +17868,7 @@ export const CUSTOMERS_DATA = [
     "chain": "kebaa - Kafr El shikh",
     "merch_region": "Delta West KFR",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -17400,7 +17904,7 @@ export const CUSTOMERS_DATA = [
     "chain": "kebaa - Kafr El shikh",
     "merch_region": "Delta West KFR",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -17438,7 +17942,7 @@ export const CUSTOMERS_DATA = [
     "chain": "kebaa - Kafr El shikh",
     "merch_region": "Delta West KFR",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -17474,7 +17978,7 @@ export const CUSTOMERS_DATA = [
     "chain": "kebaa - Kafr El shikh",
     "merch_region": "Delta West KFR",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -17512,7 +18016,7 @@ export const CUSTOMERS_DATA = [
     "chain": "kebaa - Kafr El shikh",
     "merch_region": "Delta West KFR",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -17548,7 +18052,7 @@ export const CUSTOMERS_DATA = [
     "chain": "kebaa - Kafr El shikh",
     "merch_region": "Delta West KFR",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -17586,7 +18090,7 @@ export const CUSTOMERS_DATA = [
     "chain": "kebaa - Kafr El shikh",
     "merch_region": "Delta West KFR",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -17622,7 +18126,7 @@ export const CUSTOMERS_DATA = [
     "chain": "kebaa - Kafr El shikh",
     "merch_region": "Delta West KFR",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -17660,7 +18164,7 @@ export const CUSTOMERS_DATA = [
     "chain": "kebaa - Kafr El shikh",
     "merch_region": "Delta West KFR",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -17696,7 +18200,7 @@ export const CUSTOMERS_DATA = [
     "chain": "kebaa - Kafr El shikh",
     "merch_region": "Delta West KFR",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -17734,7 +18238,7 @@ export const CUSTOMERS_DATA = [
     "chain": "kebaa - Kafr El shikh",
     "merch_region": "Delta West KFR",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -17770,7 +18274,7 @@ export const CUSTOMERS_DATA = [
     "chain": "kebaa - Kafr El shikh",
     "merch_region": "Delta West KFR",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -17808,7 +18312,7 @@ export const CUSTOMERS_DATA = [
     "chain": "kebaa - Kafr El shikh",
     "merch_region": "Delta West KFR",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -17844,7 +18348,7 @@ export const CUSTOMERS_DATA = [
     "chain": "kebaa - Kafr El shikh",
     "merch_region": "Delta West KFR",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -17882,7 +18386,7 @@ export const CUSTOMERS_DATA = [
     "chain": "kebaa - Kafr El shikh",
     "merch_region": "Delta West KFR",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -17918,7 +18422,7 @@ export const CUSTOMERS_DATA = [
     "chain": "kebaa - Kafr El shikh",
     "merch_region": "Delta West KFR",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -17956,7 +18460,7 @@ export const CUSTOMERS_DATA = [
     "chain": "kebaa - Kafr El shikh",
     "merch_region": "Delta West KFR",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -17994,7 +18498,7 @@ export const CUSTOMERS_DATA = [
     "chain": "kebaa - Kafr El shikh",
     "merch_region": "Delta West KFR",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -18030,7 +18534,7 @@ export const CUSTOMERS_DATA = [
     "chain": "kebaa - Kafr El shikh",
     "merch_region": "Delta West KFR",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -18068,7 +18572,7 @@ export const CUSTOMERS_DATA = [
     "chain": "kebaa - Kafr El shikh",
     "merch_region": "Delta West KFR",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -18104,7 +18608,7 @@ export const CUSTOMERS_DATA = [
     "chain": "kebaa - Kafr El shikh",
     "merch_region": "Delta West KFR",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -18142,7 +18646,7 @@ export const CUSTOMERS_DATA = [
     "chain": "kebaa - Kafr El shikh",
     "merch_region": "Delta West KFR",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -18178,7 +18682,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya Qena",
     "merch_region": "SUE",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -18216,7 +18720,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya Qena",
     "merch_region": "SUE",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -18254,7 +18758,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya Qena",
     "merch_region": "SUE",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -18292,7 +18796,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya Qena",
     "merch_region": "SUE",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -18330,7 +18834,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya Qena",
     "merch_region": "SUE",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -18368,7 +18872,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya Qena",
     "merch_region": "SUE",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -18406,7 +18910,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya Qena",
     "merch_region": "SUE",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -18444,7 +18948,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya Qena",
     "merch_region": "SUE",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -18482,7 +18986,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya Qena",
     "merch_region": "SUE",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -18520,7 +19024,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya Luxor",
     "merch_region": "SUE",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -18558,7 +19062,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya Luxor",
     "merch_region": "SUE",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -18596,7 +19100,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya Luxor",
     "merch_region": "SUE",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -18634,7 +19138,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya Luxor",
     "merch_region": "SUE",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -18672,7 +19176,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya Luxor",
     "merch_region": "SUE",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -18710,7 +19214,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya Luxor",
     "merch_region": "SUE",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -18748,7 +19252,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya Luxor",
     "merch_region": "SUE",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -18786,7 +19290,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya Luxor",
     "merch_region": "SUE",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -18824,7 +19328,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya Luxor",
     "merch_region": "SUE",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -18862,7 +19366,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya Luxor",
     "merch_region": "SUE",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -18900,7 +19404,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Awlad Elberthy",
     "merch_region": "SUE",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -18938,7 +19442,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Awlad Elberthy",
     "merch_region": "SUE",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -18974,7 +19478,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Awlad Elberthy",
     "merch_region": "SUE",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -19012,7 +19516,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Awlad Elberthy",
     "merch_region": "SUE",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -19048,7 +19552,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Awlad Elberthy",
     "merch_region": "SUE",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -19086,7 +19590,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Awlad Elberthy",
     "merch_region": "SUE",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -19124,7 +19628,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Awlad Elberthy",
     "merch_region": "SUE",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -19162,7 +19666,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Awlad Elberthy",
     "merch_region": "SUE",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -19200,7 +19704,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Awlad Elberthy",
     "merch_region": "SUE",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -19238,7 +19742,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -19274,7 +19778,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -19310,7 +19814,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -19346,7 +19850,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -19382,7 +19886,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -19420,7 +19924,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -19530,7 +20034,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -19568,7 +20072,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -19604,7 +20108,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -19642,7 +20146,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -19678,7 +20182,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -19714,7 +20218,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -19750,7 +20254,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -19786,7 +20290,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -19822,7 +20326,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -19858,7 +20362,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -19894,7 +20398,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -19930,7 +20434,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -19966,7 +20470,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -20076,7 +20580,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -20112,7 +20616,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Gharbia",
     "merch_region": "Delta Central",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -20148,7 +20652,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Gharbia",
     "merch_region": "Delta Central",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -20186,7 +20690,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Gharbia",
     "merch_region": "Delta Central",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -20222,7 +20726,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Gharbia",
     "merch_region": "Delta Central",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -20260,7 +20764,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Gharbia",
     "merch_region": "Delta Central",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -20296,7 +20800,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Gharbia",
     "merch_region": "Delta Central",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -20334,7 +20838,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Gharbia",
     "merch_region": "Delta Central",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -20370,7 +20874,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Gharbia",
     "merch_region": "Delta Central",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -20406,7 +20910,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Gharbia",
     "merch_region": "Delta Central",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -20442,7 +20946,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Gharbia",
     "merch_region": "Delta Central",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -20478,7 +20982,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Sharkia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -20514,7 +21018,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Sharkia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -20550,7 +21054,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Sharkia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -20586,7 +21090,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus",
     "merch_region": "Delta East",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -20624,7 +21128,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus",
     "merch_region": "Delta East",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -20662,7 +21166,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus",
     "merch_region": "Delta East",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -20700,7 +21204,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus",
     "merch_region": "Delta East",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -20738,7 +21242,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus",
     "merch_region": "Delta East",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -20776,43 +21280,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus",
     "merch_region": "Delta East",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
-    "source": "Impulse",
-    "categories": [
-      {
-        "name": "Kitkat %",
-        "target": 0.3
-      },
-      {
-        "name": "Fitness Biscuitts",
-        "type": "check",
-        "targetText": "1 Shelf"
-      },
-      {
-        "name": "Tola",
-        "type": "check",
-        "targetText": "1 Shelf"
-      },
-      {
-        "name": "Fitness Bars",
-        "target": 0.2
-      },
-      {
-        "name": "RTD Chillers",
-        "target": 0.1
-      }
-    ]
-  },
-  {
-    "code": "09246",
-    "acc_code": "P3B0002590",
-    "name": "علوش 2",
-    "address": "بورسعيد - فرع الصباح",
-    "region": "Delta East",
-    "chain": "Target Plus For Export LLC",
-    "merch_region": "Delta East",
-    "team_leader": "Mahmoud El Attar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -20848,7 +21316,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus For Export LLC",
     "merch_region": "Delta East",
     "team_leader": "Mahmoud El Attar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -20884,7 +21352,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Canal",
     "merch_region": "Delta East",
     "team_leader": "Mahmoud EL Attar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -20920,7 +21388,45 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus For Export LLC",
     "merch_region": "Delta East",
     "team_leader": "Mahmoud El Attar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09328",
+    "acc_code": "P3B0002573",
+    "name": "رسلان ( تم تعديل الاسم الي النهضة التجارية )",
+    "address": "بور سعيد شارع عبد المنعم رياض والبازار",
+    "region": "Delta East",
+    "chain": "Target Plus For Export LLC",
+    "merch_region": "Delta East",
+    "team_leader": "Mahmoud El Attar",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -20956,7 +21462,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -20994,7 +21500,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -21030,7 +21536,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -21068,7 +21574,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -21104,7 +21610,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -21140,7 +21646,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -21176,7 +21682,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -21212,7 +21718,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -21248,7 +21754,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -21284,7 +21790,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -21322,7 +21828,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -21358,7 +21864,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -21396,7 +21902,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -21432,7 +21938,7 @@ export const CUSTOMERS_DATA = [
     "chain": "kebaa - Kafr El shikh",
     "merch_region": "Delta West KFR",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -21468,7 +21974,7 @@ export const CUSTOMERS_DATA = [
     "chain": "kebaa - Kafr El shikh",
     "merch_region": "Delta West KFR",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -21504,7 +22010,7 @@ export const CUSTOMERS_DATA = [
     "chain": "kebaa - Kafr El shikh",
     "merch_region": "Delta West KFR",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -21540,7 +22046,7 @@ export const CUSTOMERS_DATA = [
     "chain": "kebaa - Kafr El shikh",
     "merch_region": "Delta West KFR",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -21576,7 +22082,7 @@ export const CUSTOMERS_DATA = [
     "chain": "kebaa - Kafr El shikh",
     "merch_region": "Delta West KFR",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -21612,7 +22118,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Behira",
     "merch_region": "Delta West BHR",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -21650,7 +22156,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Behira",
     "merch_region": "Delta West BHR",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -21686,7 +22192,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Behira",
     "merch_region": "Delta West BHR",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -21724,7 +22230,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Behira",
     "merch_region": "Delta West BHR",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -21760,7 +22266,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Behira",
     "merch_region": "Delta West BHR",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -21796,7 +22302,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Behira",
     "merch_region": "Delta West BHR",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -21832,7 +22338,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Behira",
     "merch_region": "Delta West BHR",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -23232,7 +23738,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus",
     "merch_region": "Delta East",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -23270,7 +23776,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus",
     "merch_region": "Delta East",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -23306,7 +23812,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus",
     "merch_region": "Delta East",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -23344,7 +23850,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus",
     "merch_region": "Delta East",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -23380,7 +23886,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus",
     "merch_region": "Delta East",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -23418,7 +23924,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus",
     "merch_region": "Delta East",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -23454,7 +23960,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus",
     "merch_region": "Delta East",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -23492,7 +23998,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus",
     "merch_region": "Delta East",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -23528,7 +24034,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus",
     "merch_region": "Delta East",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -23566,7 +24072,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus",
     "merch_region": "Delta East",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -23602,7 +24108,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus",
     "merch_region": "Delta East",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -23640,7 +24146,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus",
     "merch_region": "Delta East",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -23676,7 +24182,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus",
     "merch_region": "Delta East",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -23714,7 +24220,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus",
     "merch_region": "Delta East",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -23750,7 +24256,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus",
     "merch_region": "Delta East",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -23788,7 +24294,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus",
     "merch_region": "Delta East",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -23824,7 +24330,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus",
     "merch_region": "Delta East",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -23862,7 +24368,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus",
     "merch_region": "Delta East",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -23898,7 +24404,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus",
     "merch_region": "Delta East",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -23936,7 +24442,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus",
     "merch_region": "Delta East",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -23972,7 +24478,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus",
     "merch_region": "Delta East",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -24010,7 +24516,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus",
     "merch_region": "Delta East",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -24046,7 +24552,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus",
     "merch_region": "Delta East",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -24084,7 +24590,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus",
     "merch_region": "Delta East",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -24120,7 +24626,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus",
     "merch_region": "Delta East",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -24158,7 +24664,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus",
     "merch_region": "Delta East",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -24194,7 +24700,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus",
     "merch_region": "Delta East",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -24232,7 +24738,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus",
     "merch_region": "Delta East",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -24268,7 +24774,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus For Export LLC",
     "merch_region": "Delta East",
     "team_leader": "Mahmoud El Attar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -24306,7 +24812,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus For Export LLC",
     "merch_region": "Delta East",
     "team_leader": "Mahmoud El Attar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -24342,7 +24848,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus For Export LLC",
     "merch_region": "Delta East",
     "team_leader": "Mahmoud El Attar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -24380,7 +24886,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Target Plus For Export LLC",
     "merch_region": "Delta East",
     "team_leader": "Mahmoud El Attar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -24416,7 +24922,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Canal",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -24454,7 +24960,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Canal",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -24490,7 +24996,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Canal",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -24528,7 +25034,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Canal",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -24564,7 +25070,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Menofia",
     "merch_region": "Delta Central",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -24602,7 +25108,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Menofia",
     "merch_region": "Delta Central",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -24638,7 +25144,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Menofia",
     "merch_region": "Delta Central",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -24676,7 +25182,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa Menofia",
     "merch_region": "Delta Central",
     "team_leader": "Moaaz Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -24712,7 +25218,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Sharkia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -24750,7 +25256,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Kebaa - Sharkia",
     "merch_region": "Delta Central",
     "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -24786,7 +25292,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta East",
     "team_leader": "Not Covered",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -24824,7 +25330,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta East",
     "team_leader": "Not Covered",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -24860,7 +25366,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta East",
     "team_leader": "Not Covered",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -24898,7 +25404,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta East",
     "team_leader": "Not Covered",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -25008,7 +25514,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -25046,7 +25552,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -25082,7 +25588,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -25120,7 +25626,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -25156,7 +25662,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -25194,7 +25700,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -25230,7 +25736,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -25268,7 +25774,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -26266,7 +26772,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -26304,7 +26810,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -26340,7 +26846,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -26378,7 +26884,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Raya",
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -26414,7 +26920,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -26452,7 +26958,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -26488,7 +26994,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -26526,7 +27032,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -26562,7 +27068,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -26600,7 +27106,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -26636,7 +27142,7 @@ export const CUSTOMERS_DATA = [
     "chain": "SUE",
     "merch_region": "SUE",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -26674,7 +27180,7 @@ export const CUSTOMERS_DATA = [
     "chain": "SUE",
     "merch_region": "SUE",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -26710,7 +27216,7 @@ export const CUSTOMERS_DATA = [
     "chain": "SUE",
     "merch_region": "SUE",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -26748,7 +27254,7 @@ export const CUSTOMERS_DATA = [
     "chain": "SUE",
     "merch_region": "SUE",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -26784,7 +27290,7 @@ export const CUSTOMERS_DATA = [
     "chain": "SUE",
     "merch_region": "SUE",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -26822,7 +27328,7 @@ export const CUSTOMERS_DATA = [
     "chain": "SUE",
     "merch_region": "SUE",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -26858,7 +27364,7 @@ export const CUSTOMERS_DATA = [
     "chain": "NUE",
     "merch_region": "NUE",
     "team_leader": "Abdelfattah",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -26896,7 +27402,7 @@ export const CUSTOMERS_DATA = [
     "chain": "NUE",
     "merch_region": "NUE",
     "team_leader": "Abdelfattah",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -26932,7 +27438,7 @@ export const CUSTOMERS_DATA = [
     "chain": "NUE",
     "merch_region": "NUE",
     "team_leader": "Abdelfattah",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -26970,7 +27476,7 @@ export const CUSTOMERS_DATA = [
     "chain": "NUE",
     "merch_region": "NUE",
     "team_leader": "Abdelfattah",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -27006,7 +27512,7 @@ export const CUSTOMERS_DATA = [
     "chain": "NUE",
     "merch_region": "NUE",
     "team_leader": "Abdelfattah",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -27044,7 +27550,7 @@ export const CUSTOMERS_DATA = [
     "chain": "NUE",
     "merch_region": "NUE",
     "team_leader": "Abdelfattah",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -27080,7 +27586,7 @@ export const CUSTOMERS_DATA = [
     "chain": "NUE",
     "merch_region": "NUE",
     "team_leader": "Abdelfattah",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -27118,7 +27624,7 @@ export const CUSTOMERS_DATA = [
     "chain": "NUE",
     "merch_region": "NUE",
     "team_leader": "Abdelfattah",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -27154,7 +27660,7 @@ export const CUSTOMERS_DATA = [
     "chain": "NUE",
     "merch_region": "NUE",
     "team_leader": "Abdelfattah",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -27192,7 +27698,7 @@ export const CUSTOMERS_DATA = [
     "chain": "NUE",
     "merch_region": "NUE",
     "team_leader": "Abdelfattah",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -27228,7 +27734,7 @@ export const CUSTOMERS_DATA = [
     "chain": "NUE",
     "merch_region": "NUE",
     "team_leader": "Abdelfattah",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -27266,7 +27772,7 @@ export const CUSTOMERS_DATA = [
     "chain": "NUE",
     "merch_region": "NUE",
     "team_leader": "Abdelfattah",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -27302,7 +27808,7 @@ export const CUSTOMERS_DATA = [
     "chain": "NUE",
     "merch_region": "NUE",
     "team_leader": "Abdelfattah",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -27340,7 +27846,7 @@ export const CUSTOMERS_DATA = [
     "chain": "NUE",
     "merch_region": "NUE",
     "team_leader": "Abdelfattah",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -27376,7 +27882,7 @@ export const CUSTOMERS_DATA = [
     "chain": "NUE",
     "merch_region": "NUE",
     "team_leader": "Abdelfattah",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -27414,7 +27920,7 @@ export const CUSTOMERS_DATA = [
     "chain": "NUE",
     "merch_region": "NUE",
     "team_leader": "Abdelfattah",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -27450,7 +27956,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -27488,7 +27994,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -27524,7 +28030,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -27562,7 +28068,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -27598,7 +28104,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -27636,7 +28142,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -27672,7 +28178,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -27710,7 +28216,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -27746,7 +28252,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -27784,7 +28290,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -27820,7 +28326,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -27858,7 +28364,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -27894,7 +28400,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -27932,7 +28438,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -27968,7 +28474,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -28006,7 +28512,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -28042,7 +28548,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Abdelfattah",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -28080,7 +28586,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Abdelfattah",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -28116,7 +28622,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Abdelfattah",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -28154,7 +28660,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Abdelfattah",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -28190,7 +28696,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -28228,7 +28734,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -28264,7 +28770,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -28302,7 +28808,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -28338,7 +28844,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -28376,7 +28882,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -28412,7 +28918,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -28450,7 +28956,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -28486,7 +28992,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -28524,7 +29030,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -28560,7 +29066,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -28598,7 +29104,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -28708,7 +29214,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -28746,7 +29252,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -28782,7 +29288,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -28820,7 +29326,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Delta West",
     "team_leader": "Mohamed Hussein",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -28856,7 +29362,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -28894,7 +29400,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Ekramy",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -28930,7 +29436,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -28968,7 +29474,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -29004,7 +29510,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "DRY",
     "categories": [
       {
@@ -29042,7 +29548,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Essam Helmy Cairo",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -29078,7 +29584,7 @@ export const CUSTOMERS_DATA = [
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
-    "svp": "Cairo East",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
@@ -29150,7 +29656,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -29180,6 +29686,42 @@ export const CUSTOMERS_DATA = [
     ]
   },
   {
+    "code": "09016",
+    "acc_code": "P5A201020",
+    "name": "الكيلانى",
+    "address": "المندره جمال عبد الناصر",
+    "region": "Delta West",
+    "chain": "Sobhy Hamido",
+    "merch_region": "Delta West",
+    "team_leader": "Tarek Ahmed",
+    "svp": "Hany ElJaky",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
     "code": "09014",
     "acc_code": "P5A202044",
     "name": "الديناصــور",
@@ -29188,7 +29730,7 @@ export const CUSTOMERS_DATA = [
     "chain": "Sobhy Hamido",
     "merch_region": "Delta West",
     "team_leader": "Tarek Ahmed",
-    "svp": "Hany ElJaky Delta",
+    "svp": "Hany ElJaky",
     "source": "DRY",
     "categories": [
       {
@@ -29214,6 +29756,714 @@ export const CUSTOMERS_DATA = [
       {
         "name": "CornFlex",
         "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "08826",
+    "acc_code": "002015578",
+    "name": "مجدي منصور للتجاره العامه",
+    "address": "أمام محطه مترو البحوث الدقى",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "03575",
+    "acc_code": "000008843",
+    "name": "الشاعر",
+    "address": "الحى المتميز سنتر الضياء",
+    "region": "Cairo Haram",
+    "chain": "L5 EG Elwagdy Giza",
+    "merch_region": "Cairo Haram",
+    "team_leader": "Abdelfattah",
+    "svp": "Essam Helmy",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "08827",
+    "acc_code": "-",
+    "name": "Blue Apple",
+    "address": "20ش205 مدخل دجله  المعادى",
+    "region": "Cairo South",
+    "chain": "Raya",
+    "merch_region": "Cairo South",
+    "team_leader": "Ekramy",
+    "svp": "Essam Helmy",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "02504",
+    "acc_code": "P4D80025042",
+    "name": "العالمية 1",
+    "address": "اخر شارع عشرة - الوراق",
+    "region": "Cairo West embaba",
+    "chain": "Al Hadaf",
+    "merch_region": "Cairo West embaba",
+    "team_leader": "Abdelfattah",
+    "svp": "Essam Helmy",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "08828",
+    "acc_code": "-",
+    "name": "هايبر اولاد الشيخ",
+    "address": "أسفل دائرى الوراق طلعة الهرم - كورنيش النيل- الوراق - الجيزة",
+    "region": "Cairo West embaba",
+    "chain": "Al Hadaf",
+    "merch_region": "Cairo West embaba",
+    "team_leader": "Abdelfattah",
+    "svp": "Essam Helmy",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "08829",
+    "acc_code": "-",
+    "name": "أسواق المدينة",
+    "address": "بنها الفلل",
+    "region": "Delta Central",
+    "chain": "Excellence-Kalubia",
+    "merch_region": "Delta Central",
+    "team_leader": "Omar Mokhtar",
+    "svp": "Hany ElJaky",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "08830",
+    "acc_code": "-",
+    "name": "أحمد الوكيل",
+    "address": "الشهداء - المنوفية",
+    "region": "Delta Central",
+    "chain": "Kebaa Menofia",
+    "merch_region": "Delta Central",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "08830",
+    "acc_code": "-",
+    "name": "أحمد الوكيل",
+    "address": "الشهداء - المنوفية",
+    "region": "Delta Central",
+    "chain": "Kebaa Menofia",
+    "merch_region": "Delta Central",
+    "team_leader": "Moaaz Ahmed",
+    "svp": "Hany ElJaky",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09092",
+    "acc_code": "P2B12802004",
+    "name": "التوحيد ماركت",
+    "address": "الزقازيق _ القوميه شارع طلبه عويضه",
+    "region": "Delta Central",
+    "chain": "Kebaa - Sharkia",
+    "merch_region": "Delta Central",
+    "team_leader": "Omar Mokhtar",
+    "svp": "Hany ElJaky",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09234",
+    "acc_code": "P3B0002590",
+    "name": "علوش",
+    "address": "بورسعيد - البازار",
+    "region": "Delta East",
+    "chain": "Target Plus For Export LLC",
+    "merch_region": "Delta East",
+    "team_leader": "Mahmoud El Attar",
+    "svp": "Hany ElJaky",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09001",
+    "acc_code": "P5A410269",
+    "name": "Oscar Market",
+    "address": "دوران محمد نجيب سيدى بشر",
+    "region": "Delta West",
+    "chain": "Sobhy Hamido",
+    "merch_region": "Delta West",
+    "team_leader": "Tarek Ahmed",
+    "svp": "Hany ElJaky",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09028",
+    "acc_code": "P5A201088",
+    "name": "رمضان حمادة",
+    "address": "السيوف شماعة",
+    "region": "Delta West",
+    "chain": "Sobhy Hamido",
+    "merch_region": "Delta West",
+    "team_leader": "Tarek Ahmed",
+    "svp": "Hany ElJaky",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09246",
+    "acc_code": "P3B0002590",
+    "name": "علوش 2",
+    "address": "بورسعيد - فرع الصباح",
+    "region": "Delta East",
+    "chain": "Target Plus For Export LLC",
+    "merch_region": "Delta East",
+    "team_leader": "Mahmoud El Attar",
+    "svp": "Hany ElJaky",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09246",
+    "acc_code": "P3B0002590",
+    "name": "علوش 2",
+    "address": "بورسعيد - فرع الصباح",
+    "region": "Delta East",
+    "chain": "Target Plus For Export LLC",
+    "merch_region": "Delta East",
+    "team_leader": "Mahmoud El Attar",
+    "svp": "Hany ElJaky",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "00002099",
+    "acc_code": "000000516",
+    "name": "همام",
+    "address": "ش شريف من ش عدلى تقاطع  ش عماد الدين  امام قطونيل او من ش طلعت حرب (عرابى) - وسط البلد",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09340",
+    "acc_code": "0091688",
+    "name": "التميمى",
+    "address": "ش 26 يوليو امام بنزينة مصر - الزمالك",
+    "region": "Cairo East",
+    "chain": "L5 EG El Wagdy Cairo",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "08832",
+    "acc_code": "-",
+    "name": "جروسري",
+    "address": "السويس - ش النيل - امام صيدلبة مينا مجدي",
+    "region": "Delta East",
+    "chain": "Kebaa Canal",
+    "merch_region": "Delta East",
+    "team_leader": "Mahmoud EL Attar",
+    "svp": "Hany ElJaky",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "08831",
+    "acc_code": "P50000002060",
+    "name": "Joy Maker",
+    "address": "دمنهور - عند المحافظة بجوار فرع WE",
+    "region": "Delta West BHR",
+    "chain": "Kebaa - Behira",
+    "merch_region": "Delta West BHR",
+    "team_leader": "Mohamed Hussein",
+    "svp": "Hany ElJaky",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "08833",
+    "acc_code": "",
+    "name": "علوش",
+    "address": "فاقوس",
+    "region": "Delta Central",
+    "chain": "Kebaa - Sharkia",
+    "merch_region": "Delta Central",
+    "team_leader": "Omar Mokhtar",
+    "svp": "Hany ElJaky",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
       }
     ]
   }
