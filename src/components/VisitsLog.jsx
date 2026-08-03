@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'react';
 import { FileText, MapPin, Download, Trash2, AlertTriangle, Search, X, Filter, Share2 } from 'lucide-react';
-import { TARGET_THRESHOLD, contractLabel, colorFor, summarize } from '../services/contracts';
+import { TARGET_THRESHOLD, contractLabel, colorFor, summarize, rowThreshold } from '../services/contracts';
 import { canEditVisit } from '../services/auth';
 import { getReasonLabel } from '../services/incompleteReasons';
 import { shareVisitCard } from '../services/shareCard';
@@ -376,7 +376,7 @@ export default function VisitsLog({ visits, onExport, onEdit, onDelete, session 
                           <div className="visit-cats">
                             {rows.map((r) => {
                               const achievementPct = Number(r.achievement || 0);
-                              const isAchieved = achievementPct >= TARGET_THRESHOLD;
+                              const isAchieved = achievementPct >= rowThreshold(r);
                               const achievementColor = isAchieved
                                 ? '#4ade80'
                                 : achievementPct >= 50 ? '#fb923c' : '#f87171';

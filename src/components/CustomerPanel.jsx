@@ -1,6 +1,7 @@
 import { MapPin, X, CheckCircle2, AlertTriangle } from 'lucide-react';
 import {
   TARGET_THRESHOLD,
+  rowThreshold,
   initialActuals,
   summarize,
   colorFor,
@@ -111,7 +112,7 @@ export default function CustomerPanel({
               const entry = actuals[r.key] || (
                 r.type === 'check' ? { applied: false } : { actual: 0, total: 1 }
               );
-              const c = colorFor(r.achievement);
+              const c = colorFor(r.achievement, rowThreshold(r));
               const hasError = errorKeys.has(r.key);
               return (
                 <div className={hasError ? 'cat input-error' : 'cat'} key={r.key}>

@@ -8,6 +8,7 @@ import {
 import { CUSTOMERS_DATA } from './data/customers';
 import {
   TARGET_THRESHOLD,
+  rowThreshold,
   getContracts,
   rowsFromContracts,
   summarize,
@@ -398,7 +399,7 @@ export default function App() {
     const formatCheck = (r) =>
       r.type === 'check'
         ? (checkApplied(r) ? 'Achieved' : 'Not Achieved')
-        : (r.achievement >= TARGET_THRESHOLD ? 'Achieved' : 'Not Achieved');
+        : (r.achievement >= rowThreshold(r) ? 'Achieved' : 'Not Achieved');
 
     // Collect all unique categories (preserving first-seen order)
     const categories = [];

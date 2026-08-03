@@ -6,6 +6,26 @@ import { CUSTOMERS_DATA } from '../data/customers';
 export const TARGET_THRESHOLD = 80;
 export const DEFAULT_TOTAL_SHELF = 1;
 
+// Categories that must be fully achieved (100%) to count as achieved,
+// instead of the default 80% threshold.
+const FULL_THRESHOLD_CATEGORIES = new Set([
+  'maggi',
+  'nescafe',
+  'kitkat %',
+  'rtd chillers',
+]);
+
+export function thresholdFor(name) {
+  const key = String(name || '').replace(/\s+/g, ' ').trim().toLowerCase();
+  return FULL_THRESHOLD_CATEGORIES.has(key) ? 100 : TARGET_THRESHOLD;
+}
+
+// Threshold for a computed row. Falls back to the category name so visits
+// saved before per-category thresholds existed are scored the same way.
+export function rowThreshold(row) {
+  return Number(row?.threshold) || thresholdFor(row?.name);
+}
+
 export function contractLabel(source) {
   const value = String(source || '').toLowerCase();
   return value.includes('impulse') ? 'Impulse — نسبة المساحات' : 'DRY — نسبة المساحات';
@@ -70,12 +90,13 @@ export function rowsFromContracts(contracts, actuals) {
         const targetPct = Number(cat.target) * 100;
         const actualPct = totalShelf > 0 ? (actualSpace / totalShelf) * 100 : 0;
         const achievement = targetPct > 0 ? (actualPct / targetPct) * 100 : 0;
+        const threshold = thresholdFor(cat.name);
         rows.push({
           key, type: 'percent', source: contract.source || 'DRY',
           section: contractLabel(contract.source), name: cat.name,
-          targetPct, targetLabel: targetText(cat),
+          targetPct, targetLabel: targetText(cat), threshold,
           actualSpace, totalShelf, actualPct, achievement,
-          achieved: achievement >= TARGET_THRESHOLD,
+          achieved: achievement >= threshold,
         });
       } else {
         // Contract space for a check item is 1 shelf. If the measured actual space
@@ -89,7 +110,7 @@ export function rowsFromContracts(contracts, actuals) {
         rows.push({
           key, type: 'check', source: contract.source || 'Impulse',
           section: contractLabel(contract.source), name: cat.name,
-          targetPct: 100, targetLabel: targetText(cat),
+          targetPct: 100, targetLabel: targetText(cat), threshold: 100,
           applied, actualSpace, notAppliedSpace, totalShelf: 1,
           actualPct: applied ? 100 : 0, achievement: applied ? 100 : 0,
           achieved: applied,
@@ -110,7 +131,7 @@ export function summarize(rows) {
     rows,
     weightedAvg: totalWeight ? weightedSum / totalWeight : 0,
     simpleAvg: rows.length ? rows.reduce((s, r) => s + Math.min(r.achievement, 100), 0) / rows.length : 0,
-    achievedCount: rows.filter((r) => r.achievement >= TARGET_THRESHOLD).length,
+    achievedCount: rows.filter((r) => r.achievement >= rowThreshold(r)).length,
   };
 }
 
@@ -126,6 +147,6 @@ export function initialActuals(customer) {
   return init;
 }
 
-export function colorFor(pct) {
-  return pct >= 80 ? 'ok' : pct >= 50 ? 'warn' : 'bad';
+export function colorFor(pct, threshold = TARGET_THRESHOLD) {
+  return pct >= threshold ? 'ok' : pct >= 50 ? 'warn' : 'bad';
 }
