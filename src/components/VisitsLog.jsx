@@ -1,5 +1,5 @@
 import { useState, useMemo } from 'react';
-import { FileText, MapPin, Download, Trash2, AlertTriangle, Search, X, Filter, Share2 } from 'lucide-react';
+import { FileText, MapPin, Download, Trash2, AlertTriangle, Search, X, Filter, Share2, UserRound } from 'lucide-react';
 import { TARGET_THRESHOLD, contractLabel, colorFor, summarize, rowThreshold } from '../services/contracts';
 import { canEditVisit } from '../services/auth';
 import { getReasonLabel } from '../services/incompleteReasons';
@@ -305,6 +305,13 @@ export default function VisitsLog({ visits, onExport, onEdit, onDelete, session 
                       </span>
                     )}
                     <b>{v.customer_name}</b>
+                    {/* Visitor up in the header too (not only in the footer),
+                        so a long card can be reviewed without scrolling it. */}
+                    {v.savedBy?.name && (
+                      <span className="visit-rep-badge">
+                        <UserRound size={12} /> {v.savedBy.name}
+                      </span>
+                    )}
                   </div>
                   <div className="no-capture" style={{ display: 'flex', gap: 8 }}>
                     <button

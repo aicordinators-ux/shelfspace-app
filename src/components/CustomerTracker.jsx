@@ -10,6 +10,7 @@ import { getReasonLabel } from '../services/incompleteReasons';
 const PERIODS = [
   { value: 'today', label: 'اليوم', days: 1 },
   { value: '7d', label: 'آخر 7 أيام', days: 7 },
+  { value: '10d', label: 'آخر 10 أيام', days: 10 },
   { value: '30d', label: 'آخر 30 يوم', days: 30 },
   { value: 'all', label: 'كل الوقت', days: null },
 ];
