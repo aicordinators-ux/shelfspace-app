@@ -4,35 +4,7 @@ import {
   AlertTriangle,
 } from 'lucide-react';
 import { getReasonLabel } from '../services/incompleteReasons';
-
-// Period options for the time filter. `days` = how many days back (including
-// today) count as "in range"; null means no time limit.
-const PERIODS = [
-  { value: 'today', label: 'اليوم', days: 1 },
-  { value: '7d', label: 'آخر 7 أيام', days: 7 },
-  { value: '10d', label: 'آخر 10 أيام', days: 10 },
-  { value: '30d', label: 'آخر 30 يوم', days: 30 },
-  { value: 'all', label: 'كل الوقت', days: null },
-];
-
-// Start of the period as a millisecond timestamp (local time).
-// Returns null for "all time".
-function periodStart(period) {
-  const opt = PERIODS.find((p) => p.value === period);
-  if (!opt || opt.days == null) return null;
-  const d = new Date();
-  d.setHours(0, 0, 0, 0);
-  d.setDate(d.getDate() - (opt.days - 1));
-  return d.getTime();
-}
-
-// Visits carry an ISO string timestamp (normalized in services/visits.js).
-function visitTime(v) {
-  const raw = v.timestamp || v.clientTimestamp;
-  if (!raw) return NaN;
-  const t = new Date(raw).getTime();
-  return isNaN(t) ? NaN : t;
-}
+import { PERIODS, periodStart, periodLabel, visitTime } from '../services/periods';
 
 function formatDate(value) {
   if (!value) return '';
@@ -193,7 +165,7 @@ export default function CustomerTracker({ visits = [], customers = [] }) {
     setSearchQuery('');
   }
 
-  const periodLabel = PERIODS.find((p) => p.value === period)?.label || '';
+  const currentPeriodLabel = periodLabel(period);
 
   return (
     <main className="tracker-page">
@@ -201,7 +173,7 @@ export default function CustomerTracker({ visits = [], customers = [] }) {
         <div>
           <h2><ClipboardCheck size={20} /> متابعة العملاء</h2>
           <p>
-            حالة تغطية العملاء خلال: <b>{periodLabel}</b>
+            حالة تغطية العملاء خلال: <b>{currentPeriodLabel}</b>
             {activeFilters > 0 && (
               <> · <span style={{ color: 'var(--text-faint)' }}>{activeFilters} فلتر مفعّل</span></>
             )}

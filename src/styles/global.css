@@ -694,7 +694,7 @@ footer {
 }
 
 /* Period switcher */
-.tracker-periods {
+.tracker-periods, .period-row {
   display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px;
 }
 .period-btn {

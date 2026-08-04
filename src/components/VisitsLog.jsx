@@ -4,15 +4,7 @@ import { TARGET_THRESHOLD, contractLabel, colorFor, summarize, rowThreshold } fr
 import { canEditVisit } from '../services/auth';
 import { getReasonLabel } from '../services/incompleteReasons';
 import { shareVisitCard } from '../services/shareCard';
-
-// Local "today" as YYYY-MM-DD. Used to default the log to the current day's
-// visits, so after midnight the log rolls over to the new day automatically.
-function localTodayStr() {
-  const d = new Date();
-  return d.getFullYear() + '-' +
-    String(d.getMonth() + 1).padStart(2, '0') + '-' +
-    String(d.getDate()).padStart(2, '0');
-}
+import { PERIODS, periodStart, visitTime } from '../services/periods';
 
 // Safe date formatter — handles ISO strings, Date objects, and invalid input
 function formatDate(value) {
@@ -55,8 +47,11 @@ export default function VisitsLog({ visits, onExport, onEdit, onDelete, session 
   const [filterChain, setFilterChain] = useState('');
   const [filterRep, setFilterRep] = useState('');
   const [filterStatus, setFilterStatus] = useState(''); // '' | 'achieved' | 'not_achieved' | 'incomplete'
-  // Default to today's visits; rep can pick another day or clear to see history.
-  const [filterDate, setFilterDate] = useState(localTodayStr); // YYYY-MM-DD format
+  // Two ways to pick a time window, and only one applies at a time: a period
+  // (same options as the follow-up card) or one exact day. Picking either
+  // clears the other. Defaults to today's visits, as the log always has.
+  const [period, setPeriod] = useState('today');
+  const [filterDate, setFilterDate] = useState(''); // YYYY-MM-DD format
   // Id of the visit whose card is currently being captured/shared.
   const [sharingId, setSharingId] = useState(null);
 
@@ -122,8 +117,9 @@ export default function VisitsLog({ visits, onExport, onEdit, onDelete, session 
       list = list.filter((v) => v.incomplete);
     }
 
-    // Date filter (compares YYYY-MM-DD parts only, ignoring time)
+    // Time window: an exact day wins when one is picked, otherwise the period.
     if (filterDate) {
+      // Compares YYYY-MM-DD parts only, ignoring time.
       list = list.filter((v) => {
         if (!v.timestamp) return false;
         try {
@@ -138,6 +134,14 @@ export default function VisitsLog({ visits, onExport, onEdit, onDelete, session 
           return false;
         }
       });
+    } else {
+      const start = periodStart(period);
+      if (start != null) {
+        list = list.filter((v) => {
+          const t = visitTime(v);
+          return !isNaN(t) && t >= start;
+        });
+      }
     }
 
     // Text search
@@ -157,14 +161,17 @@ export default function VisitsLog({ visits, onExport, onEdit, onDelete, session 
       });
     }
     return list;
-  }, [searchQuery, filterRegion, filterChain, filterRep, filterStatus, filterDate, visibleVisits]);
+  }, [searchQuery, filterRegion, filterChain, filterRep, filterStatus, filterDate, period, visibleVisits]);
 
   // Counts
   const incompleteCount = searchedVisits.filter((v) => v.incomplete).length;
   const completeCount = searchedVisits.length - incompleteCount;
 
-  // Active filters count (for "clear all" button)
-  const activeFilters = [filterRegion, filterChain, filterRep, filterStatus, filterDate, searchQuery].filter(Boolean).length;
+  // Active filters count (for "clear all" button). The time window counts as
+  // one filter whether it came from a period button or the date picker.
+  const timeFiltered = !!filterDate || period !== 'all';
+  const activeFilters =
+    [filterRegion, filterChain, filterRep, filterStatus, timeFiltered, searchQuery].filter(Boolean).length;
 
   function clearAllFilters() {
     setSearchQuery('');
@@ -173,6 +180,7 @@ export default function VisitsLog({ visits, onExport, onEdit, onDelete, session 
     setFilterRep('');
     setFilterStatus('');
     setFilterDate('');
+    setPeriod('all'); // clearing filters shows the full history
   }
 
   return (
@@ -205,6 +213,23 @@ export default function VisitsLog({ visits, onExport, onEdit, onDelete, session 
       {/* Search + Filters */}
       {visibleVisits.length > 0 && (
         <>
+          {/* Period switcher — same windows as the follow-up card. Choosing one
+              clears any exact date so the two never fight over the same list. */}
+          <div className="period-row">
+            {PERIODS.map((p) => (
+              <button
+                key={p.value}
+                className={!filterDate && period === p.value ? 'period-btn active' : 'period-btn'}
+                onClick={() => {
+                  setPeriod(p.value);
+                  setFilterDate('');
+                }}
+              >
+                {p.label}
+              </button>
+            ))}
+          </div>
+
           <div className="search-wrap" style={{ marginBottom: 10 }}>
             <Search size={16} />
             <input
@@ -306,9 +331,10 @@ export default function VisitsLog({ visits, onExport, onEdit, onDelete, session 
                     )}
                     <b>{v.customer_name}</b>
                     {/* Visitor up in the header too (not only in the footer),
-                        so a long card can be reviewed without scrolling it. */}
+                        so a long card can be reviewed without scrolling it.
+                        `no-capture` keeps it out of the shared WhatsApp image. */}
                     {v.savedBy?.name && (
-                      <span className="visit-rep-badge">
+                      <span className="visit-rep-badge no-capture">
                         <UserRound size={12} /> {v.savedBy.name}
                       </span>
                     )}
