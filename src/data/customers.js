@@ -1,4 +1,4 @@
-// Customers Master Data - 830 contract records across 504 customers
+// Customers Master Data - 832 contract records across 505 customers
 // This data is bundled with the app (not stored in Firebase)
 // Generated from: SM Home Shelf Visibility DG & Impulse
 
@@ -30773,6 +30773,80 @@ export const CUSTOMERS_DATA = [
     "merch_region": "Cairo West embaba",
     "team_leader": "Moaaz Ahmed",
     "svp": "Hany ElJaky",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09108",
+    "acc_code": "P38000000162",
+    "name": "محمود الفار - شيراتون",
+    "address": "فرع شيراتون",
+    "region": "Delta East",
+    "chain": "Kebaa Canal",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy Cairo",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09108",
+    "acc_code": "P38000000162",
+    "name": "محمود الفار - شيراتون",
+    "address": "فرع شيراتون",
+    "region": "Delta East",
+    "chain": "Kebaa Canal",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy Cairo",
     "source": "Impulse",
     "categories": [
       {
