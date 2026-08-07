@@ -28210,7 +28210,7 @@ export const CUSTOMERS_DATA = [
     "acc_code": "0008065",
     "name": "سامي سلامه  - فرع مصر والسودان",
     "address": "ش مصر والسودان حدائق القبة",
-    "region": "L5 EG El Wagdy Cairo",
+    "region": "Cairo East",
     "chain": "L5 EG El Wagdy Cairo",
     "merch_region": "Cairo East",
     "team_leader": "Mahmoud Radwan",
