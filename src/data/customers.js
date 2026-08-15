@@ -30024,7 +30024,7 @@ export const CUSTOMERS_DATA = [
     ]
   },
   {
-    ""code": "08829",
+    "code": "08829",
     "acc_code": "-",
     "name": "أسواق المدينة",
     "address": "بنها الفلل",
