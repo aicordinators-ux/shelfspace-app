@@ -30024,6 +30024,42 @@ export const CUSTOMERS_DATA = [
     ]
   },
   {
+    ""code": "08829",
+    "acc_code": "-",
+    "name": "أسواق المدينة",
+    "address": "بنها الفلل",
+    "region": "Delta Central",
+    "chain": "Excellence-Kalubia",
+    "merch_region": "Delta Central",
+    "team_leader": "Omar Mokhtar",
+    "svp": "Hany ElJaky",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
     "code": "08830",
     "acc_code": "-",
     "name": "أحمد الوكيل",
