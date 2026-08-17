@@ -21389,6 +21389,44 @@ export const CUSTOMERS_DATA = [
     "merch_region": "Delta East",
     "team_leader": "Mahmoud EL Attar",
     "svp": "Hany ElJaky",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09276",
+    "acc_code": "P30000006155",
+    "name": "ثمرة التوحيد 2 - الاربعين",
+    "address": "السويس - العبور بجوار معسكر قوات الأمن",
+    "region": "Delta East",
+    "chain": "Kebaa Canal",
+    "merch_region": "Delta East",
+    "team_leader": "Mahmoud EL Attar",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
