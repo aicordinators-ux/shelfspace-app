@@ -25062,6 +25062,80 @@ export const CUSTOMERS_DATA = [
     ]
   },
   {
+    "code": "09530",
+    "acc_code": "P38000000162",
+    "name": "محمود الفار - مدينتي B12",
+    "address": "الفار/ فرع مدينتي P12",
+    "region": "Delta East",
+    "chain": "Kebaa Canal",
+    "merch_region": "Cairo South",
+    "team_leader": "Ekramy",
+    "svp": "Essam Helmy",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09530",
+    "acc_code": "P38000000162",
+    "name": "محمود الفار - مدينتي B12",
+    "address": "الفار/ فرع مدينتي P12",
+    "region": "Delta East",
+    "chain": "Kebaa Canal",
+    "merch_region": "Cairo South",
+    "team_leader": "Ekramy",
+    "svp": "Essam Helmy",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
     "code": "09800",
     "acc_code": "P38000000162",
     "name": "محمود الفار - الساحل الشمالى",
