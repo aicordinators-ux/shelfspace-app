@@ -31096,7 +31096,7 @@ export const CUSTOMERS_DATA = [
     ]
   },
    {
-    "code": "08834",
+    "code": "08835",
     "acc_code": "P5D12902378",
     "name": "ماندو ماركت",
     "address": "واحة عمر الطريق الصحراوي",
