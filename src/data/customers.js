@@ -22157,6 +22157,44 @@ export const CUSTOMERS_DATA = [
     "merch_region": "Delta West KFR",
     "team_leader": "Tarek Ahmed",
     "svp": "Hany ElJaky",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09537",
+    "acc_code": "P50000000642",
+    "name": "الصردى - دسوق",
+    "address": "دسوق بجوار شركة رنين - مدخل دسوق",
+    "region": "Delta West KFR",
+    "chain": "kebaa - Kafr El shikh",
+    "merch_region": "Delta West KFR",
+    "team_leader": "Tarek Ahmed",
+    "svp": "Hany ElJaky",
     "source": "Impulse",
     "categories": [
       {
@@ -31020,7 +31058,7 @@ export const CUSTOMERS_DATA = [
         "target": 0.1
       }
     ]
-  }
+  },
   {
     "code": "08834",
     "acc_code": "P5D129000227",
