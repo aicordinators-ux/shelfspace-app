@@ -31021,4 +31021,76 @@ export const CUSTOMERS_DATA = [
       }
     ]
   }
+  {
+    "code": "08834",
+    "acc_code": "P5D129000227",
+    "name": "رست الكرام",
+    "address": "مركز بدر _ النعناعي",
+    "region": "Delta West BHR",
+    "chain": "Kebaa - Behira",
+    "merch_region": "Delta West BHR",
+    "team_leader": "Mohamed Hussein",
+    "svp": "Hany ElJaky",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+   {
+    "code": "08834",
+    "acc_code": "P5D12902378",
+    "name": "ماندو ماركت",
+    "address": "واحة عمر الطريق الصحراوي",
+    "region": "Delta West BHR",
+    "chain": "Kebaa - Behira",
+    "merch_region": "Delta West BHR",
+    "team_leader": "Mohamed Hussein",
+    "svp": "Hany ElJaky",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
 ];
