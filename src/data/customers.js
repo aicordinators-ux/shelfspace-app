@@ -16279,7 +16279,7 @@ export const CUSTOMERS_DATA = [
       },
       {
         "name": "CERELAC",
-        "target": 0.5
+        "target": 0.85
       },
       {
         "name": "NESCAFE",
@@ -16287,7 +16287,7 @@ export const CUSTOMERS_DATA = [
       },
       {
         "name": "Nido",
-        "target": 0.5
+        "target": 0.7
       },
       {
         "name": "Nesquik",
@@ -16295,7 +16295,7 @@ export const CUSTOMERS_DATA = [
       },
       {
         "name": "CornFlex",
-        "target": 0.25
+        "target": 0.4
       }
     ]
   },
