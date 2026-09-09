@@ -30099,7 +30099,7 @@ export const CUSTOMERS_DATA = [
   },
   {
     "code": "08828",
-    "acc_code": "-",
+    "acc_code": "P40000003545",
     "name": "هايبر اولاد الشيخ",
     "address": "أسفل دائرى الوراق طلعة الهرم - كورنيش النيل- الوراق - الجيزة",
     "region": "Cairo West embaba",
