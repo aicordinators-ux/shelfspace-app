@@ -31205,42 +31205,7 @@ export const CUSTOMERS_DATA = [
       }
     ]
   },
-  {
-    "code": "09092",
-    "acc_code": "P2B12802004",
-    "name": "التوحيد ماركت",
-    "address": "الزقازيق _ القوميه شارع طلبه عويضه",
-    "region": "Delta Central",
-    "chain": "Sharkia",
-    "merch_region": "Delta Central",
-    "team_leader": "Omar Mokhtar",
-    "svp": "Hany ElJaky",
-    "source": "Impulse",
-    "categories": [
-      {
-        "name": "Kitkat %",
-        "target": 0.3
-      },
-      {
-        "name": "Fitness Biscuitts",
-        "type": "check",
-        "targetText": "1 Shelf"
-      },
-      {
-        "name": "Tola",
-        "type": "check",
-        "targetText": "1 Shelf"
-      },
-      {
-        "name": "Fitness Bars",
-        "target": 0.2
-      },
-      {
-        "name": "RTD Chillers",
-        "target": 0.1
-      }
-    ]
-  },
+   },
   {
     "code": "09086",
     "acc_code": "P2B12802041",
@@ -31284,6 +31249,42 @@ export const CUSTOMERS_DATA = [
     "acc_code": "P2B12802041",
     "name": "ABC",
     "address": "مدينه الزقازيق القوميه فيلل الجامعه",
+    "region": "Delta Central",
+    "chain": "Sharkia",
+    "merch_region": "Delta Central",
+    "team_leader": "Omar Mokhtar",
+    "svp": "Hany ElJaky",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+  {
+    "code": "09092",
+    "acc_code": "P2B12802004",
+    "name": "التوحيد ماركت",
+    "address": "الزقازيق _ القوميه شارع طلبه عويضه",
     "region": "Delta Central",
     "chain": "Sharkia",
     "merch_region": "Delta Central",
