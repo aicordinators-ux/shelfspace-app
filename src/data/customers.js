@@ -31315,4 +31315,114 @@ export const CUSTOMERS_DATA = [
       }
     ]
   },
+    {
+    "code": "09961",
+    "acc_code": "P30000007994",
+    "name": "وكالة برايم مارت الشروق",
+    "address": "مدينة الشروق المستقبل اسكان الضباط",
+    "region": "Delta East",
+    "chain": "Target Plus",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "09961",
+    "acc_code": "P30000007994",
+    "name": "وكالة برايم مارت الشروق",
+    "address": "مدينة الشروق المستقبل اسكان الضباط",
+    "region": "Delta East",
+    "chain": "Target Plus",
+    "merch_region": "Cairo East",
+    "team_leader": "Mahmoud Radwan",
+    "svp": "Essam Helmy",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },
+ {
+    "code": "09962",
+    "acc_code": "P30000007737",
+    "name": "بيت السعادة",
+    "address": "دمياط الجديدة المركزيه بجوار مستشفى الشروق",
+    "region": "Delta East",
+    "chain": "Target Plus For Export LLC",
+    "merch_region": "Delta East",
+    "team_leader": "Mahmoud EL Attar",
+    "svp": "Hany ElJaky ",
+    "source": "Impulse",
+    "categories": [
+      {
+        "name": "Kitkat %",
+        "target": 0.3
+      },
+      {
+        "name": "Fitness Biscuitts",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Tola",
+        "type": "check",
+        "targetText": "1 Shelf"
+      },
+      {
+        "name": "Fitness Bars",
+        "target": 0.2
+      },
+      {
+        "name": "RTD Chillers",
+        "target": 0.1
+      }
+    ]
+  },	
 ];
