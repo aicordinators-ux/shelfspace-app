@@ -20691,6 +20691,44 @@ export const CUSTOMERS_DATA = [
     "merch_region": "Cairo South",
     "team_leader": "Ekramy",
     "svp": "Essam Helmy",
+    "source": "DRY",
+    "categories": [
+      {
+        "name": "MAGGI",
+        "target": 0.4
+      },
+      {
+        "name": "CERELAC",
+        "target": 0.5
+      },
+      {
+        "name": "NESCAFE",
+        "target": 0.7
+      },
+      {
+        "name": "Nido",
+        "target": 0.5
+      },
+      {
+        "name": "Nesquik",
+        "target": 0.5
+      },
+      {
+        "name": "CornFlex",
+        "target": 0.25
+      }
+    ]
+  },
+  {
+    "code": "04646",
+    "acc_code": "P1A10062",
+    "name": "Seven Mart (مافيدا)",
+    "address": "كمبوند مافيدا اخر التسعين الجنوبي",
+    "region": "Cairo South",
+    "chain": "Raya",
+    "merch_region": "Cairo South",
+    "team_leader": "Ekramy",
+    "svp": "Essam Helmy",
     "source": "Impulse",
     "categories": [
       {
